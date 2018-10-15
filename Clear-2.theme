@@ -5,7 +5,7 @@
 			"size": 13,
 			"family": [ "helvetica", "arial", "verdana", "sans-serif" ]
 		},
-		"window-title": {
+		"windowTitle": {
 			"size": 16,
 			"family": [ "helvetica", "arial", "  verdana", "sans-serif" ],
 			"bold": false
@@ -106,6 +106,10 @@
 		"icon-open": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICAgIDxwYXRoIHN0eWxlPSJ0ZXh0LWluZGVudDowO3RleHQtYWxpZ246c3RhcnQ7bGluZS1oZWlnaHQ6bm9ybWFsO3RleHQtdHJhbnNmb3JtOm5vbmU7YmxvY2stcHJvZ3Jlc3Npb246dGI7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpCaXRzdHJlYW0gVmVyYSBTYW5zIiBkPSJNIDUgMyBMIDUgNCBMIDUgMjcgTCA1IDI3LjgxMjUgTCA1Ljc4MTI1IDI3Ljk2ODc1IEwgMTcuNzgxMjUgMzAuNDY4NzUgTCAxOSAzMC43MTg3NSBMIDE5IDI5LjUgTCAxOSAyOCBMIDI0IDI4IEwgMjUgMjggTCAyNSAyNyBMIDI1IDE1LjQzNzUgTCAyNi43MTg3NSAxMy43MTg3NSBMIDI3IDEzLjQwNjI1IEwgMjcgMTMgTCAyNyA0IEwgMjcgMyBMIDI2IDMgTCA2IDMgTCA1IDMgeiBNIDE0LjEyNSA1IEwgMjUgNSBMIDI1IDEyLjU2MjUgTCAyMy4yODEyNSAxNC4yODEyNSBMIDIzIDE0LjU5Mzc1IEwgMjMgMTUgTCAyMyAyNiBMIDE5IDI2IEwgMTkgMTcuNSBMIDE5IDE3LjA5Mzc1IEwgMTguNzE4NzUgMTYuNzgxMjUgTCAxNyAxNS4wNjI1IEwgMTcgNi41IEwgMTcgNS43MTg3NSBMIDE2LjI1IDUuNTMxMjUgTCAxNC4xMjUgNSB6IE0gNyA1LjI4MTI1IEwgMTUgNy4yODEyNSBMIDE1IDE1LjUgTCAxNSAxNS45MDYyNSBMIDE1LjI4MTI1IDE2LjIxODc1IEwgMTcgMTcuOTM3NSBMIDE3IDI2IEwgMTcgMjcgTCAxNyAyOC4yODEyNSBMIDcgMjYuMTg3NSBMIDcgNS4yODEyNSB6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZvbnQtZmFtaWx5PSJCaXRzdHJlYW0gVmVyYSBTYW5zIi8+Cjwvc3ZnPg==",
 		"icon-saveas": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICAgIDxwYXRoIHN0eWxlPSJ0ZXh0LWluZGVudDowO3RleHQtYWxpZ246c3RhcnQ7bGluZS1oZWlnaHQ6bm9ybWFsO3RleHQtdHJhbnNmb3JtOm5vbmU7YmxvY2stcHJvZ3Jlc3Npb246dGI7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpCaXRzdHJlYW0gVmVyYSBTYW5zIiBkPSJNIDQgNCBMIDQgNSBMIDQgMjMgTCA0IDI0IEwgNSAyNCBMIDExIDI0IEwgMTEgMjIgTCA2IDIyIEwgNiA2IEwgMTggNiBMIDE4IDcgTCAyMCA3IEwgMjAgNSBMIDIwIDQgTCAxOSA0IEwgNSA0IEwgNCA0IHogTSAxMiA4IEwgMTIgOSBMIDEyIDI3IEwgMTIgMjggTCAxMyAyOCBMIDI3IDI4IEwgMjggMjggTCAyOCAyNyBMIDI4IDkgTCAyOCA4IEwgMjcgOCBMIDEzIDggTCAxMiA4IHogTSAxNCAxMCBMIDI2IDEwIEwgMjYgMjYgTCAxNCAyNiBMIDE0IDEwIHoiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZm9udC1mYW1pbHk9IkJpdHN0cmVhbSBWZXJhIFNhbnMiLz4KPC9zdmc+",
 		"icon-help": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICAgIDxwYXRoIHN0eWxlPSJ0ZXh0LWluZGVudDowO3RleHQtYWxpZ246c3RhcnQ7bGluZS1oZWlnaHQ6bm9ybWFsO3RleHQtdHJhbnNmb3JtOm5vbmU7YmxvY2stcHJvZ3Jlc3Npb246dGI7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpCaXRzdHJlYW0gVmVyYSBTYW5zIiBkPSJNIDE2IDQgQyA5LjM4NDQyNzcgNCA0IDkuMzg0NDI3NyA0IDE2IEMgNCAyMi42MTU1NzIgOS4zODQ0Mjc3IDI4IDE2IDI4IEMgMjIuNjE1NTcyIDI4IDI4IDIyLjYxNTU3MiAyOCAxNiBDIDI4IDkuMzg0NDI3NyAyMi42MTU1NzIgNCAxNiA0IHogTSAxNiA2IEMgMjEuNTM0NjkyIDYgMjYgMTAuNDY1MzA4IDI2IDE2IEMgMjYgMjEuNTM0NjkyIDIxLjUzNDY5MiAyNiAxNiAyNiBDIDEwLjQ2NTMwOCAyNiA2IDIxLjUzNDY5MiA2IDE2IEMgNiAxMC40NjUzMDggMTAuNDY1MzA4IDYgMTYgNiB6IE0gMTYgMTAgQyAxMy44MDI2NjYgMTAgMTIgMTEuODAyNjY2IDEyIDE0IEwgMTQgMTQgQyAxNCAxMi44ODMzMzQgMTQuODgzMzM0IDEyIDE2IDEyIEMgMTcuMTE2NjY2IDEyIDE4IDEyLjg4MzMzNCAxOCAxNCBDIDE4IDE0Ljc2NzQyMyAxNy41MDg3MTQgMTUuNDQ1NDQgMTYuNzgxMjUgMTUuNjg3NSBMIDE2LjM3NSAxNS44MTI1IEMgMTUuNTU5OTM5IDE2LjA4MzUyMyAxNSAxNi44NjIzOTMgMTUgMTcuNzE4NzUgTCAxNSAxOSBMIDE3IDE5IEwgMTcgMTcuNzE4NzUgTCAxNy40MDYyNSAxNy41OTM3NSBDIDE4Ljk0NDc4NiAxNy4wODE4MSAyMCAxNS42MjA1NzcgMjAgMTQgQyAyMCAxMS44MDI2NjYgMTguMTk3MzM0IDEwIDE2IDEwIHogTSAxNSAyMCBMIDE1IDIyIEwgMTcgMjIgTCAxNyAyMCBMIDE1IDIwIHoiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZm9udC1mYW1pbHk9IkJpdHN0cmVhbSBWZXJhIFNhbnMiLz4KPC9zdmc+",
+		"icon-justify-left": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzIgMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBmaWxsPSIjMzMzMzMzIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjMiIHkxPSIxMiIgeDI9IjIxIiB5Mj0iMTIiLz4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjMiIHkxPSI4IiB4Mj0iMjkiIHkyPSI4Ii8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMTYiIHgyPSIyOSIgeTI9IjE2Ii8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMjAiIHgyPSIyMSIgeTI9IjIwIi8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMjQiIHgyPSIyOSIgeTI9IjI0Ii8+Cjwvc3ZnPgo=",
+		"icon-justify-center": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzIgMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBmaWxsPSIjMzMzMzMzIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjciIHkxPSIxMiIgeDI9IjI1IiB5Mj0iMTIiLz4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjMiIHkxPSI4IiB4Mj0iMjkiIHkyPSI4Ii8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMTYiIHgyPSIyOSIgeTI9IjE2Ii8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSI3IiB5MT0iMjAiIHgyPSIyNSIgeTI9IjIwIi8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMjQiIHgyPSIyOSIgeTI9IjI0Ii8+Cjwvc3ZnPgo=",
+		"icon-justify-right": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzIgMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBmaWxsPSIjMzMzMzMzIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjExIiB5MT0iMTIiIHgyPSIyOSIgeTI9IjEyIi8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iOCIgeDI9IjI5IiB5Mj0iOCIvPgo8bGluZSBmaWxsPSJub25lIiBzdHJva2U9IiMzMzMzMzMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiB4MT0iMyIgeTE9IjE2IiB4Mj0iMjkiIHkyPSIxNiIvPgo8bGluZSBmaWxsPSJub25lIiBzdHJva2U9IiMzMzMzMzMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiB4MT0iMTEiIHkxPSIyMCIgeDI9IjI5IiB5Mj0iMjAiLz4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjMiIHkxPSIyNCIgeDI9IjI5IiB5Mj0iMjQiLz4KPC9zdmc+Cg==",
+		"icon-justify-fill": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzIgMzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBmaWxsPSIjMzMzMzMzIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjMiIHkxPSIxMiIgeDI9IjI5IiB5Mj0iMTIiLz4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjMiIHkxPSI4IiB4Mj0iMjkiIHkyPSI4Ii8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMTYiIHgyPSIyOSIgeTI9IjE2Ii8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMjAiIHgyPSIyOSIgeTI9IjIwIi8+CjxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIzIiB5MT0iMjQiIHgyPSIyOSIgeTI9IjI0Ii8+Cjwvc3ZnPgo=",
 		"wallpaper": "https://s3.amazonaws.com/wisej/images/wisej-desktop.jpg"
 	},
 	"colors": {
@@ -170,7 +174,11 @@
 		"menuSelectedText": "white",
 		"menuHighlightText": "#3F3F3F",
 		"toolbar": "#EFEFEF",
-		"toolbarText": "#2B2B2B"
+		"toolbarText": "#2B2B2B",
+		"slidebarButtons": "black",
+		"switchOff": "white",
+		"switchOn": "#46C17E",
+		"switchUndetermined": "#DDDDDD"
 	},
 	"appearances": {
 		"accordion": {
@@ -769,7 +777,14 @@
 					}
 				},
 				"icon": {
-					"inherit": "icon-dark"
+					"inherit": "icon-dark",
+					"states": {
+						"default": {
+							"properties": {
+								"marginLeft": 6
+							}
+						}
+					}
 				},
 				"labelfield": {
 					"states": {
@@ -1498,6 +1513,7 @@
 								"backgroundColor": "rgba(0,0,0,0.39)"
 							},
 							"properties": {
+								"width": 58,
 								"height": 48
 							}
 						}
@@ -1508,7 +1524,7 @@
 							"states": {
 								"default": {
 									"properties": {
-										"scrollStep": 24
+										"scrollStep": 20
 									}
 								}
 							},
@@ -1533,18 +1549,19 @@
 						"color": "rgba(189,191,191,0.5)"
 					},
 					"properties": {
-						"padding": [ 0, 10, 0, 10 ],
 						"textColor": "white"
 					}
 				},
 				"vertical": {
 					"properties": {
-						"margin": [ 0, 0, 4, 0 ]
+						"margin": [ 0, 0, 2, 0 ],
+						"padding": [ 10, 0, 10, 0 ]
 					}
 				},
 				"horizontal": {
 					"properties": {
-						"margin": [ 0, 4, 0, 0 ]
+						"margin": [ 0, 2, 0, 0 ],
+						"padding": [ 0, 10, 0, 10 ]
 					}
 				},
 				"notification": {
@@ -1816,6 +1833,11 @@
 					"properties": {
 						"textColor": "highlightText"
 					}
+				},
+				"pressed": {
+					"properties": {
+						"textColor": "inherit"
+					}
 				}
 			}
 		},
@@ -1904,6 +1926,11 @@
 						"color": "invalid",
 						"width": [ 1, 1, 1, 1 ]
 					}
+				},
+				"disabled": {
+					"properties": {
+						"opacity": 0.5
+					}
 				}
 			},
 			"components": {
@@ -1979,6 +2006,7 @@
 					"properties": {
 						"textColor": "windowText",
 						"iconColor": "iconDark",
+						"opacity": 1,
 						"stateIconSize": {
 							"width": 20,
 							"height": 20
@@ -2018,6 +2046,11 @@
 							"width": 48,
 							"height": 48
 						}
+					}
+				},
+				"disabled": {
+					"properties": {
+						"opacity": 0.5
 					}
 				},
 				"smallIcon": {
@@ -2779,7 +2812,9 @@
 								"icon": "icon-down",
 								"cursor": "pointer",
 								"opacity": 0.5,
-								"margin": [ 0, 10, 0, 10 ]
+								"margin": [ 0, 10, 0, 10 ],
+								"width": 24,
+								"height": 24
 							}
 						},
 						"vertical": {
@@ -2804,6 +2839,7 @@
 							"states": {
 								"default": {
 									"properties": {
+										"width": 24,
 										"height": 24
 									}
 								}
@@ -3385,6 +3421,7 @@
 		},
 		"slidebar": {
 			"text": "SlideBar",
+			"inherit": "widget",
 			"components": {
 				"button-forward": {
 					"text": "Button Forward",
@@ -3393,7 +3430,8 @@
 							"properties": {
 								"icon": "icon-right",
 								"opacity": 0.7,
-								"center": true
+								"center": true,
+								"backgroundColor": "slidebarButtons"
 							}
 						},
 						"vertical": {
@@ -3426,7 +3464,8 @@
 							"properties": {
 								"icon": "icon-left",
 								"opacity": 0.7,
-								"center": true
+								"center": true,
+								"backgroundColor": "slidebarButtons"
 							}
 						},
 						"vertical": {
@@ -3800,15 +3839,15 @@
 								"width": 0,
 								"innerWidth": [ 0, 1, 0, 0 ],
 								"innerColor": "rgba(0,0,0,0.2)",
-								"backgroundColor": ""
+								"backgroundColor": "inherit"
 							},
 							"properties": {
-								"textColor": null
+								"textColor": "inherit"
 							}
 						},
 						"pressed": {
 							"styles": {
-								"transform": ""
+								"transform": null
 							}
 						},
 						"vertical": {
@@ -3870,23 +3909,20 @@
 							},
 							"styles": {
 								"fillColor": "Gray",
-								"backgroundColor": "window"
+								"backgroundColor": "window",
+								"backgroundRepeat": "no-repeat",
+								"backgroundSize": "20px 20px",
+								"backgroundPosition": [ "center", "center" ]
 							}
 						},
 						"horizontal": {
 							"styles": {
-								"backgroundImage": "splitter-grip-vertical",
-								"backgroundRepeat": "repeat-x",
-								"backgroundSize": "16px",
-								"backgroundPosition": [ "center", "center" ]
+								"backgroundImage": "splitter-grip-vertical"
 							}
 						},
 						"vertical": {
 							"styles": {
-								"backgroundImage": "splitter-grip-horizontal",
-								"backgroundSize": "16px",
-								"backgroundRepeat": "repeat-y",
-								"backgroundPosition": [ "center", "center" ]
+								"backgroundImage": "splitter-grip-horizontal"
 							}
 						}
 					}
@@ -3992,6 +4028,97 @@
 						"rightToLeft": {
 							"styles": {
 								"transform": "rotate(90deg)"
+							}
+						}
+					}
+				}
+			}
+		},
+		"switch": {
+			"states": {
+				"default": {
+					"properties": {
+						"opacity": 1,
+						"icon": "blank",
+						"minWidth": 40,
+						"minHeight": 24
+					},
+					"styles": {
+						"width": [ 1, 1, 1, 1 ],
+						"color": "transparent"
+					}
+				},
+				"focused": {
+					"styles": {
+						"width": [ 1, 1, 1, 1 ],
+						"color": "focusFrame",
+						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+					}
+				},
+				"disabled": {
+					"properties": {
+						"opacity": 0.5
+					}
+				},
+				"invalid": {
+					"styles": {
+						"color": "invalid",
+						"width": [ 1, 1, 1, 1 ],
+						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+					}
+				}
+			},
+			"components": {
+				"icon": {
+					"inherit": "",
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 1, 1, 1, 1 ],
+								"radius": [ 3, 3, 3, 3 ],
+								"css": "{\":before\":{\"content\":\"\",\"width\":\"20px\",\"height\":\"20px\",\"border-radius\":\"20px\",\"background-color\":\"controlDark\",\"position\":\"absolute\",\"top\":\"0px\",\"left\":\"0px\",\"transition\":\"left 100ms\"}}",
+								"color": "windowFrame"
+							},
+							"properties": {
+								"width": 40,
+								"height": 22,
+								"backgroundColor": "switchOff"
+							}
+						},
+						"checked": {
+							"styles": {
+								"color": "transparent",
+								"css": "{\":before\":{\"content\":\"\",\"width\":\"20px\",\"height\":\"20px\",\"border-radius\":\"10px\",\"background-color\":\"white\",\"position\":\"absolute\",\"top\":\"0px\",\"left\":\"18px\",\"transition\":\"left 100ms\"}}"
+							},
+							"properties": {
+								"backgroundColor": "switchOn"
+							}
+						},
+						"undetermined": {
+							"styles": {
+								"css": "{\":before\":{\"content\":\"\",\"width\":\"20px\",\"height\":\"20px\",\"border-radius\":\"10px\",\"background-color\":\"white\",\"position\":\"absolute\",\"top\":\"0px\",\"left\":\"9px\",\"transition\":\"left 100ms\"}}"
+							},
+							"properties": {
+								"backgroundColor": "control"
+							}
+						},
+						"hovered": {
+							"properties": {
+								"cursor": "pointer"
+							}
+						}
+					}
+				},
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
+								"marginLeft": 2
+							}
+						},
+						"rightAligned": {
+							"properties": {
+								"marginLeft": 0
 							}
 						}
 					}
@@ -4132,6 +4259,11 @@
 					"styles": {
 						"widthRight": 1,
 						"colorRight": "table-column-line"
+					}
+				},
+				"rightToLeft": {
+					"properties": {
+						"alignX": "right"
 					}
 				},
 				"odd": {
@@ -4280,8 +4412,8 @@
 			"states": {
 				"default": {
 					"styles": {
-						"widthRight": 1,
-						"colorRight": "windowFrame",
+						"width": [ 0, 1, 0, 0 ],
+						"color": "windowFrame",
 						"transition": "background-color 250ms",
 						"backgroundSize": "24px 24px"
 					},
@@ -4289,6 +4421,11 @@
 						"padding": [ 5, 5, 5, 5 ],
 						"sortIcon": "",
 						"textColor": "buttonText"
+					}
+				},
+				"rightToLeft": {
+					"styles": {
+						"width": [ 0, 0, 0, 1 ]
 					}
 				},
 				"hovered": {
@@ -4451,6 +4588,11 @@
 					"styles": {
 						"backgroundImage": "table-row-editing"
 					}
+				},
+				"rightToLeft": {
+					"styles": {
+						"transform": "rotateZ(180deg)"
+					}
 				}
 			},
 			"components": {
@@ -4492,7 +4634,7 @@
 						}
 					}
 				},
-				"header": {
+				"header-container": {
 					"states": {
 						"default": {
 							"styles": {
@@ -4501,8 +4643,7 @@
 							},
 							"properties": {
 								"backgroundColor": "buttonFace",
-								"textColor": "buttonText",
-								"paddingRight": 16
+								"textColor": "buttonText"
 							}
 						}
 					}
@@ -5015,6 +5156,76 @@
 				}
 			}
 		},
+		"tagtextbox": {
+			"inherit": "textbox",
+			"states": {
+				"default": {
+					"properties": {
+						"duplicateDuration": 300,
+						"height": 28
+					}
+				}
+			},
+			"components": {
+				"tag": {
+					"states": {
+						"default": {
+							"styles": {
+								"width": 1,
+								"radius": 0,
+								"color": "transparent",
+								"backgroundColor": "controlLight"
+							},
+							"properties": {
+								"icon": "icon-close",
+								"cursor": "pointer",
+								"padding": [ 0, 2, 0, 4 ],
+								"textColor": "inherit"
+							}
+						},
+						"hovered": {
+							"styles": {
+								"backgroundColor": "control"
+							}
+						},
+						"selected": {
+							"styles": {
+								"backgroundColor": "highlight",
+								"color": "rgba(255,255,255,.7)"
+							},
+							"properties": {
+								"textColor": "highlightText"
+							}
+						},
+						"duplicate": {
+							"styles": {
+								"backgroundColor": "rgba(174,5,8,0.8)",
+								"transition": "background-color 300ms"
+							},
+							"properties": {
+								"textColor": "white"
+							}
+						}
+					},
+					"components": {
+						"icon": {
+							"inherit": "icon-dark"
+						}
+					}
+				},
+				"tag-container": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 2, 4, 2, 0 ],
+								"spacingX": 2,
+								"spacingY": 2
+							}
+						}
+					}
+				}
+			}
+		},
 		"textbox": {
 			"text": "TextBox",
 			"states": {
@@ -5026,7 +5237,7 @@
 					},
 					"properties": {
 						"height": 22,
-						"padding": [ 0, 2, 0, 4 ],
+						"padding": [ 0, 2, 0, 4],
 						"backgroundColor": "window",
 						"opacity": 1,
 						"textColor": "windowText"
@@ -5045,6 +5256,11 @@
 				"disabled": {
 					"properties": {
 						"opacity": 0.5
+					}
+				},
+				"multiline": {
+					"properties": {
+						"padding": [ 2, 4, 2, 4 ]
 					}
 				},
 				"borderNone": {
@@ -5178,7 +5394,7 @@
 								"cursor": "pointer",
 								"opacity": 1,
 								"padding": [ 5, 5, 5, 5 ],
-								"textColor": ""
+								"textColor": "inherit"
 							},
 							"styles": {
 								"width": [ 1, 1, 1, 1 ],
@@ -5219,9 +5435,11 @@
 						"icon": {
 							"inherit": "icon-dark",
 							"states": {
-								"pressed": {
+								"default": {
 									"properties": {
-										"textColor": "buttonText"
+										"width": 20,
+										"height": 20,
+										"scale": true
 									}
 								}
 							}
@@ -5238,7 +5456,7 @@
 							},
 							"properties": {
 								"cursor": "pointer",
-								"textColor": "",
+								"textColor": "inherit",
 								"padding": [ 5, 0, 5, 5 ],
 								"opacity": 1
 							}
@@ -5277,19 +5495,9 @@
 							"states": {
 								"default": {
 									"styles": {
-										"backgroundColor": ""
 									},
 									"properties": {
-										"paddingRight": 5,
-										"textColor": "toolbarText"
-									}
-								},
-								"pressed": {
-									"styles": {
-										"backgroundColor": "buttonPressed"
-									},
-									"properties": {
-										"textColor": "buttonText"
+										"paddingRight": 5
 									}
 								}
 							},
@@ -5297,9 +5505,11 @@
 								"icon": {
 									"inherit": "icon-dark",
 									"states": {
-										"pressed": {
+										"default": {
 											"properties": {
-												"textColor": "buttonText"
+												"width": 20,
+												"height": 20,
+												"scale": true
 											}
 										}
 									}
@@ -5987,7 +6197,7 @@
 					"states": {
 						"default": {
 							"properties": {
-								"font": "window-title",
+								"font": "windowTitle",
 								"textAlign": "left",
 								"alignY": "middle",
 								"textColor": "inactiveCaptionText"

@@ -5,7 +5,7 @@
 			"size": 13,
 			"family": [ "helvetica", "arial", "verdana", "sans-serif" ]
 		},
-		"window-title": {
+		"windowTitle": {
 			"size": 16,
 			"family": [ "helvetica", "arial", "  verdana", "sans-serif" ],
 			"bold": false
@@ -106,7 +106,11 @@
 		"icon-open": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNzE3IDkzMXEwLTM1LTUzLTM1aC0xMDg4cS00MCAwLTg1LjUgMjEuNXQtNzEuNSA1Mi41bC0yOTQgMzYzcS0xOCAyNC0xOCA0MCAwIDM1IDUzIDM1aDEwODhxNDAgMCA4Ni0yMnQ3MS01M2wyOTQtMzYzcTE4LTIyIDE4LTM5em0tMTE0MS0xNjNoNzY4di0xNjBxMC00MC0yOC02OHQtNjgtMjhoLTU3NnEtNDAgMC02OC0yOHQtMjgtNjh2LTY0cTAtNDAtMjgtNjh0LTY4LTI4aC0zMjBxLTQwIDAtNjggMjh0LTI4IDY4djg1M2wyNTYtMzE1cTQ0LTUzIDExNi04Ny41dDE0MC0zNC41em0xMjY5IDE2M3EwIDYyLTQ2IDEyMGwtMjk1IDM2M3EtNDMgNTMtMTE2IDg3LjV0LTE0MCAzNC41aC0xMDg4cS05MiAwLTE1OC02NnQtNjYtMTU4di05NjBxMC05MiA2Ni0xNTh0MTU4LTY2aDMyMHE5MiAwIDE1OCA2NnQ2NiAxNTh2MzJoNTQ0cTkyIDAgMTU4IDY2dDY2IDE1OHYxNjBoMTkycTU0IDAgOTkgMjQuNXQ2NyA3MC41cTE1IDMyIDE1IDY4eiIvPjwvc3ZnPg==",
 		"icon-saveas": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjk2IDM4NHE0MCAwIDY4IDI4dDI4IDY4djEyMTZxMCA0MC0yOCA2OHQtNjggMjhoLTk2MHEtNDAgMC02OC0yOHQtMjgtNjh2LTI4OGgtNTQ0cS00MCAwLTY4LTI4dC0yOC02OHYtNjcycTAtNDAgMjAtODh0NDgtNzZsNDA4LTQwOHEyOC0yOCA3Ni00OHQ4OC0yMGg0MTZxNDAgMCA2OCAyOHQyOCA2OHYzMjhxNjgtNDAgMTI4LTQwaDQxNnptLTU0NCAyMTNsLTI5OSAyOTloMjk5di0yOTl6bS02NDAtMzg0bC0yOTkgMjk5aDI5OXYtMjk5em0xOTYgNjQ3bDMxNi0zMTZ2LTQxNmgtMzg0djQxNnEwIDQwLTI4IDY4dC02OCAyOGgtNDE2djY0MGg1MTJ2LTI1NnEwLTQwIDIwLTg4dDQ4LTc2em05NTYgODA0di0xMTUyaC0zODR2NDE2cTAgNDAtMjggNjh0LTY4IDI4aC00MTZ2NjQwaDg5NnoiLz48L3N2Zz4=",
 		"icon-help": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMDg4IDEyNTZ2MjQwcTAgMTYtMTIgMjh0LTI4IDEyaC0yNDBxLTE2IDAtMjgtMTJ0LTEyLTI4di0yNDBxMC0xNiAxMi0yOHQyOC0xMmgyNDBxMTYgMCAyOCAxMnQxMiAyOHptMzE2LTYwMHEwIDU0LTE1LjUgMTAxdC0zNSA3Ni41LTU1IDU5LjUtNTcuNSA0My41LTYxIDM1LjVxLTQxIDIzLTY4LjUgNjV0LTI3LjUgNjdxMCAxNy0xMiAzMi41dC0yOCAxNS41aC0yNDBxLTE1IDAtMjUuNS0xOC41dC0xMC41LTM3LjV2LTQ1cTAtODMgNjUtMTU2LjV0MTQzLTEwOC41cTU5LTI3IDg0LTU2dDI1LTc2cTAtNDItNDYuNS03NHQtMTA3LjUtMzJxLTY1IDAtMTA4IDI5LTM1IDI1LTEwNyAxMTUtMTMgMTYtMzEgMTYtMTIgMC0yNS04bC0xNjQtMTI1cS0xMy0xMC0xNS41LTI1dDUuNS0yOHExNjAtMjY2IDQ2NC0yNjYgODAgMCAxNjEgMzF0MTQ2IDgzIDEwNiAxMjcuNSA0MSAxNTguNXoiLz48L3N2Zz4=",
-		"wallpaper": "https://s3.amazonaws.com/wisej/images/wisej-desktop.jpg"
+		"wallpaper": "https://s3.amazonaws.com/wisej/images/wisej-desktop.jpg",
+		"icon-justify-left": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNzkyIDEzNDR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xNjY0cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTY2NHEyNiAwIDQ1IDE5dDE5IDQ1em0tMzg0LTM4NHYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTEyODBxLTI2IDAtNDUtMTl0LTE5LTQ1di0xMjhxMC0yNiAxOS00NXQ0NS0xOWgxMjgwcTI2IDAgNDUgMTl0MTkgNDV6bTI1Ni0zODR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xNTM2cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTUzNnEyNiAwIDQ1IDE5dDE5IDQ1em0tMzg0LTM4NHYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTExNTJxLTI2IDAtNDUtMTl0LTE5LTQ1di0xMjhxMC0yNiAxOS00NXQ0NS0xOWgxMTUycTI2IDAgNDUgMTl0MTkgNDV6Ii8+PC9zdmc+",
+		"icon-justify-center": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNzkyIDEzNDR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xNjY0cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTY2NHEyNiAwIDQ1IDE5dDE5IDQ1em0tMzg0LTM4NHYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTg5NnEtMjYgMC00NS0xOXQtMTktNDV2LTEyOHEwLTI2IDE5LTQ1dDQ1LTE5aDg5NnEyNiAwIDQ1IDE5dDE5IDQ1em0yNTYtMzg0djEyOHEwIDI2LTE5IDQ1dC00NSAxOWgtMTQwOHEtMjYgMC00NS0xOXQtMTktNDV2LTEyOHEwLTI2IDE5LTQ1dDQ1LTE5aDE0MDhxMjYgMCA0NSAxOXQxOSA0NXptLTM4NC0zODR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC02NDBxLTI2IDAtNDUtMTl0LTE5LTQ1di0xMjhxMC0yNiAxOS00NXQ0NS0xOWg2NDBxMjYgMCA0NSAxOXQxOSA0NXoiLz48L3N2Zz4=",
+		"icon-justify-right": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNzkyIDEzNDR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xNjY0cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTY2NHEyNiAwIDQ1IDE5dDE5IDQ1em0wLTM4NHYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTEyODBxLTI2IDAtNDUtMTl0LTE5LTQ1di0xMjhxMC0yNiAxOS00NXQ0NS0xOWgxMjgwcTI2IDAgNDUgMTl0MTkgNDV6bTAtMzg0djEyOHEwIDI2LTE5IDQ1dC00NSAxOWgtMTUzNnEtMjYgMC00NS0xOXQtMTktNDV2LTEyOHEwLTI2IDE5LTQ1dDQ1LTE5aDE1MzZxMjYgMCA0NSAxOXQxOSA0NXptMC0zODR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xMTUycS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTE1MnEyNiAwIDQ1IDE5dDE5IDQ1eiIvPjwvc3ZnPg==",
+		"icon-justify-fill": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNzkyIDEzNDR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xNjY0cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTY2NHEyNiAwIDQ1IDE5dDE5IDQ1em0wLTM4NHYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTE2NjRxLTI2IDAtNDUtMTl0LTE5LTQ1di0xMjhxMC0yNiAxOS00NXQ0NS0xOWgxNjY0cTI2IDAgNDUgMTl0MTkgNDV6bTAtMzg0djEyOHEwIDI2LTE5IDQ1dC00NSAxOWgtMTY2NHEtMjYgMC00NS0xOXQtMTktNDV2LTEyOHEwLTI2IDE5LTQ1dDQ1LTE5aDE2NjRxMjYgMCA0NSAxOXQxOSA0NXptMC0zODR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xNjY0cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTY2NHEyNiAwIDQ1IDE5dDE5IDQ1eiIvPjwvc3ZnPg=="
 	},
 	"colors": {
 		"activeBorder": "white",
@@ -170,7 +174,11 @@
 		"menuSelectedText": "white",
 		"menuHighlightText": "#3F3F3F",
 		"toolbar": "#EFEFEF",
-		"toolbarText": "#2B2B2B"
+		"toolbarText": "#2B2B2B",
+		"slidebarButtons": "black",
+		"switchOff": "white",
+		"switchOn": "#46C17E",
+		"switchUndetermined": "#DDDDDD"
 	},
 	"appearances": {
 		"accordion": {
@@ -776,7 +784,14 @@
 					}
 				},
 				"icon": {
-					"inherit": "icon-dark"
+					"inherit": "icon-dark",
+					"states": {
+						"default": {
+							"properties": {
+								"marginLeft": 6
+							}
+						}
+					}
 				},
 				"labelfield": {
 					"states": {
@@ -1500,6 +1515,7 @@
 								"backgroundColor": "rgba(0,0,0,0.39)"
 							},
 							"properties": {
+								"width": 58,
 								"height": 48
 							}
 						}
@@ -1510,7 +1526,7 @@
 							"states": {
 								"default": {
 									"properties": {
-										"scrollStep": 24
+										"scrollStep": 20
 									}
 								}
 							},
@@ -1535,18 +1551,19 @@
 						"color": "rgba(189,191,191,0.5)"
 					},
 					"properties": {
-						"padding": [ 0, 10, 0, 10 ],
 						"textColor": "white"
 					}
 				},
 				"vertical": {
 					"properties": {
-						"margin": [ 0, 0, 4, 0 ]
+						"margin": [ 0, 0, 2, 0 ],
+						"padding": [ 10, 0, 10, 0 ]
 					}
 				},
 				"horizontal": {
 					"properties": {
-						"margin": [ 0, 4, 0, 0 ]
+						"margin": [ 0, 2, 0, 0 ],
+						"padding": [ 0, 10, 0, 10 ]
 					}
 				},
 				"notification": {
@@ -1818,6 +1835,11 @@
 					"properties": {
 						"textColor": "highlightText"
 					}
+				},
+				"pressed": {
+					"properties": {
+						"textColor": "inherit"
+					}
 				}
 			}
 		},
@@ -1906,6 +1928,11 @@
 						"color": "invalid",
 						"width": [ 1, 1, 1, 1 ]
 					}
+				},
+				"disabled": {
+					"properties": {
+						"opacity": 0.5
+					}
 				}
 			},
 			"components": {
@@ -1981,6 +2008,7 @@
 					"properties": {
 						"textColor": "windowText",
 						"iconColor": "iconDark",
+						"opacity": 1,
 						"stateIconSize": {
 							"width": 24,
 							"height": 24
@@ -2020,6 +2048,11 @@
 							"width": 48,
 							"height": 48
 						}
+					}
+				},
+				"disabled": {
+					"properties": {
+						"opacity": 0.5
 					}
 				},
 				"smallIcon": {
@@ -2781,7 +2814,9 @@
 								"icon": "icon-down",
 								"cursor": "pointer",
 								"opacity": 0.5,
-								"margin": [ 0, 10, 0, 10 ]
+								"margin": [ 0, 10, 0, 10 ],
+								"width": 24,
+								"height": 24
 							}
 						},
 						"vertical": {
@@ -2806,6 +2841,7 @@
 							"states": {
 								"default": {
 									"properties": {
+										"width": 24,
 										"height": 24
 									}
 								}
@@ -3387,6 +3423,7 @@
 		},
 		"slidebar": {
 			"text": "SlideBar",
+			"inherit": "widget",
 			"components": {
 				"button-forward": {
 					"text": "Button Forward",
@@ -3395,7 +3432,8 @@
 							"properties": {
 								"icon": "icon-right",
 								"opacity": 0.7,
-								"center": true
+								"center": true,
+								"backgroundColor": "slidebarButtons"
 							}
 						},
 						"vertical": {
@@ -3428,7 +3466,8 @@
 							"properties": {
 								"icon": "icon-left",
 								"opacity": 0.7,
-								"center": true
+								"center": true,
+								"backgroundColor": "slidebarButtons"
 							}
 						},
 						"vertical": {
@@ -3802,15 +3841,15 @@
 								"width": 0,
 								"innerWidth": [ 0, 1, 0, 0 ],
 								"innerColor": "rgba(0,0,0,0.2)",
-								"backgroundColor": ""
+								"backgroundColor": "inherit"
 							},
 							"properties": {
-								"textColor": null
+								"textColor": "inherit"
 							}
 						},
 						"pressed": {
 							"styles": {
-								"transform": ""
+								"transform": null
 							}
 						},
 						"vertical": {
@@ -3872,23 +3911,20 @@
 							},
 							"styles": {
 								"fillColor": "Gray",
-								"backgroundColor": "window"
+								"backgroundColor": "window",
+								"backgroundRepeat": "no-repeat",
+								"backgroundSize": "20px 20px",
+								"backgroundPosition": [ "center", "center" ]
 							}
 						},
 						"horizontal": {
 							"styles": {
-								"backgroundImage": "splitter-grip-vertical",
-								"backgroundRepeat": "repeat-x",
-								"backgroundSize": "16px",
-								"backgroundPosition": [ "center", "center" ]
+								"backgroundImage": "splitter-grip-vertical"
 							}
 						},
 						"vertical": {
 							"styles": {
-								"backgroundImage": "splitter-grip-horizontal",
-								"backgroundSize": "16px",
-								"backgroundRepeat": "repeat-y",
-								"backgroundPosition": [ "center", "center" ]
+								"backgroundImage": "splitter-grip-horizontal"
 							}
 						}
 					}
@@ -3994,6 +4030,97 @@
 						"rightToLeft": {
 							"styles": {
 								"transform": "rotate(90deg)"
+							}
+						}
+					}
+				}
+			}
+		},
+		"switch": {
+			"states": {
+				"default": {
+					"properties": {
+						"opacity": 1,
+						"icon": "blank",
+						"minWidth": 40,
+						"minHeight": 24
+					},
+					"styles": {
+						"width": [ 1, 1, 1, 1 ],
+						"color": "transparent"
+					}
+				},
+				"focused": {
+					"styles": {
+						"width": [ 1, 1, 1, 1 ],
+						"color": "focusFrame",
+						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+					}
+				},
+				"disabled": {
+					"properties": {
+						"opacity": 0.5
+					}
+				},
+				"invalid": {
+					"styles": {
+						"color": "invalid",
+						"width": [ 1, 1, 1, 1 ],
+						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+					}
+				}
+			},
+			"components": {
+				"icon": {
+					"inherit": "",
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 1, 1, 1, 1 ],
+								"radius": [ 10, 10, 10, 10 ],
+								"css": "{\":before\":{\"content\":\"\",\"width\":\"18px\",\"height\":\"18px\",\"border-radius\":\"10px\",\"background-color\":\"windowText\",\"position\":\"absolute\",\"top\":\"1px\",\"left\":\"1px\",\"transition\":\"left 100ms\"}}",
+								"color": "windowFrame"
+							},
+							"properties": {
+								"width": 40,
+								"height": 22,
+								"backgroundColor": "switchOff"
+							}
+						},
+						"checked": {
+							"styles": {
+								"color": [ "transparent", "transparent", "transparent", "transparent" ],
+								"css": "{\":before\":{\"content\":\"\",\"width\":\"18px\",\"height\":\"18px\",\"border-radius\":\"10px\",\"background-color\":\"white\",\"position\":\"absolute\",\"top\":\"1px\",\"left\":\"19px\",\"transition\":\"left 100ms\"}}"
+							},
+							"properties": {
+								"backgroundColor": "switchOn"
+							}
+						},
+						"undetermined": {
+							"styles": {
+								"css": "{\":before\":{\"content\":\"\",\"width\":\"18px\",\"height\":\"18px\",\"border-radius\":\"10px\",\"background-color\":\"controlLight\",\"position\":\"absolute\",\"top\":\"1px\",\"left\":\"10px\",\"transition\":\"left 100ms\"}}"
+							},
+							"properties": {
+								"backgroundColor": "control"
+							}
+						},
+						"hovered": {
+							"properties": {
+								"cursor": "pointer"
+							}
+						}
+					}
+				},
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
+								"marginLeft": 2
+							}
+						},
+						"rightAligned": {
+							"properties": {
+								"marginLeft": 0
 							}
 						}
 					}
@@ -4134,6 +4261,11 @@
 					"styles": {
 						"widthRight": 1,
 						"colorRight": "table-column-line"
+					}
+				},
+				"rightToLeft": {
+					"properties": {
+						"alignX": "right"
 					}
 				},
 				"odd": {
@@ -4282,8 +4414,8 @@
 			"states": {
 				"default": {
 					"styles": {
-						"widthRight": 1,
-						"colorRight": "windowFrame",
+						"width": [ 0, 1, 0, 0 ],
+						"color": "windowFrame",
 						"transition": "background-color 250ms",
 						"backgroundSize": "20px"
 					},
@@ -4291,6 +4423,11 @@
 						"padding": [ 5, 5, 5, 5 ],
 						"sortIcon": "",
 						"textColor": "buttonText"
+					}
+				},
+				"rightToLeft": {
+					"styles": {
+						"width": [ 0, 0, 0, 1 ]
 					}
 				},
 				"hovered": {
@@ -4453,6 +4590,11 @@
 					"styles": {
 						"backgroundImage": "table-row-editing"
 					}
+				},
+				"rightToLeft": {
+					"styles": {
+						"transform": "rotateZ(180deg)"
+					}
 				}
 			},
 			"components": {
@@ -4494,7 +4636,7 @@
 						}
 					}
 				},
-				"header": {
+				"header-container": {
 					"states": {
 						"default": {
 							"styles": {
@@ -4503,8 +4645,7 @@
 							},
 							"properties": {
 								"backgroundColor": "buttonFace",
-								"textColor": "buttonText",
-								"paddingRight": 16
+								"textColor": "buttonText"
 							}
 						}
 					}
@@ -5014,6 +5155,76 @@
 				}
 			}
 		},
+		"tagtextbox": {
+			"inherit": "textbox",
+			"states": {
+				"default": {
+					"properties": {
+						"duplicateDuration": 300,
+						"height": 28
+					}
+				}
+			},
+			"components": {
+				"tag": {
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 1, 1, 1, 1 ],
+								"radius": [ 3, 3, 3, 3 ],
+								"color": "transparent",
+								"backgroundColor": "controlLight"
+							},
+							"properties": {
+								"icon": "icon-close",
+								"cursor": "pointer",
+								"padding": [ 0, 2, 0, 4 ],
+								"textColor": "inherit"
+							}
+						},
+						"hovered": {
+							"styles": {
+								"backgroundColor": "control"
+							}
+						},
+						"selected": {
+							"styles": {
+								"backgroundColor": "highlight",
+								"color": "rgba(255,255,255,.7)"
+							},
+							"properties": {
+								"textColor": "highlightText"
+							}
+						},
+						"duplicate": {
+							"styles": {
+								"backgroundColor": "rgba(174,5,8,0.8)",
+								"transition": "background-color 300ms"
+							},
+							"properties": {
+								"textColor": "white"
+							}
+						}
+					},
+					"components": {
+						"icon": {
+							"inherit": "icon-dark"
+						}
+					}
+				},
+				"tag-container": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 2, 4, 2, 0 ],
+								"spacingX": 2,
+								"spacingY": 2
+							}
+						}
+					}
+				}
+			}
+		},
 		"textbox": {
 			"text": "TextBox",
 			"states": {
@@ -5044,6 +5255,11 @@
 				"disabled": {
 					"properties": {
 						"opacity": 0.5
+					}
+				},
+				"multiline": {
+					"properties": {
+						"padding": [ 2, 4, 2, 4 ]
 					}
 				},
 				"borderNone": {
@@ -5177,7 +5393,7 @@
 								"cursor": "pointer",
 								"opacity": 1,
 								"padding": [ 5, 5, 5, 5 ],
-								"textColor": ""
+								"textColor": "inherit"
 							},
 							"styles": {
 								"width": [ 1, 1, 1, 1 ],
@@ -5198,7 +5414,6 @@
 							"properties": {
 								"textColor": "buttonSelectedText"
 							}
-
 						},
 						"pressed": {
 							"styles": {
@@ -5219,9 +5434,11 @@
 						"icon": {
 							"inherit": "icon-dark",
 							"states": {
-								"pressed": {
+								"default": {
 									"properties": {
-										"textColor": "buttonText"
+										"width": 20,
+										"height": 20,
+										"scale": true
 									}
 								}
 							}
@@ -5238,7 +5455,7 @@
 							},
 							"properties": {
 								"cursor": "pointer",
-								"textColor": "",
+								"textColor": "inherit",
 								"padding": [ 5, 0, 5, 5 ],
 								"opacity": 1
 							}
@@ -5256,7 +5473,6 @@
 							"properties": {
 								"textColor": "buttonSelectedText"
 							}
-
 						},
 						"pressed": {
 							"styles": {
@@ -5278,19 +5494,9 @@
 							"states": {
 								"default": {
 									"styles": {
-										"backgroundColor": ""
 									},
 									"properties": {
-										"paddingRight": 5,
-										"textColor": "toolbarText"
-									}
-								},
-								"pressed": {
-									"styles": {
-										"backgroundColor": "buttonPressed"
-									},
-									"properties": {
-										"textColor": "buttonText"
+										"paddingRight": 5
 									}
 								}
 							},
@@ -5298,9 +5504,11 @@
 								"icon": {
 									"inherit": "icon-dark",
 									"states": {
-										"pressed": {
+										"default": {
 											"properties": {
-												"textColor": "buttonText"
+												"width": 20,
+												"height": 20,
+												"scale": true
 											}
 										}
 									}
@@ -5994,7 +6202,7 @@
 					"states": {
 						"default": {
 							"properties": {
-								"font": "window-title",
+								"font": "windowTitle",
 								"textAlign": "left",
 								"alignY": "middle",
 								"textColor": "inactiveCaptionText"
