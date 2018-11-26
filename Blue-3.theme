@@ -1,10 +1,11 @@
 {
 	"name": "Blue-3",
 	"fonts": {
-		"default": {
-			"size": 13,
-			"family": [ "helvetica", "arial", "verdana", "sans-serif" ]
-		},
+    "default": {
+      "size": 13,
+      "family": [ "helvetica", "arial", "verdana", "sans-serif" ],
+      "bold": false
+    },
 		"windowTitle": {
 			"size": 16,
 			"family": [ "helvetica", "arial", "  verdana", "sans-serif" ],
@@ -15,10 +16,11 @@
 			"family": [ "helvetica", "arial", " verdana", "sans-serif" ],
 			"bold": true
 		},
-		"menu": {
-			"size": 13,
-			"family": [ "arial", "verdana", "sans-serif" ]
-		}
+    "menu": {
+      "size": 13,
+      "family": [ "arial", "verdana", "sans-serif" ],
+      "bold": false
+    }
 	},
 	"images": {
 		"baseUrl": "",
@@ -2309,12 +2311,15 @@
 			"inherit": "menubar",
 			"text": "MainMenu",
 			"states": {
-				"default": {
-					"styles": {
-						"widthBottom": 1,
-						"color": "windowFrame"
-					}
-				}
+        "default": {
+          "styles": {
+            "widthBottom": 1,
+            "color": "windowFrame"
+          },
+          "properties": {
+            "font": "menu"
+          }
+        }
 			}
 		},
 		"menu": {

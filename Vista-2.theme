@@ -1,11 +1,12 @@
 {
 	"name": "Vista-2",
 	"fonts": {
-		"default": {
-			"size": 8,
-			"unit": "pt",
-			"family": [ "tahoma", "sans-serif" ]
-		},
+    "default": {
+      "size": 8,
+      "unit": "pt",
+      "family": [ "tahoma", "sans-serif" ],
+      "bold": false
+    },
 		"windowTitle": {
 			"size": 8,
 			"unit": "pt",
@@ -18,11 +19,12 @@
 			"family": [ "tahoma", "sans-serif" ],
 			"bold": true
 		},
-		"menu": {
-			"size": 8.25,
-			"unit": "pt",
-			"family": [ "tahoma", "sans-serif" ]
-		}
+    "menu": {
+      "size": 8.25,
+      "unit": "pt",
+      "family": [ "tahoma", "sans-serif" ],
+      "bold": false
+    }
 	},
 	"images": {
 		"baseUrl": "",
@@ -2323,12 +2325,15 @@
 			"inherit": "menubar",
 			"text": "MainMenu",
 			"states": {
-				"default": {
-					"styles": {
-						"color": "windowFrame",
-						"width": [ 1, 1, 0, 1 ]
-					}
-				}
+        "default": {
+          "styles": {
+            "color": "windowFrame",
+            "width": [ 1, 1, 0, 1 ]
+          },
+          "properties": {
+            "font": "menu"
+          }
+        }
 			}
 		},
 		"menu": {
