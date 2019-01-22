@@ -4168,13 +4168,11 @@
           "states": {
             "default": {
               "styles": {
-                "widthBottom": 1,
-                "colorBottom": "windowFrame",
                 "widthLeft": 1,
                 "colorLeft": "windowFrame"
               },
               "properties": {
-                "width": 16,
+                "width": 17,
                 "paddingLeft": 0,
                 "icon": "icon-columns",
                 "cursor": "pointer"
@@ -4463,7 +4461,8 @@
               "properties": {
                 "alignX": "left",
                 "alignY": "middle",
-                "scale": true
+                "scale": true,
+                "marginRight": 2
               }
             }
           },
@@ -5820,8 +5819,9 @@
           },
           "properties": {
             "backgroundColor": "window",
+            "textColor": "windowText",
             "opacity": 1,
-            "textColor": "windowText"
+            "itemHeight": 22
           }
         },
         "focused": {
@@ -5938,7 +5938,7 @@
             "default": {
               "properties": {
                 "marginLeft": 5,
-                "padding": [ 2, 5, 3, 0 ]
+                "marginRight": 5
               }
             }
           }
@@ -5999,7 +5999,7 @@
             "default": {
               "properties": {
                 "marginLeft": 5,
-                "padding": [ 2, 5, 3, 0 ]
+                "marginRight": 5
               }
             }
           }
