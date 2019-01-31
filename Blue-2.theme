@@ -193,6 +193,7 @@
           "states": {
             "default": {
               "styles": {
+                "transform": "translateZ(0)",
                 "transition": "top 200ms, height 200ms"
               }
             }
@@ -4529,7 +4530,7 @@
             "backgroundColor": "buttonFace",
             "backgroundRepeat": "no-repeat",
             "backgroundPosition": [ "center", "right" ],
-            "backgroundSize": "16px",
+            "backgroundSize": "16px 16px",
             "fillColor": "windowText"
           },
           "properties": {
@@ -4574,6 +4575,20 @@
         }
       },
       "components": {
+        "content": {
+          "states": {
+            "default": {
+              "styles": {
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": [ "center", "left" ],
+                "backgroundSize": "20px"
+              },
+              "properties": {
+                "padding": [ 0, 2, 0, 2 ]
+              }
+            }
+          }
+        },
         "error": {
           "states": {
             "default": {
