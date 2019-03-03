@@ -1893,9 +1893,10 @@
             "color": "windowFrame"
           },
           "properties": {
-            "backgroundColor": "window",
             "opacity": 1,
-            "textColor": "windowText"
+            "backgroundColor": "window",
+            "textColor": "windowText",
+            "itemHeight": 24
           }
         },
         "focused": {
@@ -1965,7 +1966,7 @@
         "default": {
           "properties": {
             "opacity": 1,
-            "padding": [ 3, 2, 3, 6 ],
+            "padding": [ 2, 2, 2, 6 ],
             "textColor": "inherit",
             "backgroundColor": "inherit"
           }
@@ -1992,10 +1993,27 @@
       },
       "components": {
         "checkbox": {
-          "inherit": "checkbox"
+          "inherit": "checkbox",
+          "states": {
+            "default": {
+              "styles": {
+                "width": 0
+              },
+              "properties": {
+                "marginRight": 2
+              }
+            }
+          }
         },
         "icon": {
-          "inherit": "icon-dark"
+          "inherit": "icon-dark",
+          "states": {
+            "default": {
+              "properties": {
+                "marginRight": 2
+              }
+            }
+          }
         }
       }
     },
@@ -2336,8 +2354,7 @@
           "properties": {
             "font": "menu",
             "padding": [ 5, 5, 5, 5 ],
-            "iconColumnWidth": 16,
-            "placementModeX": "best-fit"
+            "iconColumnWidth": 16
           }
         },
         "submenu": {
@@ -5575,10 +5592,14 @@
       "text": "ToolContainer",
       "states": {
         "default": {
+          "properties": {
+            "textColor": "iconDark"
+          }
         },
-        "horizontal": {
-        },
-        "vertical": {
+        "caption": {
+          "properties": {
+            "textColor": "inherit"
+          }
         }
       },
       "components": {
@@ -5813,7 +5834,7 @@
             "backgroundColor": "window",
             "textColor": "windowText",
             "opacity": 1,
-            "itemHeight": 25
+            "itemHeight": 24
           }
         },
         "focused": {
@@ -5882,7 +5903,8 @@
             "textColor": "",
             "indent": 20,
             "icon": "icon-file",
-            "opacity": 1
+            "opacity": 1,
+            "padding": [ 2, 0, 2, 0 ]
           },
           "styles": {
             "backgroundColor": null
@@ -5915,6 +5937,9 @@
           "inherit": "checkbox",
           "states": {
             "default": {
+              "styles": {
+                "width": 0
+              }
             }
           }
         },
@@ -5966,6 +5991,9 @@
           "inherit": "checkbox",
           "states": {
             "default": {
+              "styles": {
+                "width": 0
+              }
             }
           }
         },
@@ -5993,7 +6021,8 @@
             "textColor": "",
             "indent": 20,
             "icon": "icon-folder",
-            "opacity": 1
+            "opacity": 1,
+            "padding": [ 2, 0, 2, 0 ]
           },
           "styles": {
             "backgroundColor": null

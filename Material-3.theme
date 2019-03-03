@@ -1840,6 +1840,16 @@
           "properties": {
             "textColor": "highlightText"
           }
+        },
+        "pressed": {
+          "properties": {
+            "textColor": "iconLight"
+          }
+        },
+        "checked": {
+          "properties": {
+            "textColor": "iconLight"
+          }
         }
       }
     },
@@ -1929,9 +1939,10 @@
             "color": "windowFrame"
           },
           "properties": {
-            "backgroundColor": "window",
             "opacity": 1,
-            "textColor": "windowText"
+            "backgroundColor": "window",
+            "textColor": "windowText",
+            "itemHeight": 26
           }
         },
         "focused": {
@@ -2028,10 +2039,27 @@
       },
       "components": {
         "checkbox": {
-          "inherit": "checkbox"
+          "inherit": "checkbox",
+          "states": {
+            "default": {
+              "styles": {
+                "width": 0
+              },
+              "properties": {
+                "marginRight": 4
+              }
+            }
+          }
         },
         "icon": {
-          "inherit": "icon-dark"
+          "inherit": "icon-dark",
+          "states": {
+            "default": {
+              "properties": {
+                "marginRight": 2
+              }
+            }
+          }
         }
       }
     },
@@ -2372,8 +2400,7 @@
           "properties": {
             "padding": [ 5, 5, 5, 5 ],
             "iconColumnWidth": 16,
-            "font": "menu",
-            "placementModeX": "best-fit"
+            "font": "menu"
           }
         },
         "submenu": {
@@ -4498,7 +4525,7 @@
             "backgroundColor": "buttonFace",
             "backgroundRepeat": "no-repeat",
             "backgroundPosition": [ "center", "right" ],
-            "backgroundSize": "16px 16px,
+            "backgroundSize": "16px 16px",
             "fillColor": "windowText"
           },
           "properties": {
@@ -5485,10 +5512,14 @@
       "text": "ToolContainer",
       "states": {
         "default": {
+          "properties": {
+            "textColor": "iconDark"
+          }
         },
-        "horizontal": {
-        },
-        "vertical": {
+        "caption": {
+          "properties": {
+            "textColor": "inherit"
+          }
         }
       },
       "components": {
@@ -5723,7 +5754,7 @@
             "backgroundColor": "window",
             "textColor": "windowText",
             "opacity": 1,
-            "itemHeight": 25
+            "itemHeight": 26
           }
         },
         "focused": {
@@ -5792,7 +5823,8 @@
             "textColor": "",
             "indent": 18,
             "icon": "icon-file",
-            "opacity": 1
+            "opacity": 1,
+            "padding": [ 3, 0, 3, 0 ]
           },
           "styles": {
             "backgroundColor": null
@@ -5825,6 +5857,9 @@
           "inherit": "checkbox",
           "states": {
             "default": {
+              "styles": {
+                "width": 0
+              }
             }
           }
         },
@@ -5886,6 +5921,9 @@
           "inherit": "checkbox",
           "states": {
             "default": {
+              "styles": {
+                "width": 0
+              }
             }
           }
         },
@@ -5913,7 +5951,8 @@
             "textColor": "",
             "indent": 18,
             "icon": "icon-folder",
-            "opacity": 1
+            "opacity": 1,
+            "padding": [ 3, 0, 3, 0 ]
           },
           "styles": {
             "backgroundColor": null
