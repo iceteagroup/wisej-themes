@@ -181,7 +181,7 @@
     "menuSelectedText": "white",
     "menuHighlightText": "#3F3F3F",
     "toolbar": "#EFEFEF",
-    "toolbarText": "#2B2B2B",
+    "toolbarText": "#3F3F3F",
     "primary": "#606061",
     "accent": "#4BAF50",
     "focusFrame": "#006DD0",
@@ -498,11 +498,16 @@
           "states": {
             "default": {
               "properties": {
-                "source": "menubutton-arrow?color=buttonText",
-                "width": 18,
-                "height": 18,
-                "marginRight": 2
+                "source": "menubutton-arrow",
+                "marginRight": 2,
+                "width": 20,
+                "height": 20
               }
+            }
+          },
+          "components": {
+            "icon": {
+              "inherit": "icon-dark"
             }
           }
         },
@@ -826,6 +831,11 @@
                   "properties": {
                     "width": 20
                   }
+                },
+                "hovered": {
+                  "properties": {
+                    "textColor": "white"
+                  }
                 }
               }
             }
@@ -916,7 +926,8 @@
             "backgroundColor": "window",
             "height": 22,
             "opacity": 1,
-            "textColor": "windowText"
+            "textColor": "windowText",
+            "itemHeight": 26
           }
         },
         "disabled": {
@@ -1349,6 +1360,11 @@
                 "default": {
                   "properties": {
                     "scale": true
+                  }
+                },
+                "hovered": {
+                  "properties": {
+                    "textColor": "white"
                   }
                 }
               }
@@ -1838,7 +1854,7 @@
         },
         "checked": {
           "properties": {
-            "textColor": "iconLight"
+            "textColor": "iconDark"
           }
         }
       }
@@ -3022,10 +3038,11 @@
           "styles": {
             "backgroundColor": "window",
             "width": [ 0, 0, 0, 0 ],
-            "color": "windowFrame"
+            "color": [ "windowFrame", "windowFrame", "windowFrame", "windowFrame" ]
           },
           "properties": {
-            "height": 24
+            "height": 24,
+            "textColor": "controlDark"
           }
         },
         "borderSolid": {
@@ -3067,11 +3084,7 @@
           "states": {
             "default": {
               "properties": {
-                "textColor": "windowText",
                 "textAlign": "center"
-              },
-              "styles": {
-                "css": "{\"fontWeight\":\"bold\"}"
               }
             }
           }
@@ -3739,7 +3752,16 @@
           },
           "components": {
             "icon": {
-              "inherit": "icon-dark"
+              "inherit": "icon-dark",
+              "states": {
+                "default": {
+                },
+                "hovered": {
+                  "properties": {
+                    "textColor": "white"
+                  }
+                }
+              }
             }
           }
         },
@@ -3778,7 +3800,16 @@
           },
           "components": {
             "icon": {
-              "inherit": "icon-dark"
+              "inherit": "icon-dark",
+              "states": {
+                "default": {
+                },
+                "hovered": {
+                  "properties": {
+                    "textColor": "white"
+                  }
+                }
+              }
             }
           }
         },
@@ -3802,24 +3833,33 @@
       "states": {
         "default": {
           "styles": {
-            "radius": 2,
+            "radius": [ 2, 2, 2, 2 ],
             "width": [ 1, 1, 1, 1 ],
-            "color": "rgba(0,0,0,0.2)",
+            "color": "buttonBorder",
             "backgroundColor": "buttonFace"
           },
           "properties": {
             "textColor": "buttonText",
-            "height": 26
+            "height": 26,
+            "padding": [ 5, 0, 5, 0 ]
           }
         },
         "hovered": {
           "styles": {
             "backgroundColor": "buttonHighlight"
+          },
+          "properties": {
+            "textColor": "white"
           }
         },
         "focused": {
           "styles": {
             "color": "focusFrame"
+          }
+        },
+        "vertical": {
+          "properties": {
+            "padding": [ 0, 5, 0, 5 ]
           }
         }
       },
@@ -3829,26 +3869,28 @@
           "states": {
             "default": {
               "styles": {
-                "radius": 0,
-                "width": 0,
+                "radius": [ 0, 0, 0, 0 ],
+                "width": [ 0, 0, 0, 0 ],
                 "innerWidth": [ 0, 1, 0, 0 ],
-                "innerColor": "rgba(255,255,255,0.2)",
+                "innerColor": "buttonBorder",
                 "backgroundColor": "inherit",
                 "shadowBlurRadius": 0,
-                "shadowLength": 0
+                "shadowLength": [ 0, 0 ]
               },
               "properties": {
                 "textColor": "inherit"
               }
             },
             "pressed": {
-              "styles": {
-                "transform": null
-              }
             },
             "vertical": {
               "styles": {
                 "innerWidth": [ 0, 0, 1, 0 ]
+              }
+            },
+            "hovered": {
+              "styles": {
+                "innerColor": "white"
               }
             }
           }
@@ -3857,32 +3899,33 @@
           "states": {
             "default": {
               "styles": {
-                "radius": 0,
-                "width": 0,
+                "radius": [ 0, 0, 0, 0 ],
+                "width": [ 0, 0, 0, 0 ],
                 "backgroundColor": "",
                 "shadowBlurRadius": 0,
-                "shadowLength": 0
+                "shadowLength": [ 0, 0 ]
               },
               "properties": {
-                "icon": "menubutton-arrow",
-                "padding": [ 0, 2, 0, 2 ]
+                "icon": "menubutton-arrow"
               }
             },
             "pressed": {
-              "styles": {
-                "transform": null
-              }
             }
           },
           "inherit": "button",
           "components": {
             "icon": {
-              "inherit": "icon-light",
+              "inherit": "icon-dark",
               "states": {
                 "default": {
                   "properties": {
-                    "width": 18,
-                    "height": 18
+                    "width": 20,
+                    "height": 20
+                  }
+                },
+                "hovered": {
+                  "properties": {
+                    "textColor": "white"
                   }
                 }
               }
@@ -5323,25 +5366,25 @@
         "borderSolid": {
           "styles": {
             "widthBottom": 1,
-            "style": "solid"
+            "style": [ "solid", "solid", "solid", "solid" ]
           }
         },
         "borderDashed": {
           "styles": {
             "widthBottom": 1,
-            "style": "dashed"
+            "style": [ "dashed", "dashed", "dashed", "dashed" ]
           }
         },
         "borderDotted": {
           "styles": {
             "widthBottom": 1,
-            "style": "dotted"
+            "style": [ "dotted", "dotted", "dotted", "dotted" ]
           }
         },
         "borderDouble": {
           "styles": {
             "widthBottom": 3,
-            "style": "double"
+            "style": [ "double", "double", "double", "double" ]
           }
         }
       },
@@ -5364,6 +5407,9 @@
             "hovered": {
               "styles": {
                 "backgroundColor": "hotTrack"
+              },
+              "properties": {
+                "textColor": "highlightText"
               }
             },
             "checked": {
@@ -5400,6 +5446,11 @@
                     "height": 18,
                     "scale": true
                   }
+                },
+                "hovered": {
+                  "properties": {
+                    "textColor": "inherit"
+                  }
                 }
               }
             }
@@ -5423,6 +5474,9 @@
             "hovered": {
               "styles": {
                 "backgroundColor": "hotTrack"
+              },
+              "properties": {
+                "textColor": "highlightText"
               }
             },
             "checked": {
@@ -5468,6 +5522,11 @@
                         "height": 18,
                         "scale": true
                       }
+                    },
+                    "hovered": {
+                      "properties": {
+                        "textColor": "inherit"
+                      }
                     }
                   }
                 }
@@ -5484,15 +5543,36 @@
                   "properties": {
                     "icon": "combo-arrow"
                   }
+                },
+                "hovered": {
+                  "styles": {
+                    "color": "highlightText"
+                  }
+                },
+                "pressed": {
+                  "styles": {
+                    "color": "windowFrame"
+                  }
                 }
               },
               "components": {
                 "icon": {
                   "inherit": "icon-dark",
                   "states": {
+                    "default": {
+                      "properties": {
+                        "width": 20,
+                        "height": 20
+                      }
+                    },
                     "checked": {
                       "properties": {
                         "textColor": "iconDark"
+                      }
+                    },
+                    "hovered": {
+                      "properties": {
+                        "textColor": "inherit"
                       }
                     }
                   }
@@ -5528,6 +5608,11 @@
           }
         },
         "caption": {
+          "properties": {
+            "textColor": "inherit"
+          }
+        },
+        "panel": {
           "properties": {
             "textColor": "inherit"
           }

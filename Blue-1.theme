@@ -866,7 +866,8 @@
             "backgroundColor": "window",
             "height": 22,
             "opacity": 1,
-            "textColor": "windowText"
+            "textColor": "windowText",
+            "itemHeight": 24
           }
         },
         "focused": {
@@ -2911,7 +2912,8 @@
             "color": "windowFrame"
           },
           "properties": {
-            "height": 24
+            "height": 24,
+            "textColor": "windowText"
           }
         },
         "borderSolid": {
@@ -2953,7 +2955,6 @@
           "states": {
             "default": {
               "properties": {
-                "textColor": "windowText",
                 "textAlign": "center"
               }
             }
@@ -5537,6 +5538,11 @@
           }
         },
         "caption": {
+          "properties": {
+            "textColor": "inherit"
+          }
+        },
+        "panel": {
           "properties": {
             "textColor": "inherit"
           }

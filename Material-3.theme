@@ -916,7 +916,8 @@
             "backgroundColor": "window",
             "height": 22,
             "opacity": 1,
-            "textColor": "windowText"
+            "textColor": "windowText",
+            "itemHeight": 26
           }
         },
         "disabled": {
@@ -3001,10 +3002,12 @@
           "styles": {
             "backgroundColor": "window",
             "width": [ 0, 0, 0, 0 ],
-            "color": "windowFrame"
+            "color": "windowFrame",
+            "css": "{\"fontWeight\":\"bold\"}"
           },
           "properties": {
-            "height": 24
+            "height": 24,
+            "textColor": "windowText"
           }
         },
         "borderSolid": {
@@ -3046,11 +3049,7 @@
           "states": {
             "default": {
               "properties": {
-                "textColor": "windowText",
                 "textAlign": "center"
-              },
-              "styles": {
-                "css": "{\"fontWeight\":\"bold\"}"
               }
             }
           }
@@ -5517,6 +5516,11 @@
           }
         },
         "caption": {
+          "properties": {
+            "textColor": "inherit"
+          }
+        },
+        "panel": {
           "properties": {
             "textColor": "inherit"
           }
