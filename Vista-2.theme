@@ -1,32 +1,32 @@
-{
+ {
 	"name": "Vista-2",
-	"fonts": {
-		"default": {
+	"fonts":  {
+		"default":  {
 			"size": 8,
 			"unit": "pt",
-			"family": [ "tahoma", "sans-serif" ],
+			"family": ["tahoma", "sans-serif"],
 			"bold": false
 		},
-		"windowTitle": {
+		"windowTitle":  {
 			"size": 8,
 			"unit": "pt",
-			"family": [ "tahoma", "sans-serif" ],
+			"family": ["tahoma", "sans-serif"],
 			"bold": false
 		},
-		"defaultBold": {
+		"defaultBold":  {
 			"size": 8,
 			"unit": "pt",
-			"family": [ "tahoma", "sans-serif" ],
+			"family": ["tahoma", "sans-serif"],
 			"bold": true
 		},
-		"menu": {
+		"menu":  {
 			"size": 8.25,
 			"unit": "pt",
-			"family": [ "tahoma", "sans-serif" ],
+			"family": ["tahoma", "sans-serif"],
 			"bold": false
 		}
 	},
-	"images": {
+	"images":  {
 		"baseUrl": "",
 		"blank": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAA1JREFUGFdjYGBgYAAAAAUAAYoz4wAAAAAASUVORK5CYII=",
 		"checkbox-checked": "data:image/gif;base64,R0lGODlhDwAPAIcAAAAAAERakkdclEhdlUlelkpfl0tgl0xhmFdqnV5xoWFzpGR2pWd4p25/qneGq46Pj4uZu4yZupCdva6zuZ2nwKOuyK+4z7C50be/1bm/0LrB1bzD1sbIysXJzcrLzMnM0MvP1c3P0cnP3czQ1tXV1tXY3NXZ3dra29vc3Nzd3s/U4tzf5N7g4d/i5d7h6d/i6eHi4uDi5ubm5ufn6Onp6uvr7Ozt7e3u7urs8O3u8fPz8/Lz9PLz9vT09PX19fb29vf39/j4+Pn5+fj5+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD/ACwAAAAADwAPAAAImAD/CRxIsOC/BwgTKkwo8IGOhxB1AAniQ8eDhj0maNT4gYKDFT4uHswIouSIHAgCZPgh8gFJECNiWAiwYEaPlhlNtCixI4GADShuYuwgosINDQQWBCEhdCSLBgJUMDCA4UeKpi5DuBhAwICCIT1gYO3BAQeEAgcuCPkhY6yHEy8iSOBhowaNsT16+BBCMW/elgsDizRI+F9AADs=",
@@ -124,7 +124,7 @@
 		"window-restore-hover": "data:image/gif;base64,R0lGODlhGQASAIcAAFRXZ1RXZvv7+/z8/NbW10+PrPr6+tvb3Lfa8Onp6bXa8bbZ8Nzc3C/Y5ejo6Km2xa66x9Pk8eLi4q3Q6xpupx10qnmBkIi32LDU7SnM267U7JCVoKfQ6b/c65nC3qnO5y/W5ZzD4KzQ6rbZ76TN55/J4yu5urXY7yFzqivI3CnN3OHh4qnQ57XZ7xhtprDU67TX75GWoSuIuX+x1Ce5uo272bLU7iF9sYOx1Cx9s4y10i58s7zY6ERxhy3D23qospTC3za2ubHX7qXM5TuYxy7D3E+Oq5G41XqqtKbM5qfQ6iR4sIW01pzI4TK10xRoo1qVu5W72Ie42jaw1Dm313ynsbHX76rP56DJ5azQ6zPB2U6Mp5HA4CBzqpvF4DGmzCNzqjnL4W+jyjuGvqXM5q/T66jN5xlspRltpmCytyiUwi16tYq32DfJ4Iq51zml0D5kdi++2KjO5jyq0anQ6Btup4iz0a/U60GYyh9zrCd7sjudyWGZvoey0BVopBx0ravP6KzM4kRziarP6Ch2sI+82h1up0Kw1xRopPn5+SJ1ri64uSKLvE6NqR2AtCd5sHyt0nyu0luVvKjN5jKOvyNyrDqOwRxvpzGGu6nJ4EqAmaLK5Y2200d6kpnA3zOaxnWr08Db63qr0DiFvrDU7Gifx57H4jO3uYO324+93j6MwjF/tpbA3iN4r0Ok0jrF4BptpTOdyWGbwr/Z6HartTTR44i31jK4uTOTwTKq0Bxtpi6RvxBloYSmtk+NqanN57PY8oq52zW51iB0rWOvtkqCmqPL5Ci5uqPF3brW5nGfsy+Fuim5uiZ1rxRooU+PqzuPw0yHohNoo0yHoSBwqSR5sS+4uTPR43Outk6LpoWz1lNWZoq416HL5YGx1Ed5kHqCkYK01w9koM/i7jnB3VVYaB9xqSyaxbfT54y83yh9tRt2rip8tMLb6T+83EC1uEGzuK7Z8ze1uIm00nuisHqksS2FuTmEu4++3F2XvhlqpMzh7QAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQAAAAAACwAAAAAGQASAAAI/wB7fNM0LVsjIwUSKlz4zNeWaMU6CYITYcikKyLKYBDSYsQCBAgUKECw4AQMGy9EsJATKgIZM4Oy3MFgpePHkCNLnnwxgcWHDhGS/AI0QYMGYDEAKF3KdAOpCXR+jmtSohsJDhziAUhkoKtXrwCUkDBWgsc+Vh5ChMCSlKnbDQIAbDLlxQO6dra41ajBBYABAYADBwYwAAAQfIXcBJqFQ9uFC+kACBhAuXJlAAkApArGhkmmZKIgzZiBSvKAcm4nYwYgJZy3SMh06DOEAkU1AA4yQ9gNAXdmCQFyPAJziU8fcU9cuPjjG8CD5w+aMwjQKg8aaVDs8PJDgcI6ACuAM7HdFj4AgQBLhtVBJGmeM1gVKjgCcIDBgfv4GUwPYEGdImpn5MOJLl3ccAMjABCg4IIMBnDOLvaw04w5shxRiR4yyKAGOAF06OGHFnzxCSXLrEFIKVHsgAkuseTiRBw+pJCBCipkkEIRWggzxRtEWHLPKmJ4Mgo0e8xBBTltXANCA0w2AEItYbziziGu4KHKGKD0Qk8VSGCTxjtB3LKICccwQwMNJlhzijzwEEPLD/UoExAAOw==",
 		"combo-arrow-hover": "data:image/gif;base64,R0lGODlhDwAVAIcAAAAAAFWStVaUt1eZulmWuFiZvV6Zu2mhv1mbwFucwFucwlqew1ydwFydw1yexF2fxV2ix1+lyW6kwnOnxHiqxZWruJ6wupq6y567zKK9zaa/zqq8x6rBzrDDzqfZ9anb9qzc97Lg+bXi+rnj+7zl/L7m/dnw/Nzx/N7y/OHz/Ob1/en2/QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD/ACwAAAAADwAVAAAIpAD/CRxIsKDBgwItKFzIsGGFFRAjSoxoYcPEixA3dFDBsaPHjh04pBhJsiRJDhpQqFzJcqWGDCdiypwpMwMGEzgB6NwJAKcJDBdKCC3BE8DQEhcokFi6dCfTpRQmjJhKFQBVqhMkiNjKtStXCQdCiB1LduwBAyDSql2r1gCBD3Djyo1LIICHu3jz3v0QIIAAAgMKIEigYEEDBw8gRGCAsLHjgQEBADs="
 	},
-	"colors": {
+	"colors":  {
 		"activeBorder": "rgba(212,230,243,0.96)",
 		"activeCaption": "rgba(212,230,243,0.96)",
 		"activeCaptionText": "black",
@@ -194,28 +194,28 @@
 		"switchOn": "#46C17E",
 		"switchUndetermined": "#DDDDDD"
 	},
-	"appearances": {
-		"accordion": {
+	"appearances":  {
+		"accordion":  {
 			"inherit": "panel",
-			"components": {
-				"panel": {
+			"components":  {
+				"panel":  {
 					"inherit": "panel",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"transform": "translateZ(0)",
 								"transition": "top 200ms, height 200ms"
 							}
 						}
 					},
-					"components": {
-						"open-button": {
+					"components":  {
+						"open-button":  {
 							"inherit": "panel/close-button"
 						},
-						"icon": {
-							"states": {
-								"default": {
-									"properties": {
+						"icon":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"marginLeft": 5,
 										"scale": true,
 										"width": 16,
@@ -224,12 +224,12 @@
 								}
 							}
 						},
-						"captionbar": {
+						"captionbar":  {
 							"text": "CaptionBar",
 							"inherit": "panel/captionbar",
-							"states": {
-								"hovered": {
-									"properties": {
+							"states":  {
+								"hovered":  {
+									"properties":  {
 										"cursor": "pointer"
 									}
 								}
@@ -239,19 +239,19 @@
 				}
 			}
 		},
-		"alertbox": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+		"alertbox":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "white",
-						"shadowLength": [ 2, 2 ],
+						"shadowLength": [2, 2],
 						"shadowColor": "buttonShadow",
 						"shadowBlurRadius": 15
 					},
-					"properties": {
-						"margin": [ 5, 0, 5, 0 ],
+					"properties":  {
+						"margin": [5, 0, 5, 0],
 						"textColor": "windowText",
 						"minHeight": 50,
 						"minWidth": 330,
@@ -260,105 +260,105 @@
 					}
 				}
 			},
-			"components": {
-				"dockingpane": {
-					"states": {
-						"default": {
-							"properties": {
-								"margin": [ 20, 0, 0, 20 ]
+			"components":  {
+				"dockingpane":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"margin": [20, 0, 0, 20]
 							}
 						}
 					}
 				},
-				"icon": {
-					"states": {
-						"default": {
-							"properties": {
+				"icon":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"alignY": "middle",
 								"width": 64,
 								"height": 64,
 								"textColor": "white"
 							},
-							"styles": {
-								"backgroundPosition": [ "center", "center" ]
+							"styles":  {
+								"backgroundPosition": ["center", "center"]
 							}
 						}
 					}
 				},
-				"iconPane": {
-					"states": {
-						"default": {
-							"styles": {
+				"iconPane":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"widthRight": 0
 							},
-							"properties": {
+							"properties":  {
 								"width": 60
 							}
 						},
-						"information": {
-							"styles": {
+						"information":  {
+							"styles":  {
 								"backgroundColor": "#1061CB"
 							}
 						},
-						"error": {
-							"styles": {
+						"error":  {
+							"styles":  {
 								"backgroundColor": "rgba(174,5,8,0.99)"
 							}
 						},
-						"hand": {
-							"styles": {
+						"hand":  {
+							"styles":  {
 								"backgroundColor": "rgba(174,5,8,0.99)"
 							}
 						},
-						"stop": {
-							"styles": {
+						"stop":  {
+							"styles":  {
 								"backgroundColor": "rgba(174,5,8,0.99)"
 							}
 						},
-						"warning": {
-							"styles": {
+						"warning":  {
+							"styles":  {
 								"backgroundColor": "#E6A900"
 							}
 						},
-						"question": {
-							"styles": {
+						"question":  {
+							"styles":  {
 								"backgroundColor": "rgba(0,145,69,0.98)"
 							}
 						}
 					}
 				},
-				"message": {
-					"states": {
-						"default": {
-							"properties": {
-								"padding": [ 30, 20, 30, 20 ]
+				"message":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"padding": [30, 20, 30, 20]
 							}
 						}
 					}
 				},
-				"close": {
-					"states": {
-						"default": {
-							"properties": {
+				"close":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-close",
-								"margin": [ 0, 0, 0, 0 ],
+								"margin": 0,
 								"alignY": "top",
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 22,
 										"height": 22
 									}
 								},
-								"hovered": {
-									"properties": {
+								"hovered":  {
+									"properties":  {
 										"textColor": "black"
 									}
 								}
@@ -366,45 +366,45 @@
 						}
 					}
 				},
-				"progressbar": {
-					"states": {
-						"default": {
-							"styles": {
+				"progressbar":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "#0B4897"
 							},
-							"properties": {
+							"properties":  {
 								"height": 0,
 								"marginTop": -2,
 								"zIndex": 11
 							}
 						},
-						"information": {
-							"styles": {
+						"information":  {
+							"styles":  {
 								"backgroundColor": "#0B4897"
 							}
 						},
-						"error": {
-							"styles": {
+						"error":  {
+							"styles":  {
 								"backgroundColor": "#9C0203"
 							}
 						},
-						"hand": {
-							"styles": {
+						"hand":  {
+							"styles":  {
 								"backgroundColor": "#9C0203"
 							}
 						},
-						"stop": {
-							"styles": {
+						"stop":  {
+							"styles":  {
 								"backgroundColor": "#9C0203"
 							}
 						},
-						"warning": {
-							"styles": {
+						"warning":  {
+							"styles":  {
 								"backgroundColor": "#9E7300"
 							}
 						},
-						"question": {
-							"styles": {
+						"question":  {
+							"styles":  {
 								"backgroundColor": "#006B32"
 							}
 						}
@@ -412,87 +412,87 @@
 				}
 			}
 		},
-		"button": {
-			"states": {
-				"default": {
-					"properties": {
+		"button":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"opacity": 1,
 						"center": true,
 						"textColor": "buttonText",
 						"height": 23
 					},
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+					"styles":  {
+						"width": 1,
 						"transition": "background-color 250ms",
 						"color": "rgba(0,0,0,0.2)",
 						"backgroundColor": "buttonFace"
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "buttonHighlight"
 					},
-					"properties": {
+					"properties":  {
 						"cursor": "pointer"
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5,
 						"cursor": "default"
 					}
 				},
-				"checked": {
-					"styles": {
+				"checked":  {
+					"styles":  {
 						"backgroundColor": "buttonSelected"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "buttonSelectedText"
 					}
 				},
-				"pressed": {
-					"styles": {
+				"pressed":  {
+					"styles":  {
 						"backgroundColor": "buttonPressed",
 						"transform": "translate(1px, 1px)"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "buttonText"
 					}
 				},
-				"borderNone": {
-					"styles": {
+				"borderNone":  {
+					"styles":  {
 						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 2,
 						"style": "solid"
 					}
 				}
 			},
-			"components": {
-				"arrow": {
-					"states": {
-						"default": {
-							"properties": {
+			"components":  {
+				"arrow":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"source": "menubutton-arrow",
 								"width": 14,
 								"height": 16,
@@ -501,10 +501,10 @@
 						}
 					}
 				},
-				"icon": {
-					"states": {
-						"default": {
-							"properties": {
+				"icon":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"scale": true,
 								"width": 16,
 								"height": 16
@@ -514,131 +514,131 @@
 				}
 			}
 		},
-		"button-alert": {
+		"button-alert":  {
 			"inherit": "button",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "#F0AD4E"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "white"
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "#EB961F"
 					}
 				}
 			}
 		},
-		"button-cancel": {
+		"button-cancel":  {
 			"inherit": "button",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"textColor": "windowText"
 					},
-					"styles": {
+					"styles":  {
 						"backgroundColor": "white"
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "#E6E6E6"
 					}
 				}
 			}
 		},
-		"button-error": {
+		"button-error":  {
 			"inherit": "button",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "#D9524E"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "white"
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "#C92F2B"
 					}
 				}
 			}
 		},
-		"button-info": {
+		"button-info":  {
 			"inherit": "button",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "#5AC0DE"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "white"
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "#30B0D5"
 					}
 				}
 			}
 		},
-		"button-ok": {
+		"button-ok":  {
 			"inherit": "button",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "#5BB85B"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "white"
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "#439D43"
 					}
 				}
 			}
 		},
-		"calendar": {
-			"components": {
-				"datechooser": {
+		"calendar":  {
+			"components":  {
+				"datechooser":  {
 					"inherit": "datechooser",
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 0
 							}
 						}
 					}
 				},
-				"today": {
-					"states": {
-						"default": {
-							"styles": {
+				"today":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"widthTop": 1,
 								"color": "windowFrame"
 							},
-							"properties": {
+							"properties":  {
 								"show": "both",
 								"icon": "blank",
-								"padding": [ 5, 5, 5, 5 ]
+								"padding": 5
 							}
 						}
 					},
-					"components": {
-						"icon": {
-							"states": {
-								"default": {
-									"styles": {
-										"width": [ 1, 1, 1, 1 ],
+					"components":  {
+						"icon":  {
+							"states":  {
+								"default":  {
+									"styles":  {
+										"width": 1,
 										"color": "highlight"
 									},
-									"properties": {
+									"properties":  {
 										"width": 16,
 										"height": 16,
 										"textColor": "buttonHighlight"
@@ -648,129 +648,129 @@
 						}
 					}
 				},
-				"tools": {
-					"states": {
-						"default": {
-							"styles": {
+				"tools":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame"
 							}
 						},
-						"top": {
-							"styles": {
+						"top":  {
+							"styles":  {
 								"widthBottom": 1
 							}
 						},
-						"left": {
-							"styles": {
+						"left":  {
+							"styles":  {
 								"widthRight": 1
 							}
 						},
-						"right": {
-							"styles": {
+						"right":  {
+							"styles":  {
 								"widthLeft": 1
 							}
 						},
-						"bottom": {
-							"styles": {
+						"bottom":  {
+							"styles":  {
 								"widthTop": 1
 							}
 						}
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "window",
-						"color": [ "windowFrame", "windowFrame", "windowFrame", "windowFrame" ],
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ]
+						"color": "windowFrame",
+						"width": 1,
+						"style": "solid"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "windowText"
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			}
 		},
-		"checkbox": {
+		"checkbox":  {
 			"text": "CheckBox",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"icon": "checkbox",
 						"opacity": 1
 					},
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+					"styles":  {
+						"width": 1,
 						"color": "transparent"
 					}
 				},
-				"focused": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+				"focused":  {
+					"styles":  {
+						"width": 1,
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					}
 				},
-				"checked": {
-					"properties": {
+				"checked":  {
+					"properties":  {
 						"icon": "checkbox-checked"
 					}
 				},
-				"undetermined": {
-					"properties": {
+				"undetermined":  {
+					"properties":  {
 						"icon": "checkbox-undefined"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				}
 			},
-			"components": {
-				"icon": {
+			"components":  {
+				"icon":  {
 					"inherit": ""
 				},
-				"label": {
-					"states": {
-						"default": {
-							"properties": {
+				"label":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 4
 							}
 						},
-						"rightAligned": {
-							"properties": {
+						"rightAligned":  {
+							"properties":  {
 								"marginLeft": 0
 							}
 						}
@@ -778,108 +778,108 @@
 				}
 			}
 		},
-		"combobox": {
+		"combobox":  {
 			"text": "ComboBox",
-			"components": {
-				"button": {
+			"components":  {
+				"button":  {
 					"text": "Button",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"width": 15,
 								"icon": "combo-arrow",
 								"center": true
 							}
 						},
-						"hovered": {
-							"styles": {
-								"gradientStart": [ "#E9F5FC", "0" ],
-								"gradientEnd": [ "#ABDCF7", "80" ]
+						"hovered":  {
+							"styles":  {
+								"gradientStart": ["#E9F5FC", "0"],
+								"gradientEnd": ["#ABDCF7", "80"]
 							},
-							"properties": {
+							"properties":  {
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": ""
 						}
 					}
 				},
-				"icon": {
+				"icon":  {
 					"inherit": "icon-dark",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 6
 							}
 						}
 					}
 				},
-				"labelfield": {
-					"states": {
-						"default": {
-							"properties": {
+				"labelfield":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 4
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"textfield": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+				"textfield":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 0
 							},
-							"properties": {
-								"margin": [ 0, 3, 0, 4 ],
+							"properties":  {
+								"margin": [0, 3, 0, 4],
 								"alignY": "middle"
 							}
 						},
-						"simple": {
-							"properties": {
+						"simple":  {
+							"properties":  {
 								"height": 20
 							}
 						}
 					}
 				},
-				"list": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+				"list":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 1,
 								"color": "windowFrame",
 								"backgroundColor": "white"
 							}
 						},
-						"simple": {
-							"styles": {
-								"width": [ 1, 0, 0, 0 ]
+						"simple":  {
+							"styles":  {
+								"width": [1, 0, 0, 0]
 							}
 						}
 					},
-					"components": {
-						"scrollbar-x": {
+					"components":  {
+						"scrollbar-x":  {
 							"inherit": "scrollbar"
 						},
-						"scrollbar-y": {
+						"scrollbar-y":  {
 							"text": "Scrollbar-Y",
 							"inherit": "scrollbar"
 						}
 					}
 				},
-				"popup": {
-					"states": {
-						"default": {
-							"styles": {
+				"popup":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"shadowColor": "buttonShadow",
-								"shadowLength": [ 1, 1 ],
+								"shadowLength": [1, 1],
 								"shadowBlurRadius": 15,
 								"shadowSpreadRadius": 0
 							}
@@ -887,16 +887,16 @@
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame",
-						"radius": [ 2, 2, 2, 2 ]
+						"radius": 2
 					},
-					"properties": {
-						"padding": [ 0, 0, 0, 0 ],
+					"properties":  {
+						"padding": 0,
 						"height": 20,
 						"opacity": 1,
 						"textColor": "windowText",
@@ -904,107 +904,110 @@
 						"itemHeight": 22
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+				"borderDouble":  {
+					"styles":  {
+						"width": 3,
+						"style": "double"
 					}
 				},
-				"simple": {
+				"simple":  {
 				},
-				"dropDownList": {
-					"styles": {
-						"gradientStart": [ "#F7F7F7", "0" ],
-						"gradientEnd": [ "#DADADA", "80" ]
+				"dropDownList":  {
+					"styles":  {
+						"gradientStart": ["#F7F7F7", "0"],
+						"gradientEnd": ["#DADADA", "80"]
 					}
 				},
-				"dropDownList-hovered": {
-					"styles": {
-						"gradientStart": [ "#E9F5FC", "0" ],
-						"gradientEnd": [ "#ABDCF7", "80" ]
+				"dropDownList-hovered":  {
+					"styles":  {
+						"gradientStart": ["#E9F5FC", "0"],
+						"gradientEnd": ["#ABDCF7", "80"]
 					}
 				},
-				"celleditor": {
+				"celleditor":  {
+					"styles":  {
+						"width": 0
+					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			}
 		},
-		"dataRepeater": {
+		"dataRepeater":  {
 			"inherit": "scrollarea",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"width": 1,
 						"style": "solid",
 						"color": "windowFrame"
 					}
 				},
-				"borderNone": {
-					"styles": {
+				"borderNone":  {
+					"styles":  {
 						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"cell": {
-					"states": {
-						"default": {
-							"properties": {
+			"components":  {
+				"cell":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"opacity": 1
 							}
 						},
-						"loading": {
-							"properties": {
+						"loading":  {
+							"properties":  {
 								"opacity": 0.5
 							}
 						}
@@ -1012,85 +1015,85 @@
 				}
 			}
 		},
-		"dataRepeaterItem": {
-			"states": {
-				"default": {
-					"styles": {
+		"dataRepeaterItem":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"width": 0,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"headerSize": 20,
 						"headerVisible": true,
 						"headerPosition": "left"
 					}
 				},
-				"horizontal": {
-					"styles": {
+				"horizontal":  {
+					"styles":  {
 						"widthRight": 1
 					},
-					"properties": {
+					"properties":  {
 						"headerPosition": "top"
 					}
 				},
-				"vertical": {
-					"styles": {
+				"vertical":  {
+					"styles":  {
 						"widthBottom": 1
 					},
-					"properties": {
+					"properties":  {
 						"headerPosition": "left"
 					}
 				}
 			},
-			"components": {
-				"header": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"header":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "inactiveCaption"
 							},
-							"properties": {
+							"properties":  {
 								"width": 20,
 								"height": 20,
 								"center": true,
 								"textColor": "inactiveCaptionText"
 							}
 						},
-						"horizontal": {
-							"properties": {
+						"horizontal":  {
+							"properties":  {
 								"icon": "icon-down"
 							}
 						},
-						"vertical": {
-							"properties": {
+						"vertical":  {
+							"properties":  {
 								"icon": "icon-right"
 							}
 						},
-						"selected": {
-							"styles": {
+						"selected":  {
+							"styles":  {
 								"backgroundColor": "activeCaption"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "activeCaptionText"
 							}
 						},
-						"rightToLeft-vertical": {
-							"styles": {
+						"rightToLeft-vertical":  {
+							"styles":  {
 								"transform": "rotateZ(180deg)"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"textColor": "inactiveCaptionText"
 									}
 								},
-								"selected": {
-									"properties": {
+								"selected":  {
+									"properties":  {
 										"textColor": "activeCaptionText"
 									}
 								}
@@ -1100,359 +1103,359 @@
 				}
 			}
 		},
-		"datechooser": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+		"datechooser":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"backgroundColor": "window"
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				}
 			},
 			"text": "DateChooser",
-			"components": {
-				"last-month-button": {
-					"states": {
-						"default": {
-							"properties": {
+			"components":  {
+				"last-month-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-left",
 								"cursor": "pointer",
 								"marginRight": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Last Month Button",
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"next-month-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"next-month-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-right",
 								"marginLeft": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Next Month Button",
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"last-year-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"last-year-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-first",
 								"marginRight": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Last Year Button",
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"next-year-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"next-year-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-last",
 								"marginLeft": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Next Year Button",
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"date-pane": {
-					"states": {
-						"default": {
+				"date-pane":  {
+					"states":  {
+						"default":  {
 						}
 					},
 					"text": "Date Pane"
 				},
-				"navigation-bar": {
-					"states": {
-						"default": {
-							"styles": {
+				"navigation-bar":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "activeCaption"
 							},
-							"properties": {
-								"padding": [ 5, 5, 5, 5 ]
+							"properties":  {
+								"padding": 5
 							}
 						}
 					},
 					"text": "Navigation Bar"
 				},
-				"day": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+				"day":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 1,
 								"color": "transparent"
 							},
-							"properties": {
-								"padding": [ 4, 4, 4, 4 ],
+							"properties":  {
+								"padding": 4,
 								"backgroundColor": "",
 								"textColor": "",
 								"opacity": 1,
 								"textAlign": "center"
 							}
 						},
-						"today": {
-							"styles": {
+						"today":  {
+							"styles":  {
 								"color": "highlight"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5
 							}
 						},
-						"otherMonth": {
-							"properties": {
+						"otherMonth":  {
+							"properties":  {
 								"opacity": 0.5
 							}
 						},
-						"selected": {
-							"properties": {
+						"selected":  {
+							"properties":  {
 								"backgroundColor": "highlight",
 								"textColor": "highlightText"
 							}
 						},
-						"bolded": {
-							"styles": {
+						"bolded":  {
+							"styles":  {
 								"css": "{\"font-weight\":\"900\"}"
 							}
 						}
 					},
 					"text": "Day"
 				},
-				"week": {
-					"states": {
-						"default": {
-							"styles": {
+				"week":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "controlLight"
 							},
-							"properties": {
-								"padding": [ 6, 4, 4, 4 ],
+							"properties":  {
+								"padding": [6, 4, 4, 4],
 								"marginRight": 4
 							}
 						}
 					},
 					"text": "Week"
 				},
-				"weekday": {
-					"states": {
-						"default": {
-							"styles": {
+				"weekday":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "white",
-								"width": [ 1, 1, 1, 1 ]
+								"width": 1
 							},
-							"properties": {
-								"padding": [ 4, 4, 4, 4 ],
+							"properties":  {
+								"padding": 4,
 								"textColor": null,
 								"textAlign": "center"
 							}
 						},
-						"weekend": {
-							"properties": {
+						"weekend":  {
+							"properties":  {
 								"textColor": "highlight"
 							}
 						}
 					},
 					"text": "Weekday"
 				},
-				"month-year-label": {
+				"month-year-label":  {
 					"text": "Month Year Label",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"textAlign": "center",
 								"alignY": "middle",
 								"textColor": "activeCaptionText"
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer"
 							}
 						}
 					}
 				},
-				"month-year-selector": {
-					"components": {
-						"separator": {
-							"states": {
-								"default": {
-									"properties": {
+				"month-year-selector":  {
+					"components":  {
+						"separator":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 1
 									}
 								}
 							}
 						},
-						"prev-year": {
-							"states": {
-								"default": {
-									"properties": {
+						"prev-year":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"icon": "icon-left",
 										"center": true
 									}
 								},
-								"hovered": {
-									"properties": {
+								"hovered":  {
+									"properties":  {
 										"cursor": "pointer"
 									}
 								}
 							},
-							"components": {
-								"icon": {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"next-year": {
-							"states": {
-								"default": {
-									"properties": {
+						"next-year":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"icon": "icon-right",
 										"center": true
 									}
 								},
-								"hovered": {
-									"properties": {
+								"hovered":  {
+									"properties":  {
 										"cursor": "pointer"
 									}
 								}
 							},
-							"components": {
-								"icon": {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"close": {
-							"states": {
-								"default": {
-									"properties": {
+						"close":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"icon": "icon-close",
 										"center": true
 									}
 								},
-								"hovered": {
-									"properties": {
+								"hovered":  {
+									"properties":  {
 										"cursor": "pointer"
 									}
 								}
 							},
-							"components": {
-								"icon": {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"month": {
-							"states": {
-								"default": {
-									"styles": {
-										"width": [ 1, 1, 1, 1 ]
+						"month":  {
+							"states":  {
+								"default":  {
+									"styles":  {
+										"width": 1
 									},
-									"properties": {
-										"padding": [ 4, 6, 4, 6 ],
+									"properties":  {
+										"padding": [4, 6, 4, 6],
 										"textColor": "inherit",
 										"backgroundColor": "inherit"
 									}
 								},
-								"hovered": {
-									"properties": {
+								"hovered":  {
+									"properties":  {
 										"cursor": "pointer",
 										"textColor": "windowText",
 										"backgroundColor": "hotTrack"
 									}
 								},
-								"selected": {
-									"styles": {
+								"selected":  {
+									"styles":  {
 										"color": "windowFrame"
 									},
-									"properties": {
+									"properties":  {
 										"textColor": "highlightText",
 										"backgroundColor": "highlight"
 									}
 								}
 							}
 						},
-						"year": {
-							"states": {
-								"default": {
-									"styles": {
-										"width": [ 1, 1, 1, 1 ]
+						"year":  {
+							"states":  {
+								"default":  {
+									"styles":  {
+										"width": 1
 									},
-									"properties": {
-										"padding": [ 4, 6, 4, 6 ],
+									"properties":  {
+										"padding": [4, 6, 4, 6],
 										"textColor": "inherit",
 										"backgroundColor": "inherit"
 									}
 								},
-								"hovered": {
-									"properties": {
+								"hovered":  {
+									"properties":  {
 										"cursor": "pointer",
 										"textColor": "windowText",
 										"backgroundColor": "hotTrack"
 									}
 								},
-								"selected": {
-									"styles": {
+								"selected":  {
+									"styles":  {
 										"color": "windowFrame"
 									},
-									"properties": {
+									"properties":  {
 										"textColor": "highlightText",
 										"backgroundColor": "highlight"
 									}
@@ -1460,43 +1463,43 @@
 							}
 						}
 					},
-					"states": {
-						"default": {
+					"states":  {
+						"default":  {
 						}
 					}
 				}
 			}
 		},
-		"datefield": {
-			"components": {
-				"button": {
-					"states": {
-						"default": {
-							"properties": {
+		"datefield":  {
+			"components":  {
+				"button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-calendar"
 							},
-							"styles": {
+							"styles":  {
 								"backgroundColor": "rgba(159,0,255,0)",
 								"widthLeft": 1,
 								"color": "transparent"
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"backgroundColor": "hotTrack",
 								"color": "windowFrame"
 							},
-							"properties": {
+							"properties":  {
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"scale": true
 									}
 								}
@@ -1504,37 +1507,37 @@
 						}
 					}
 				},
-				"textfield": {
-					"states": {
-						"default": {
-							"properties": {
+				"textfield":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 2
 							}
 						},
-						"focused": {
-							"properties": {
+						"focused":  {
+							"properties":  {
 								"marginLeft": 2
 							}
 						},
-						"unchecked": {
-							"properties": {
+						"unchecked":  {
+							"properties":  {
 								"opacity": 0.5,
 								"marginLeft": 2
 							}
 						},
-						"checked": {
-							"properties": {
+						"checked":  {
+							"properties":  {
 								"opacity": 1,
 								"marginLeft": 2
 							}
 						}
 					}
 				},
-				"list": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 0, 1, 1, 1 ],
+				"list":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": [0, 1, 1, 1],
 								"color": "windowFrame"
 							}
 						}
@@ -1543,21 +1546,21 @@
 					"inherit": "datechooser",
 					"components": null
 				},
-				"popup": {
-					"states": {
-						"default": {
-							"styles": {
+				"popup":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"shadowColor": "buttonShadow",
-								"shadowLength": [ 1, 1 ],
+								"shadowLength": [1, 1],
 								"shadowBlurRadius": 15
 							}
 						}
 					}
 				},
-				"checkbox": {
-					"states": {
-						"default": {
-							"properties": {
+				"checkbox":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"source": "checkbox",
 								"alignY": "middle",
 								"height": 15,
@@ -1565,147 +1568,143 @@
 								"marginLeft": 1
 							}
 						},
-						"checked": {
-							"properties": {
+						"checked":  {
+							"properties":  {
 								"source": "checkbox-checked"
 							}
 						}
 					},
 					"inherit": "icon-dark"
 				},
-				"upbutton": {
-					"states": {
-						"default": {
-							"properties": {
+				"upbutton":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"width": 16
 							},
-							"styles": {
+							"styles":  {
 								"backgroundImage": "spinner-up",
 								"backgroundSize": "16px",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"fillColor": "iconDark"
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer"
 							},
-							"styles": {
+							"styles":  {
 								"fillColor": "#5B5B5B"
 							}
 						}
 					}
 				},
-				"downbutton": {
-					"states": {
-						"default": {
-							"properties": {
+				"downbutton":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"width": 16
 							},
-							"styles": {
+							"styles":  {
 								"backgroundImage": "spinner-down",
 								"backgroundSize": "16px",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"fillColor": "iconDark"
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer"
 							},
-							"styles": {
+							"styles":  {
 								"fillColor": "#5B5B5B"
 							}
 						}
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame",
-						"radius": [ 2, 2, 2, 2 ]
+						"radius": 2
 					},
-					"properties": {
+					"properties":  {
 						"height": 20,
 						"backgroundColor": "window",
 						"opacity": 1,
 						"textColor": "windowText"
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5,
 						"cursor": "default"
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+				"borderDouble":  {
+					"styles":  {
+						"width": 3,
+						"style": "double"
 					}
 				},
-				"celleditor": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ],
-						"widthLeft": 0
-					},
-					"properties": {
-						"paddingLeft": 0
+				"celleditor":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			}
 		},
-		"desktop": {
-			"components": {
-				"taskbar": {
-					"states": {
-						"default": {
-							"styles": {
+		"desktop":  {
+			"components":  {
+				"taskbar":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "rgba(0,0,0,0.39)"
 							},
-							"properties": {
+							"properties":  {
 								"width": 58,
 								"height": 48
 							}
 						}
 					},
-					"components": {
-						"items": {
+					"components":  {
+						"items":  {
 							"text": "Items",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"scrollStep": 20
 									}
 								}
@@ -1715,58 +1714,58 @@
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"wallpaper": "wallpaper"
 					}
 				}
 			}
 		},
-		"desktop-taskbar-item": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+		"desktop-taskbar-item":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "rgba(189,191,191,0.5)"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "white"
 					}
 				},
-				"vertical": {
-					"properties": {
-						"margin": [ 0, 0, 2, 0 ],
-						"padding": [ 10, 0, 10, 0 ]
+				"vertical":  {
+					"properties":  {
+						"margin": [0, 0, 2, 0],
+						"padding": [10, 0, 10, 0]
 					}
 				},
-				"horizontal": {
-					"properties": {
-						"margin": [ 0, 2, 0, 0 ],
-						"padding": [ 0, 10, 0, 10 ]
+				"horizontal":  {
+					"properties":  {
+						"margin": [0, 2, 0, 0],
+						"padding": [0, 10, 0, 10]
 					}
 				},
-				"notification": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"notification":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"hovered": {
-					"styles": {
-						"gradientStart": [ "rgba(255,255,255,0.29)", "80" ],
-						"gradientEnd": [ "rgba(255,255,255,0.16)", "100" ]
+				"hovered":  {
+					"styles":  {
+						"gradientStart": ["rgba(255,255,255,0.29)", "80"],
+						"gradientEnd": ["rgba(255,255,255,0.16)", "100"]
 					},
-					"properties": {
+					"properties":  {
 						"cursor": "pointer"
 					}
 				}
 			},
-			"components": {
-				"icon": {
+			"components":  {
+				"icon":  {
 					"inherit": "icon-light",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"width": 36,
 								"height": 36,
 								"scale": true
@@ -1776,110 +1775,110 @@
 				}
 			}
 		},
-		"desktop-taskbar-preview": {
-			"components": {
-				"title": {
-					"states": {
-						"default": {
-							"properties": {
-								"margin": [ 8, 5, 2, 8 ],
+		"desktop-taskbar-preview":  {
+			"components":  {
+				"title":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"margin": [8, 5, 2, 8],
 								"textColor": "windowText"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"close": {
-					"states": {
-						"default": {
-							"properties": {
+				"close":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "window-close",
-								"margin": [ 8, 8, 0, 8 ],
+								"margin": [8, 8, 0, 8],
 								"opacity": 0.7,
 								"cursor": "pointer"
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"preview": {
-					"states": {
-						"default": {
-							"properties": {
-								"margin": [ 8, 8, 8, 8 ]
+				"preview":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"margin": 8
 							}
 						}
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 12, 12, 12, 12 ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 12,
 						"color": "rgba(55,146,211,0.8)",
 						"backgroundColor": "rgba(151,204,254,0.8)",
 						"transition": "all 200ms"
 					},
-					"properties": {
+					"properties":  {
 						"minWidth": 160,
 						"minHeight": 120,
 						"width": 240,
 						"height": 200
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"color": "activeCaption",
 						"backgroundColor": "hotTrack"
 					}
 				}
 			}
 		},
-		"dragdrop-cursor": {
+		"dragdrop-cursor":  {
 			"text": "Drag & Drop Cursor",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"source": "cursor-nodrop",
 						"position": "right-top",
-						"offset": [ 16, 0, 0, 14 ]
+						"offset": [16, 0, 0, 14]
 					}
 				},
-				"copy": {
-					"properties": {
+				"copy":  {
+					"properties":  {
 						"source": "cursor-copy"
 					}
 				},
-				"move": {
-					"properties": {
+				"move":  {
+					"properties":  {
 						"source": "cursor-move"
 					}
 				},
-				"alias": {
-					"properties": {
+				"alias":  {
+					"properties":  {
 						"source": "cursor-link"
 					}
 				}
 			}
 		},
-		"errorprovider": {
+		"errorprovider":  {
 			"text": "ErrorProvider",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"width": 24,
 						"height": 24,
 						"textColor": "invalid"
@@ -1887,45 +1886,45 @@
 				}
 			}
 		},
-		"groupbox": {
+		"groupbox":  {
 			"text": "GroupBox",
-			"components": {
-				"legend": {
-					"states": {
-						"default": {
+			"components":  {
+				"legend":  {
+					"states":  {
+						"default":  {
 							"properties": {
 								"icon": "checkbox",
 								"margin": [ 0, 0, 0, 10 ],
 								"padding": [ 0, 5, 0, 5 ]
 							}
 						},
-						"checked": {
-							"properties": {
+						"checked":  {
+							"properties":  {
 								"icon": "checkbox-checked"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": ""
 						}
 					}
 				},
-				"frame": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+				"frame":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 1,
 								"color": "windowFrame",
-								"radius": [ 2, 2, 2, 2 ]
+								"radius": 2
 							}
 						}
 					}
 				},
-				"close-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"close-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-down",
 								"cursor": "pointer",
 								"alignX": "center",
@@ -1933,21 +1932,21 @@
 								"backgroundColor": "window",
 								"center": true,
 								"height": 25,
-								"margin": [ -4, 10, 0, 0 ]
+								"margin": [-4, 10, 0, 0]
 							}
 						},
-						"collapsed": {
-							"properties": {
+						"collapsed":  {
+							"properties":  {
 								"icon": "icon-up"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"height": 24
 									}
 								}
@@ -1956,23 +1955,26 @@
 					}
 				}
 			},
-			"states": {
+			"states":  {
 				"default": {
+					"properties": {
+						"labelBackgroundColor": "window"
+					}
 				}
 			}
 		},
-		"helptip": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+		"helptip":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "controlLight"
 					},
-					"properties": {
+					"properties":  {
 						"placeMethod": "widget",
 						"maxWidth": 350,
-						"padding": [ 15, 15, 15, 15 ],
+						"padding": 15,
 						"minWidth": 80,
 						"minHeight": 40,
 						"position": "right-middle",
@@ -1983,12 +1985,12 @@
 					}
 				}
 			},
-			"components": {
-				"icon": {
+			"components":  {
+				"icon":  {
 					"inherit": "icon-dark",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"width": 24,
 								"height": 24
 							}
@@ -1997,36 +1999,36 @@
 				}
 			}
 		},
-		"icon-dark": {
-			"states": {
-				"default": {
-					"properties": {
+		"icon-dark":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"width": 16,
 						"height": 16,
 						"textColor": "iconDark"
 					}
 				},
-				"hovered": {
-					"properties": {
+				"hovered":  {
+					"properties":  {
 						"textColor": "#5B5B5B"
 					}
 				},
-				"selected": {
-					"properties": {
+				"selected":  {
+					"properties":  {
 						"textColor": "highlightText"
 					}
 				},
-				"pressed": {
-					"properties": {
+				"pressed":  {
+					"properties":  {
 						"textColor": "inherit"
 					}
 				}
 			}
 		},
-		"icon-light": {
-			"states": {
-				"default": {
-					"properties": {
+		"icon-light":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"width": 16,
 						"height": 16,
 						"textColor": "iconLight"
@@ -2034,105 +2036,105 @@
 				}
 			}
 		},
-		"label-editor": {
+		"label-editor":  {
 			"text": "Label Editor",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"width": 1,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"backgroundColor": "window",
 						"textColor": "windowText"
 					}
 				}
 			}
 		},
-		"label-wrapper": {
-			"states": {
-				"default": {
-					"properties": {
+		"label-wrapper":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"opacity": 1
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				}
 			},
-			"components": {
-				"label": {
-					"states": {
-						"default": {
-							"properties": {
+			"components":  {
+				"label":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 0,
-								"padding": [ 0, 5, 0, 0 ]
+								"padding": [0, 5, 0, 0]
 							}
 						},
-						"inside": {
-							"styles": {
+						"inside":  {
+							"styles":  {
 								"transformOrigin": "top left",
 								"transition": "transform .4s"
 							},
-							"properties": {
+							"properties":  {
 								"textAlign": "middleLeft",
-								"padding": [ 0, 0, 0, 6 ]
+								"padding": [0, 0, 0, 6]
 							}
 						},
-						"inside-multiline": {
-							"properties": {
+						"inside-multiline":  {
+							"properties":  {
 								"textAlign": "topLeft",
-								"padding": [ 2, 0, 0, 6 ]
+								"padding": [2, 0, 0, 6]
 							}
 						},
-						"inside-focused": {
-							"styles": {
+						"inside-focused":  {
+							"styles":  {
 								"transform": "scale(0.75)"
 							},
-							"properties": {
+							"properties":  {
 								"textAlign": "topLeft",
-								"padding": [ 2, 0, 0, 6 ]
+								"padding": [2, 0, 0, 6]
 							}
 						},
-						"inside-full": {
-							"styles": {
+						"inside-full":  {
+							"styles":  {
 								"transform": "scale(0.75)"
 							},
-							"properties": {
+							"properties":  {
 								"textAlign": "topLeft",
-								"padding": [ 2, 0, 0, 6 ]
+								"padding": [2, 0, 0, 6]
 							}
 						},
-						"top": {
-							"properties": {
-								"padding": [ 0, 0, 5, 0 ]
+						"top":  {
+							"properties":  {
+								"padding": [0, 0, 5, 0]
 							}
 						},
-						"bottom": {
-							"properties": {
-								"padding": [ 5, 0, 0, 0 ]
+						"bottom":  {
+							"properties":  {
+								"padding": [5, 0, 0, 0]
 							}
 						},
-						"left": {
-							"properties": {
-								"padding": [ 0, 5, 0, 0 ]
+						"left":  {
+							"properties":  {
+								"padding": [0, 5, 0, 0]
 							}
 						},
-						"right": {
-							"properties": {
-								"padding": [ 0, 0, 0, 5 ]
+						"right":  {
+							"properties":  {
+								"padding": [0, 0, 0, 5]
 							}
 						}
 					}
 				}
 			}
 		},
-		"line": {
-			"states": {
-				"default": {
-					"properties": {
+		"line":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"lineSize": 1,
 						"lineColor": "windowFrame",
 						"lineStyle": "solid"
@@ -2140,88 +2142,79 @@
 				}
 			}
 		},
-		"shape": {
-			"states": {
-				"default": {
-					"properties": {
-						"borderSize": 1,
-						"borderColor": "windowFrame",
-						"borderStyle": "solid",
-						"backgroundColor": "transparent"
-					}
-				}
-			}
+		"linklabel":  {
+			"inherit": "textlabel"
 		},
-		"list": {
+		"list":  {
 			"text": "ListBox",
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame",
-						"radius": [ 2, 2, 2, 2 ]
+						"radius": 2
 					},
-					"properties": {
+					"properties":  {
 						"opacity": 1,
 						"backgroundColor": "window",
 						"textColor": "windowText",
 						"itemHeight": 22
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+				"borderDouble":  {
+					"styles":  {
+						"width": 3,
+						"style": "double"
 					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				}
 			},
-			"components": {
-				"scrollbar-x": {
+			"components":  {
+				"scrollbar-x":  {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-y": {
+				"scrollbar-y":  {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				},
-				"tools": {
-					"states": {
-						"default": {
-							"styles": {
+				"tools":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame",
 								"widthBottom": 1
 							}
@@ -2230,71 +2223,66 @@
 				}
 			}
 		},
-		"listitem": {
+		"listitem":  {
 			"text": "List Item",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"width": 1,
 						"color": "transparent"
 					},
-					"properties": {
+					"properties":  {
 						"opacity": 1,
-						"padding": [ 1, 2, 1, 6 ],
+						"padding": [1, 2, 1, 6],
 						"textColor": "inherit",
 						"backgroundColor": "inherit"
 					}
 				},
-				"hovered": {
-					"properties": {
+				"hovered":  {
+					"properties":  {
 						"cursor": "pointer",
 						"textColor": "windowText",
 						"backgroundColor": "hotTrack"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
+						"opacity": 0.5,
 						"cursor": "default"
 					}
 				},
-				"lead": {
-					"styles": {
+				"lead":  {
+					"styles":  {
 						"style": "dotted",
 						"color": "windowFrame"
 					}
 				},
-				"selected": {
-					"properties": {
+				"selected":  {
+					"properties":  {
 						"backgroundColor": "highlight",
 						"textColor": "highlightText"
 					}
-				},
-				"disabled": {
-					"properties": {
-						"opacity": 0.5,
-						"cursor": "default"
-					}
 				}
 			},
-			"components": {
-				"checkbox": {
+			"components":  {
+				"checkbox":  {
 					"inherit": "checkbox",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"width": 0
 							},
-							"properties": {
+							"properties":  {
 								"marginRight": 2
 							}
 						}
 					}
 				},
-				"icon": {
+				"icon":  {
 					"inherit": "icon-dark",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginRight": 2
 							}
 						}
@@ -2302,276 +2290,276 @@
 				}
 			}
 		},
-		"listview": {
-			"states": {
-				"default": {
-					"styles": {
+		"listview":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "window",
-						"color": [ "windowFrame", "windowFrame", "windowFrame", "windowFrame" ],
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ]
+						"color": "windowFrame",
+						"width": 1,
+						"style": "solid"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "windowText",
 						"iconColor": "iconDark",
 						"opacity": 1,
-						"stateIconSize": {
+						"stateIconSize":  {
 							"width": 20,
 							"height": 20
 						}
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
 						"style": "double"
 					}
 				},
-				"tile": {
-					"properties": {
-						"itemSize": {
+				"tile":  {
+					"properties":  {
+						"itemSize":  {
 							"width": 128,
 							"height": 64
 						},
-						"iconSize": {
+						"iconSize":  {
 							"width": 48,
 							"height": 48
 						}
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"smallIcon": {
-					"properties": {
-						"itemSize": {
+				"smallIcon":  {
+					"properties":  {
+						"itemSize":  {
 							"width": 128,
 							"height": 48
 						},
-						"iconSize": {
+						"iconSize":  {
 							"width": 20,
 							"height": 20
 						}
 					}
 				},
-				"largeIcon": {
-					"properties": {
-						"itemSize": {
+				"largeIcon":  {
+					"properties":  {
+						"itemSize":  {
 							"width": 64,
 							"height": 60
 						},
-						"iconSize": {
+						"iconSize":  {
 							"width": 32,
 							"height": 32
 						}
 					}
 				}
 			},
-			"components": {
-				"item-view": {
+			"components":  {
+				"item-view":  {
 					"inherit": "scrollarea"
 				},
-				"grid-view": {
+				"grid-view":  {
 					"inherit": "table"
 				},
-				"grid-row": {
-					"states": {
-						"default": {
-							"styles": {
+				"grid-row":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"style": "solid",
 								"colorBottom": "table-row-line",
 								"backgroundColor": "table-row-background"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "table-row"
 							}
 						},
-						"selected": {
-							"styles": {
+						"selected":  {
+							"styles":  {
 								"backgroundColor": "table-row-background-selected"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "table-row-selected"
 							}
 						},
-						"borderNone": {
-							"styles": {
+						"borderNone":  {
+							"styles":  {
 								"widthBottom": 0
 							}
 						},
-						"borderDouble": {
-							"styles": {
+						"borderDouble":  {
+							"styles":  {
 								"widthBottom": 3,
-								"style": [ "double", "double", "double", "double" ]
+								"style": "double"
 							}
 						},
-						"borderDoubleHorizontal": {
-							"styles": {
+						"borderDoubleHorizontal":  {
+							"styles":  {
 								"widthBottom": 3,
-								"style": [ "double", "double", "double", "double" ]
+								"style": "double"
 							}
 						},
-						"borderSingleVertical": {
-							"styles": {
+						"borderSingleVertical":  {
+							"styles":  {
 								"widthBottom": 0
 							}
 						},
-						"borderDoubleVertical": {
-							"styles": {
+						"borderDoubleVertical":  {
+							"styles":  {
 								"widthBottom": 0
 							}
 						}
 					}
 				},
-				"grid-cell": {
-					"states": {
-						"default": {
-							"styles": {
+				"grid-cell":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"widthRight": 1,
 								"colorRight": "table-column-line"
 							}
 						},
-						"borderNone": {
-							"styles": {
+						"borderNone":  {
+							"styles":  {
 								"widthRight": 0
 							}
 						},
-						"borderBoth": {
-							"styles": {
+						"borderBoth":  {
+							"styles":  {
 								"widthRight": 1
 							}
 						},
-						"borderVertical": {
-							"styles": {
+						"borderVertical":  {
+							"styles":  {
 								"widthRight": 1
 							}
 						},
-						"borderHorizontal": {
-							"styles": {
+						"borderHorizontal":  {
+							"styles":  {
 								"widthRight": 0
 							}
 						}
 					},
-					"components": {
-						"icon": {
-							"states": {
-								"default": {
-									"styles": {
-										"backgroundPosition": [ "center", "center" ],
+					"components":  {
+						"icon":  {
+							"states":  {
+								"default":  {
+									"styles":  {
+										"backgroundPosition": ["center", "center"],
 										"backgroundSize": "16px"
 									},
-									"properties": {
+									"properties":  {
 										"width": 16,
-										"margin": [ 0, 2, 0, 2 ]
+										"margin": [0, 2, 0, 2]
 									}
 								}
 							}
 						},
-						"stateIcon": {
-							"states": {
-								"default": {
-									"styles": {
-										"backgroundPosition": [ "center", "center" ],
+						"stateIcon":  {
+							"states":  {
+								"default":  {
+									"styles":  {
+										"backgroundPosition": ["center", "center"],
 										"backgroundSize": "16px"
 									},
-									"properties": {
+									"properties":  {
 										"width": 16,
-										"margin": [ 0, 2, 0, 2 ]
+										"margin": [0, 2, 0, 2]
 									}
 								}
 							}
 						},
-						"checkbox": {
-							"states": {
-								"default": {
-									"styles": {
+						"checkbox":  {
+							"states":  {
+								"default":  {
+									"styles":  {
 										"backgroundImage": "checkbox",
-										"backgroundPosition": [ "center", "center" ],
+										"backgroundPosition": ["center", "center"],
 										"backgroundSize": "16px",
 										"fillColor": "iconDark"
 									},
-									"properties": {
+									"properties":  {
 										"width": 16,
-										"margin": [ 0, 2, 0, 2 ]
+										"margin": [0, 2, 0, 2]
 									}
 								},
-								"checked": {
-									"styles": {
+								"checked":  {
+									"styles":  {
 										"backgroundImage": "checkbox-checked"
 									}
 								}
 							}
 						},
-						"content": {
-							"states": {
-								"default": {
+						"content":  {
+							"states":  {
+								"default":  {
 								}
 							}
 						}
 					}
 				},
-				"item": {
-					"states": {
-						"default": {
-							"styles": {
+				"item":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "transparent",
 								"backgroundColor": "",
 								"width": 1
 							}
 						},
-						"selected": {
-							"styles": {
+						"selected":  {
+							"styles":  {
 								"color": "windowFrame",
 								"backgroundColor": "hotTrack"
 							}
 						},
-						"focused": {
-							"styles": {
+						"focused":  {
+							"styles":  {
 								"color": "focusFrame"
 							}
 						}
 					},
-					"components": {
-						"icon": {
-							"states": {
-								"default": {
-									"properties": {
+					"components":  {
+						"icon":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"scale": true,
 										"marginRight": 5
 									}
 								}
 							}
 						},
-						"label": {
-							"states": {
-								"default": {
-									"properties": {
+						"label":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"textAlign": "left"
 									}
 								},
-								"selected": {
+								"selected":  {
 								},
-								"largeIcon": {
-									"properties": {
+								"largeIcon":  {
+									"properties":  {
 										"textAlign": "center"
 									}
 								}
@@ -2579,30 +2567,30 @@
 						}
 					}
 				},
-				"tools": {
-					"states": {
-						"default": {
-							"styles": {
+				"tools":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame"
 							}
 						},
-						"top": {
-							"styles": {
+						"top":  {
+							"styles":  {
 								"widthBottom": 0
 							}
 						},
-						"left": {
-							"styles": {
+						"left":  {
+							"styles":  {
 								"widthRight": 1
 							}
 						},
-						"right": {
-							"styles": {
+						"right":  {
+							"styles":  {
 								"widthLeft": 1
 							}
 						},
-						"bottom": {
-							"styles": {
+						"bottom":  {
+							"styles":  {
 								"widthTop": 1
 							}
 						}
@@ -2610,119 +2598,119 @@
 				}
 			}
 		},
-		"mainmenu": {
+		"mainmenu":  {
 			"inherit": "menubar",
 			"text": "MainMenu",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"color": "windowFrame",
-						"width": [ 1, 1, 0, 1 ]
+						"width": [1, 1, 0, 1]
 					},
-					"properties": {
+					"properties":  {
 						"font": "menu"
 					}
 				}
 			}
 		},
-		"menu": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+		"menu":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "menu",
 						"shadowColor": "buttonShadow",
-						"shadowLength": [ 1, 1 ],
+						"shadowLength": [1, 1],
 						"shadowBlurRadius": 15
 					},
-					"properties": {
-						"padding": [ 5, 5, 5, 5 ],
+					"properties":  {
+						"padding": 5,
 						"iconColumnWidth": 16,
 						"font": "menu"
 					}
 				},
-				"submenu": {
-					"properties": {
+				"submenu":  {
+					"properties":  {
 						"position": "right-top"
 					}
 				}
 			},
-			"components": {
-				"item": {
-					"states": {
-						"default": {
-							"properties": {
-								"padding": [ 3, 10, 3, 6 ],
+			"components":  {
+				"item":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"padding": [3, 10, 3, 6],
 								"textColor": "menuText",
 								"opacity": 1,
 								"icon": null
 							},
-							"styles": {
+							"styles":  {
 								"backgroundColor": "transparent"
 							}
 						},
-						"selected": {
-							"styles": {
+						"selected":  {
+							"styles":  {
 								"backgroundColor": "menuSelected"
 							},
-							"properties": {
+							"properties":  {
 								"cursor": "pointer",
 								"textColor": "menuSelectedText"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5
 							}
 						},
-						"unchecked": {
-							"properties": {
+						"unchecked":  {
+							"properties":  {
 								"icon": "checkbox"
 							}
 						},
-						"checked": {
-							"properties": {
+						"checked":  {
+							"properties":  {
 								"icon": "checkbox-checked"
 							}
 						},
-						"radio-checked": {
-							"properties": {
+						"radio-checked":  {
+							"properties":  {
 								"icon": "radiobutton-checked"
 							}
 						}
 					},
-					"components": {
-						"icon": {
-							"states": {
-								"default": {
-									"properties": {
+					"components":  {
+						"icon":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"marginRight": 8,
 										"scale": true
 									}
 								},
-								"selected": {
-									"properties": {
+								"selected":  {
+									"properties":  {
 										"textColor": "menuSelectedText"
 									}
 								}
 							},
 							"inherit": "icon-dark"
 						},
-						"shortcut": {
-							"states": {
-								"default": {
-									"properties": {
+						"shortcut":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"paddingLeft": 20,
 										"paddingRight": 5
 									}
 								}
 							}
 						},
-						"arrow": {
-							"states": {
-								"default": {
-									"properties": {
+						"arrow":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"source": "menu-parent"
 									}
 								}
@@ -2731,109 +2719,109 @@
 						}
 					}
 				},
-				"separator": {
-					"states": {
-						"default": {
-							"styles": {
+				"separator":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "windowFrame"
 							},
-							"properties": {
+							"properties":  {
 								"width": 1,
 								"height": 1,
-								"margin": [ 6, 2, 6, 2 ]
+								"margin": [6, 2, 6, 2]
 							}
 						}
 					}
 				}
 			}
 		},
-		"menubar": {
+		"menubar":  {
 			"text": "MenuBar",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"widthBottom": 0,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"height": 22,
 						"backgroundColor": "menuBar",
 						"textColor": "menuText",
 						"font": "menu"
 					}
 				},
-				"borderSolid": {
-					"styles": {
+				"borderSolid":  {
+					"styles":  {
 						"widthBottom": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"widthBottom": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"widthBottom": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"widthBottom": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"item": {
-					"states": {
-						"default": {
-							"properties": {
-								"padding": [ 0, 12, 0, 12 ],
+			"components":  {
+				"item":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"padding": [0, 12, 0, 12],
 								"textColor": "",
 								"opacity": 1
 							},
-							"styles": {
+							"styles":  {
 								"backgroundColor": null
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"backgroundColor": "menuHighlight"
 							},
-							"properties": {
+							"properties":  {
 								"cursor": "pointer",
 								"textColor": "menuHighlightText"
 							}
 						},
-						"pressed": {
-							"styles": {
+						"pressed":  {
+							"styles":  {
 								"backgroundColor": "menuSelected"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "menuSelectedText"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"scale": true
 									}
 								},
-								"pressed": {
-									"properties": {
+								"pressed":  {
+									"properties":  {
 										"textColor": "menuSelectedText"
 									}
 								}
@@ -2841,255 +2829,255 @@
 						}
 					}
 				},
-				"overflow": {
+				"overflow":  {
 					"inherit": "menubar/item",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "menu-overflow",
 								"maxWidth": 32,
 								"width": 32,
 								"center": true,
-								"padding": [ 0, 0, 0, 0 ]
+								"padding": 0
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				}
 			}
 		},
-		"menubutton": {
+		"menubutton":  {
 			"text": "Menu Button",
 			"inherit": "button",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"show": "both"
 					}
 				},
-				"pressed": {
-					"styles": {
+				"pressed":  {
+					"styles":  {
 						"transform": null
 					}
 				}
 			}
 		},
-		"messagebox": {
+		"messagebox":  {
 			"text": "MessageBox",
 			"inherit": "window",
-			"components": {
-				"image": {
-					"states": {
-						"default": {
-							"properties": {
-								"margin": [ 10, 0, 0, 10 ],
+			"components":  {
+				"image":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"margin": [10, 0, 0, 10],
 								"width": 64,
 								"height": 64
 							},
-							"styles": {
-								"backgroundPosition": [ "center", "center" ],
+							"styles":  {
+								"backgroundPosition": ["center", "center"],
 								"backgroundRepeat": "no-repeat"
 							}
 						},
-						"information": {
-							"properties": {
+						"information":  {
+							"properties":  {
 								"textColor": "#1061CB"
 							}
 						},
-						"error": {
-							"properties": {
+						"error":  {
+							"properties":  {
 								"textColor": "#AC0C16"
 							}
 						},
-						"hand": {
-							"properties": {
+						"hand":  {
+							"properties":  {
 								"textColor": "#AC0C16"
 							}
 						},
-						"stop": {
-							"properties": {
+						"stop":  {
+							"properties":  {
 								"textColor": "#AC0C16"
 							}
 						},
-						"warning": {
-							"properties": {
+						"warning":  {
+							"properties":  {
 								"textColor": "#E09E01"
 							}
 						},
-						"question": {
-							"properties": {
+						"question":  {
+							"properties":  {
 								"textColor": "#0B934F"
 							}
 						}
 					}
 				},
-				"message": {
+				"message":  {
 					"text": "Message",
-					"states": {
-						"default": {
-							"properties": {
-								"margin": [ 25, 40, 20, 10 ]
+					"states":  {
+						"default":  {
+							"properties":  {
+								"margin": [25, 40, 20, 10]
 							}
 						}
 					}
 				},
-				"buttonsPane": {
-					"states": {
-						"default": {
-							"properties": {
+				"buttonsPane":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"backgroundColor": "window",
-								"padding": [ 10, 20, 10, 20 ]
+								"padding": [10, 20, 10, 20]
 							}
 						}
 					},
-					"components": {
-						"button": {
+					"components":  {
+						"button":  {
 							"inherit": "button",
-							"states": {
-								"default": {
-									"properties": {
-										"padding": [ 5, 8, 5, 8 ]
+							"states":  {
+								"default":  {
+									"properties":  {
+										"padding": [5, 8, 5, 8]
 									}
 								}
 							}
 						}
 					}
 				},
-				"close-button": {
+				"close-button":  {
 					"inherit": "window/close-button",
-					"states": {
-						"default": {
+					"states":  {
+						"default":  {
 						}
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"maxWidth": 450
 					}
 				}
 			}
 		},
-		"page": {
-			"states": {
-				"default": {
-					"properties": {
+		"page":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"backgroundColor": "window",
 						"textColor": "controlText"
 					}
 				}
 			},
-			"components": {
-				"pane": {
+			"components":  {
+				"pane":  {
 					"inherit": "scrollarea"
 				}
 			}
 		},
-		"panel": {
-			"states": {
-				"default": {
-					"styles": {
+		"panel":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"width": 1,
 						"style": "solid",
 						"color": "windowFrame"
 					}
 				},
-				"borderNone": {
-					"styles": {
+				"borderNone":  {
+					"styles":  {
 						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"pane": {
+			"components":  {
+				"pane":  {
 					"inherit": "scrollarea"
 				},
-				"captionbar": {
+				"captionbar":  {
 					"text": "CaptionBar",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "highlight"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "highlightText"
 							}
 						},
-						"horizontal": {
-							"properties": {
+						"horizontal":  {
+							"properties":  {
 								"height": 28
 							}
 						},
-						"vertical": {
-							"properties": {
+						"vertical":  {
+							"properties":  {
 								"width": 28,
 								"maxHeight": null
 							}
 						}
 					}
 				},
-				"close-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"close-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-down",
 								"cursor": "pointer",
 								"opacity": 0.5,
 								"alignX": "center",
 								"alignY": "middle",
-								"margin": [ 0, 10, 0, 10 ],
+								"margin": [0, 10, 0, 10],
 								"width": 24,
 								"height": 24
 							}
 						},
-						"vertical": {
-							"properties": {
-								"margin": [ 10, 0, 10, 0 ]
+						"vertical":  {
+							"properties":  {
+								"margin": [10, 0, 10, 0]
 							}
 						},
-						"collapsed": {
-							"properties": {
+						"collapsed":  {
+							"properties":  {
 								"icon": "icon-up"
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-light",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 24,
 										"height": 24
 									}
@@ -3098,132 +3086,132 @@
 						}
 					}
 				},
-				"title": {
-					"states": {
-						"default": {
+				"title":  {
+					"states":  {
+						"default":  {
 						},
-						"horizontal": {
-							"properties": {
-								"margin": [ 0, 10, 0, 10 ]
+						"horizontal":  {
+							"properties":  {
+								"margin": [0, 10, 0, 10]
 							}
 						},
-						"vertical": {
-							"properties": {
-								"margin": [ 10, 0, 10, 0 ]
+						"vertical":  {
+							"properties":  {
+								"margin": [10, 0, 10, 0]
 							}
 						}
 					}
 				},
-				"icon": {
-					"states": {
-						"default": {
-							"properties": {
+				"icon":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"scale": true,
 								"width": 18,
 								"height": 18
 							}
 						},
-						"vertical": {
-							"properties": {
-								"margin": [ 0, 0, 5, 0 ]
+						"vertical":  {
+							"properties":  {
+								"margin": [0, 0, 5, 0]
 							}
 						},
-						"horizontal": {
-							"properties": {
-								"margin": [ 0, 0, 0, 5 ]
+						"horizontal":  {
+							"properties":  {
+								"margin": [0, 0, 0, 5]
 							}
 						}
 					}
 				}
 			}
 		},
-		"picturebox": {
-			"states": {
-				"default": {
-					"styles": {
+		"picturebox":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"width": 0,
 						"color": "windowFrame"
 					}
 				},
-				"borderSolid": {
-					"styles": {
+				"borderSolid":  {
+					"styles":  {
 						"width": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			}
 		},
-		"progressbar": {
+		"progressbar":  {
 			"text": "ProgressBar",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "window",
 						"width": 0,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"height": 24,
 						"textColor": "windowText"
 					}
 				},
-				"borderSolid": {
-					"styles": {
+				"borderSolid":  {
+					"styles":  {
 						"width": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"progress": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"progress":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "hotTrack"
 							}
 						}
 					}
 				},
-				"label": {
-					"states": {
-						"default": {
-							"properties": {
+				"label":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"textAlign": "center"
 							}
 						}
@@ -3231,73 +3219,73 @@
 				}
 			}
 		},
-		"propertygrid": {
+		"propertygrid":  {
 			"text": "PropertyGrid",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"width": 1,
 						"style": "solid",
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"indent": 20,
 						"rowHeight": 24,
 						"headerWidth": 24
 					}
 				},
-				"borderNone": {
-					"styles": {
+				"borderNone":  {
+					"styles":  {
 						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"grid": {
+			"components":  {
+				"grid":  {
 					"inherit": "table",
-					"components": {
-						"tools": {
-							"states": {
-								"default": {
-									"styles": {
+					"components":  {
+						"tools":  {
+							"states":  {
+								"default":  {
+									"styles":  {
 										"color": "windowFrame"
 									}
 								},
-								"top": {
-									"styles": {
+								"top":  {
+									"styles":  {
 										"widthBottom": 1
 									}
 								},
-								"left": {
-									"styles": {
+								"left":  {
+									"styles":  {
 										"widthRight": 1
 									}
 								},
-								"right": {
-									"styles": {
+								"right":  {
+									"styles":  {
 										"widthLeft": 1
 									}
 								},
-								"bottom": {
-									"styles": {
+								"bottom":  {
+									"styles":  {
 										"widthTop": 1
 									}
 								}
@@ -3305,62 +3293,62 @@
 						}
 					}
 				},
-				"grid-row": {
-					"states": {
-						"default": {
-							"styles": {
+				"grid-row":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"widthBottom": 1,
 								"colorBottom": "table-row-line",
 								"backgroundColor": "table-row-background"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "table-row"
 							}
 						},
-						"selected": {
-							"styles": {
+						"selected":  {
+							"styles":  {
 								"backgroundColor": "table-row-background-selected"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "table-row-selected"
 							}
 						}
 					}
 				},
-				"grid-cell": {
-					"states": {
-						"default": {
-							"styles": {
+				"grid-cell":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"widthRight": 1,
 								"colorRight": "table-column-line"
 							},
-							"properties": {
+							"properties":  {
 								"paddingLeft": 5
 							}
 						}
 					},
-					"components": {
-						"open": {
-							"states": {
-								"default": {
-									"styles": {
+					"components":  {
+						"open":  {
+							"states":  {
+								"default":  {
+									"styles":  {
 										"backgroundSize": "16px",
 										"backgroundOrigin": "content-box",
-										"backgroundPosition": [ "center", "right" ],
+										"backgroundPosition": ["center", "right"],
 										"fillColor": "windowText"
 									},
-									"properties": {
+									"properties":  {
 										"width": 20,
 										"paddingRight": 2
 									}
 								},
-								"expanded": {
-									"styles": {
+								"expanded":  {
+									"styles":  {
 										"backgroundImage": "icon-down"
 									}
 								},
-								"collapsed": {
-									"styles": {
+								"collapsed":  {
+									"styles":  {
 										"backgroundImage": "icon-right"
 									}
 								}
@@ -3368,49 +3356,49 @@
 						}
 					}
 				},
-				"grid-category-cell": {
-					"states": {
-						"default": {
-							"styles": {
+				"grid-category-cell":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "buttonFace"
 							},
-							"properties": {
+							"properties":  {
 								"paddingLeft": 5,
 								"textColor": "buttonText"
 							}
 						}
 					}
 				},
-				"grid-header": {
-					"states": {
-						"default": {
-							"styles": {
+				"grid-header":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "buttonFace"
 							}
 						}
 					},
-					"components": {
-						"open": {
-							"states": {
-								"default": {
-									"styles": {
+					"components":  {
+						"open":  {
+							"states":  {
+								"default":  {
+									"styles":  {
 										"backgroundSize": "16px",
 										"backgroundOrigin": "content-box",
-										"backgroundPosition": [ "center", "right" ],
+										"backgroundPosition": ["center", "right"],
 										"fillColor": "buttonText"
 									},
-									"properties": {
+									"properties":  {
 										"width": 20,
 										"paddingRight": 2
 									}
 								},
-								"expanded": {
-									"styles": {
+								"expanded":  {
+									"styles":  {
 										"backgroundImage": "icon-down"
 									}
 								},
-								"collapsed": {
-									"styles": {
+								"collapsed":  {
+									"styles":  {
 										"backgroundImage": "icon-right"
 									}
 								}
@@ -3418,11 +3406,11 @@
 						}
 					}
 				},
-				"help": {
+				"help":  {
 					"inherit": "panel",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"padding": 4
 							}
 						}
@@ -3430,205 +3418,205 @@
 				}
 			}
 		},
-		"radiobutton": {
-			"components": {
-				"icon": {
+		"radiobutton":  {
+			"components":  {
+				"icon":  {
 					"inherit": ""
 				},
-				"label": {
-					"states": {
-						"default": {
-							"properties": {
+				"label":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 4
 							}
 						},
-						"rightAligned": {
-							"properties": {
+						"rightAligned":  {
+							"properties":  {
 								"marginLeft": 0
 							}
 						}
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "transparent"
 					},
-					"properties": {
+					"properties":  {
 						"icon": "radiobutton",
 						"opacity": 1
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					}
 				},
-				"checked": {
-					"properties": {
+				"checked":  {
+					"properties":  {
 						"icon": "radiobutton-checked"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				}
 			}
 		},
-		"resize-frame": {
+		"resize-frame":  {
 			"text": "Control Resize Frame",
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 2, 2, 2, 2 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 2,
+						"style": "dashed",
 						"color": "windowFrame"
 					}
 				}
 			}
 		},
-		"resizer": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 5, 5, 5, 5 ],
+		"resizer":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 5,
 						"color": "windowFrame"
 					}
 				}
 			}
 		},
-		"root": {
-			"states": {
-				"default": {
-					"properties": {
+		"root":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"font": "default",
 						"textColor": "windowText"
 					}
 				}
 			}
 		},
-		"scrollarea": {
+		"scrollarea":  {
 			"text": "Scrollarea",
-			"states": {
-				"default": {
+			"states":  {
+				"default":  {
 				}
 			},
-			"components": {
-				"corner": {
+			"components":  {
+				"corner":  {
 					"text": "Corner",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundSize": "cover",
 								"backgroundImage": "corner-grip"
 							}
 						}
 					}
 				},
-				"scrollbar-x": {
+				"scrollbar-x":  {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-y": {
+				"scrollbar-y":  {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				}
 			}
 		},
-		"scrollbar": {
+		"scrollbar":  {
 			"text": "ScrollBar",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "scrollBar"
 					},
-					"properties": {
+					"properties":  {
 						"width": 17
 					}
 				},
-				"horizontal": {
-					"properties": {
+				"horizontal":  {
+					"properties":  {
 						"height": 17
 					}
 				}
 			},
-			"components": {
-				"slider": {
-					"components": {
-						"knob": {
-							"states": {
-								"default": {
-									"styles": {
+			"components":  {
+				"slider":  {
+					"components":  {
+						"knob":  {
+							"states":  {
+								"default":  {
+									"styles":  {
 										"backgroundColor": "controlLight",
 										"color": "transparent",
 										"transition": "background-color 250ms"
 									},
-									"properties": {
-										"margin": [ 1, 1, 1, 1 ]
+									"properties":  {
+										"margin": 1
 									}
 								},
-								"horizontal": {
-									"properties": {
+								"horizontal":  {
+									"properties":  {
 										"minWidth": 10
 									}
 								},
-								"vertical": {
-									"properties": {
+								"vertical":  {
+									"properties":  {
 										"minHeight": 10
 									}
 								},
-								"hovered": {
-									"styles": {
+								"hovered":  {
+									"styles":  {
 										"backgroundColor": "controlDark"
 									},
-									"properties": {
+									"properties":  {
 										"cursor": "pointer"
 									}
 								}
 							}
 						}
 					},
-					"states": {
-						"default": {
+					"states":  {
+						"default":  {
 						}
 					}
 				},
-				"button-end": {
-					"states": {
-						"default": {
-							"styles": {
+				"button-end":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "null",
 								"backgroundImage": "scrollbar-arrow-down",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"backgroundRepeat": "no-repeat",
 								"backgroundSize": "16px"
 							},
-							"properties": {
+							"properties":  {
 								"height": 16,
 								"opacity": 0.4
 							}
 						},
-						"right": {
-							"styles": {
+						"right":  {
+							"styles":  {
 								"backgroundImage": "scrollbar-arrow-right"
 							},
-							"properties": {
+							"properties":  {
 								"width": 16
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer",
 								"opacity": 1
 							}
@@ -3636,30 +3624,30 @@
 					},
 					"text": "Button End"
 				},
-				"button-begin": {
-					"states": {
-						"default": {
-							"styles": {
+				"button-begin":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundImage": "scrollbar-arrow-up",
 								"backgroundRepeat": "no-repeat",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"backgroundSize": "16px"
 							},
-							"properties": {
+							"properties":  {
 								"height": 16,
 								"opacity": 0.4
 							}
 						},
-						"left": {
-							"styles": {
+						"left":  {
+							"styles":  {
 								"backgroundImage": "scrollbar-arrow-left"
 							},
-							"properties": {
+							"properties":  {
 								"width": 16
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer",
 								"opacity": 1
 							}
@@ -3668,378 +3656,386 @@
 				}
 			}
 		},
-		"slidebar": {
+		"shape":  {
+			"states":  {
+				"default":  {
+					"properties":  {
+						"borderSize": 1,
+						"borderColor": "windowFrame",
+						"borderStyle": "solid",
+						"backgroundColor": "transparent"
+					}
+				}
+			}
+		},
+		"slidebar":  {
 			"text": "SlideBar",
 			"inherit": "widget",
-			"components": {
-				"button-forward": {
+			"components":  {
+				"button-forward":  {
 					"text": "Button Forward",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-right",
 								"opacity": 0.7,
 								"center": true,
 								"backgroundColor": "slidebarButtons"
 							}
 						},
-						"vertical": {
-							"properties": {
+						"vertical":  {
+							"properties":  {
 								"icon": "icon-down"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.1
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer",
 								"opacity": 1
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"button-backward": {
+				"button-backward":  {
 					"text": "Button Backward",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "icon-left",
 								"opacity": 0.7,
 								"center": true,
 								"backgroundColor": "slidebarButtons"
 							}
 						},
-						"vertical": {
-							"properties": {
+						"vertical":  {
+							"properties":  {
 								"icon": "icon-up"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.1
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer",
 								"opacity": 1
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"content": {
+				"content":  {
 					"text": "Content",
-					"states": {
-						"default": {
+					"states":  {
+						"default":  {
 						}
 					}
 				}
 			},
-			"states": {
-				"default": {
+			"states":  {
+				"default":  {
 				}
 			}
 		},
-		"slider": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+		"slider":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "transparent",
 						"backgroundPositionX": "center"
 					},
-					"properties": {
+					"properties":  {
 						"opacity": 1,
 						"width": 34,
 						"height": 34,
 						"backgroundColor": "hotTrack"
 					}
 				},
-				"focused": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+				"focused":  {
+					"styles":  {
+						"width": 1,
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					},
-					"properties": {
+					"properties":  {
 						"backgroundColor": "buttonFace"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"horizontal": {
+				"horizontal":  {
 				}
 			},
-			"components": {
-				"knob": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"knob":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame",
 								"backgroundImage": "slider-knob",
 								"backgroundSize": "24px 24px",
-								"backgroundPosition": [ "50%", "50%" ],
+								"backgroundPosition": ["50%", "50%"],
 								"fillColor": "highlight"
 							},
-							"properties": {
+							"properties":  {
 								"width": 24,
 								"height": 24
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer"
 							}
 						},
-						"vertical": {
+						"vertical":  {
 						},
-						"horizontal": {
-							"styles": {
+						"horizontal":  {
+							"styles":  {
 								"transform": "rotate(-90deg)"
 							}
 						},
-						"focused": {
+						"focused":  {
 						}
 					}
 				},
-				"begin": {
-					"states": {
-						"default": {
-							"styles": {
+				"begin":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame",
-								"width": [ 1, 1, 1, 1 ]
+								"width": 1
 							}
 						},
-						"vertical": {
-							"properties": {
+						"vertical":  {
+							"properties":  {
 								"width": 6
 							}
 						},
-						"horizontal": {
-							"properties": {
+						"horizontal":  {
+							"properties":  {
 								"height": 6
 							}
 						}
 					}
 				},
-				"end": {
-					"states": {
-						"default": {
-							"styles": {
+				"end":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "white",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "windowFrame"
 							}
 						},
-						"vertical": {
-							"properties": {
+						"vertical":  {
+							"properties":  {
 								"width": 6
 							}
 						},
-						"horizontal": {
-							"properties": {
+						"horizontal":  {
+							"properties":  {
 								"height": 6
 							}
 						}
 					}
 				},
-				"bubble": {
-					"states": {
-						"default": {
-							"properties": {
+				"bubble":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"textColor": "highlightText",
-								"padding": [ 4, 4, 4, 4 ],
+								"padding": 4,
 								"opacity": 0.6
 							}
 						},
-						"horizontal": {
-							"properties": {
+						"horizontal":  {
+							"properties":  {
 								"position": "top-center",
 								"offsetBottom": 2,
 								"paddingBottom": 10
 							},
-							"styles": {
+							"styles":  {
 								"backgroundImage": "slider-bubble-horizontal",
-								"backgroundPosition": [ "bottom", "center" ]
+								"backgroundPosition": ["bottom", "center"]
 							}
 						},
-						"vertical": {
-							"properties": {
+						"vertical":  {
+							"properties":  {
 								"position": "right-middle",
 								"offsetLeft": 2,
 								"paddingLeft": 12
 							},
-							"styles": {
+							"styles":  {
 								"backgroundImage": "slider-bubble-vertical",
-								"backgroundPosition": [ "center", "left" ]
+								"backgroundPosition": ["center", "left"]
 							}
 						}
 					}
 				}
 			}
 		},
-		"spinner": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+		"spinner":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame",
-						"radius": [ 2, 2, 2, 2 ]
+						"radius": 2
 					},
-					"properties": {
+					"properties":  {
 						"height": 20,
-						"padding": [ 0, 0, 0, 0 ],
+						"padding": 0,
 						"buttonsLayout": "vertical",
 						"backgroundColor": "window",
 						"opacity": 1,
 						"textColor": "windowText"
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
-						"style": [ "double", "double", "double", "double" ]
+						"style": "double"
 					}
 				},
-				"celleditor": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ],
-						"widthLeft": 0
-					},
-					"properties": {
-						"paddingLeft": 0
+				"celleditor":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			},
-			"components": {
-				"upbutton": {
+			"components":  {
+				"upbutton":  {
 					"text": "UpButton",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundImage": "spinner-up",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"backgroundSize": "16px",
 								"fillColor": "iconDark"
 							},
-							"properties": {
+							"properties":  {
 								"opacity": 1,
 								"width": 16
 							}
 						},
-						"list": {
-							"properties": {
+						"list":  {
+							"properties":  {
 								"icon": "spinner-up"
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"fillColor": "#5B5B5B"
 							},
-							"properties": {
+							"properties":  {
 								"cursor": "pointer"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5
 							}
 						}
 					}
 				},
-				"downbutton": {
+				"downbutton":  {
 					"text": "DownButton",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"opacity": 1,
 								"width": 16
 							},
-							"styles": {
+							"styles":  {
 								"backgroundImage": "spinner-down",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"fillColor": "iconDark",
 								"backgroundSize": "16px"
 							}
 						},
-						"list": {
-							"properties": {
+						"list":  {
+							"properties":  {
 								"icon": "spinner-down"
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"fillColor": "#5B5B5B"
 							},
-							"properties": {
+							"properties":  {
 								"cursor": "pointer"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5
 							}
 						}
 					}
 				},
-				"textfield": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+				"textfield":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 0
 							},
-							"properties": {
-								"margin": [ 0, 0, 0, 4 ],
+							"properties":  {
+								"margin": [0, 0, 0, 4],
 								"alignY": "middle"
 							}
 						}
@@ -4047,87 +4043,87 @@
 				}
 			}
 		},
-		"splitbutton": {
+		"splitbutton":  {
 			"text": "Split Button",
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
 						"color": "rgba(0,0,0,0.2)",
 						"backgroundColor": "buttonFace"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "buttonText",
 						"height": 26
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "buttonHighlight"
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				}
 			},
-			"components": {
-				"button": {
+			"components":  {
+				"button":  {
 					"inherit": "button",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"radius": 0,
 								"width": 0,
-								"innerWidth": [ 0, 1, 0, 0 ],
+								"innerWidth": [0, 1, 0, 0],
 								"innerColor": "rgba(0,0,0,0.2)",
 								"backgroundColor": "inherit"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "inherit"
 							}
 						},
-						"focused": {
+						"focused":  {
 						},
-						"pressed": {
-							"styles": {
+						"pressed":  {
+							"styles":  {
 								"transform": null
 							}
 						},
-						"vertical": {
-							"styles": {
-								"innerWidth": [ 0, 0, 1, 0 ]
+						"vertical":  {
+							"styles":  {
+								"innerWidth": [0, 0, 1, 0]
 							}
 						}
 					}
 				},
-				"arrow": {
-					"states": {
-						"default": {
-							"styles": {
+				"arrow":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"radius": 0,
 								"width": 0,
 								"backgroundColor": ""
 							},
-							"properties": {
+							"properties":  {
 								"icon": "menubutton-arrow",
-								"padding": [ 0, 2, 0, 2 ]
+								"padding": [0, 2, 0, 2]
 							}
 						},
-						"pressed": {
-							"styles": {
+						"pressed":  {
+							"styles":  {
 								"transform": null
 							}
 						}
 					},
 					"inherit": "button",
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 14,
 										"height": 14
 									}
@@ -4138,14 +4134,14 @@
 				}
 			}
 		},
-		"splitpane": {
+		"splitpane":  {
 			"text": "SplitPane",
-			"states": {
-				"default": {
+			"states":  {
+				"default":  {
 				}
 			},
-			"components": {
-				"splitter": {
+			"components":  {
+				"splitter":  {
 					"states": {
 						"default": {
 							"properties": {
@@ -4169,101 +4165,110 @@
 							"styles": {
 								"backgroundImage": "splitter-grip-horizontal"
 							}
+						},
+						"fixed": {
+							"styles": {
+								"backgroundImage": ""
+							},
+							"properties": {
+								"width": 3,
+								"height": 3
+							}
 						}
 					}
 				},
-				"slider": {
-					"states": {
-						"default": {
-							"styles": {
+				"slider":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "rgba(189,191,191,0.64)"
 							}
 						},
-						"vertical": {
+						"vertical":  {
 						},
-						"horizontal": {
+						"horizontal":  {
 						}
 					}
 				}
 			}
 		},
-		"statusbar": {
-			"states": {
-				"default": {
-					"styles": {
+		"statusbar":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"widthTop": 1,
 						"color": "windowFrame"
 					}
 				}
 			},
-			"components": {
-				"label": {
-					"states": {
-						"default": {
-							"properties": {
-								"padding": [ 0, 10, 0, 10 ]
+			"components":  {
+				"label":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"padding": [0, 10, 0, 10]
 							}
 						}
 					}
 				},
-				"panel": {
-					"states": {
-						"default": {
-							"styles": {
+				"panel":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"widthRight": 0,
 								"styleRight": "solid",
 								"color": "windowFrame"
 							},
-							"properties": {
-								"padding": [ 0, 10, 0, 10 ]
+							"properties":  {
+								"padding": [0, 10, 0, 10]
 							}
 						},
-						"borderNone": {
-							"styles": {
+						"borderNone":  {
+							"styles":  {
 								"widthRight": 0
 							}
 						},
-						"borderDashed": {
-							"styles": {
+						"borderDashed":  {
+							"styles":  {
 								"widthRight": 1,
 								"styleRight": "dashed"
 							}
 						},
-						"borderDotted": {
-							"styles": {
+						"borderDotted":  {
+							"styles":  {
 								"widthRight": 1,
 								"styleRight": "dotted"
 							}
 						},
-						"borderDouble": {
-							"styles": {
+						"borderDouble":  {
+							"styles":  {
 								"widthRight": 3,
 								"styleRight": "double"
 							}
 						},
-						"borderRaised": {
-							"styles": {
+						"borderRaised":  {
+							"styles":  {
 								"widthRight": 1,
 								"styleRight": "outset"
 							}
 						},
-						"borderSunken": {
-							"styles": {
+						"borderSunken":  {
+							"styles":  {
 								"widthRight": 1,
 								"styleRight": "inset"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"grip": {
-					"states": {
-						"default": {
-							"properties": {
+				"grip":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"source": "corner-grip"
 							}
 						}
@@ -4271,90 +4276,90 @@
 				}
 			}
 		},
-		"switch": {
-			"states": {
-				"default": {
-					"properties": {
+		"switch":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"opacity": 1,
 						"icon": "blank",
 						"minWidth": 45,
 						"minHeight": 22
 					},
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+					"styles":  {
+						"width": 1,
 						"color": "transparent"
 					}
 				},
-				"focused": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+				"focused":  {
+					"styles":  {
+						"width": 1,
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				}
 			},
-			"components": {
-				"icon": {
+			"components":  {
+				"icon":  {
 					"inherit": "",
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 1,
 								"color": "windowFrame",
-								"radius": [ 10, 10, 10, 10 ],
+								"radius": 10,
 								"css": "{\":before\":{\"content\":\"\",\"width\":\"10px\",\"height\":\"10px\",\"border-radius\":\"10px\",\"background-color\":\"windowText\",\"position\":\"absolute\",\"top\":\"4px\",\"left\":\"5px\",\"transition\":\"left 100ms\"}}"
 							},
-							"properties": {
+							"properties":  {
 								"width": 45,
 								"height": 20,
 								"backgroundColor": "switchOff"
 							}
 						},
-						"checked": {
-							"styles": {
-								"color": [ "transparent", "transparent", "transparent", "transparent" ],
+						"checked":  {
+							"styles":  {
+								"color": "transparent",
 								"css": "{\":before\":{\"content\":\"\",\"width\":\"10px\",\"height\":\"10px\",\"border-radius\":\"10px\",\"background-color\":\"highlightText\",\"position\":\"absolute\",\"top\":\"4px\",\"left\":\"29px\",\"transition\":\"left 100ms\"}}"
 							},
-							"properties": {
+							"properties":  {
 								"backgroundColor": "switchOn"
 							}
 						},
-						"undetermined": {
-							"styles": {
+						"undetermined":  {
+							"styles":  {
 								"css": "{\":before\":{\"content\":\"\",\"width\":\"10px\",\"height\":\"10px\",\"border-radius\":\"10px\",\"background-color\":\"buttonText\",\"position\":\"absolute\",\"top\":\"4px\",\"left\":\"17px\",\"transition\":\"left 100ms\"}}"
 							},
-							"properties": {
+							"properties":  {
 								"backgroundColor": "switchUndetermined"
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"cursor": "pointer"
 							}
 						}
 					}
 				},
-				"label": {
-					"states": {
-						"default": {
-							"properties": {
+				"label":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 2
 							}
 						},
-						"rightAligned": {
-							"properties": {
+						"rightAligned":  {
+							"properties":  {
 								"marginLeft": 0
 							}
 						}
@@ -4362,15 +4367,15 @@
 				}
 			}
 		},
-		"table": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+		"table":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"indent": 20,
 						"rowHeight": 22,
 						"headerCellHeight": 26,
@@ -4378,39 +4383,39 @@
 						"headerBackColor": "buttonFace"
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"width": 3,
-						"style": [ "double", "double", "double", "double" ]
+						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"column-button": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"column-button":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"widthLeft": 1,
 								"colorLeft": "windowFrame"
 							},
-							"properties": {
+							"properties":  {
 								"width": 17,
 								"paddingLeft": 0,
 								"icon": "icon-columns",
@@ -4418,12 +4423,12 @@
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 16
 									}
 								}
@@ -4431,40 +4436,40 @@
 						}
 					}
 				},
-				"resize-line": {
-					"states": {
-						"default": {
-							"properties": {
+				"resize-line":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"height": 3,
 								"backgroundColor": "rgba(189,191,191,0.64)"
 							}
 						}
 					}
 				},
-				"tools": {
-					"states": {
-						"default": {
-							"styles": {
+				"tools":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame"
 							}
 						},
-						"top": {
-							"styles": {
+						"top":  {
+							"styles":  {
 								"widthBottom": 0
 							}
 						},
-						"left": {
-							"styles": {
+						"left":  {
+							"styles":  {
 								"widthRight": 1
 							}
 						},
-						"right": {
-							"styles": {
+						"right":  {
+							"styles":  {
 								"widthLeft": 1
 							}
 						},
-						"bottom": {
-							"styles": {
+						"bottom":  {
+							"styles":  {
 								"widthTop": 1
 							}
 						}
@@ -4472,14 +4477,14 @@
 				}
 			}
 		},
-		"table-button-cell": {
+		"table-button-cell":  {
 			"inherit": "table-cell",
-			"components": {
-				"button": {
+			"components":  {
+				"button":  {
 					"inherit": "button",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"height": "100%",
 								"alignX": "center"
 							}
@@ -4488,110 +4493,110 @@
 				}
 			}
 		},
-		"table-cell": {
-			"states": {
-				"default": {
-					"styles": {
+		"table-cell":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"widthRight": 1,
 						"colorRight": "table-column-line"
 					}
 				},
-				"rightToLeft": {
-					"properties": {
+				"rightToLeft":  {
+					"properties":  {
 						"alignX": "right"
 					}
 				},
-				"odd": {
-					"styles": {
+				"odd":  {
+					"styles":  {
 						"backgroundColor": "table-row-background-odd"
 					}
 				},
-				"even": {
-					"styles": {
+				"even":  {
+					"styles":  {
 						"backgroundColor": "table-row-background-even"
 					}
 				},
-				"selected": {
-					"styles": {
+				"selected":  {
+					"styles":  {
 						"backgroundColor": "table-row-background-selected"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "table-row-selected"
 					}
 				},
-				"borderNone": {
-					"styles": {
+				"borderNone":  {
+					"styles":  {
 						"widthRight": 0
 					}
 				},
-				"borderBoth": {
-					"styles": {
+				"borderBoth":  {
+					"styles":  {
 						"widthRight": 1
 					}
 				},
-				"borderVertical": {
-					"styles": {
+				"borderVertical":  {
+					"styles":  {
 						"widthRight": 1
 					}
 				},
-				"borderHorizontal": {
-					"styles": {
+				"borderHorizontal":  {
+					"styles":  {
 						"widthRight": 0
 					}
 				}
 			},
-			"components": {
-				"content": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"content":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundRepeat": "no-repeat",
 								"backgroundSize": "16px"
 							},
-							"properties": {
-								"padding": [ 0, 2, 0, 2 ]
+							"properties":  {
+								"padding": [0, 2, 0, 2]
 							}
 						}
 					}
 				},
-				"error": {
+				"error":  {
 					"text": "Error",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundImage": "icon-error",
 								"fillColor": "invalid",
 								"backgroundRepeat": "no-repeat",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"backgroundSize": "16px"
 							},
-							"properties": {
-								"padding": [ 0, 8, 0, 8 ]
+							"properties":  {
+								"padding": [0, 8, 0, 8]
 							}
 						}
 					}
 				},
-				"open": {
-					"states": {
-						"default": {
-							"styles": {
+				"open":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundSize": "16px",
 								"backgroundOrigin": "content-box",
-								"backgroundPosition": [ "center", "right" ],
+								"backgroundPosition": ["center", "right"],
 								"fillColor": "windowText"
 							},
-							"properties": {
+							"properties":  {
 								"width": 20,
 								"paddingRight": 2
 							}
 						},
-						"expanded": {
-							"styles": {
+						"expanded":  {
+							"styles":  {
 								"backgroundImage": "icon-down"
 							}
 						},
-						"collapsed": {
-							"styles": {
+						"collapsed":  {
+							"styles":  {
 								"backgroundImage": "icon-right"
 							}
 						}
@@ -4599,37 +4604,37 @@
 				}
 			}
 		},
-		"table-checkbox-cell": {
+		"table-checkbox-cell":  {
 			"inherit": "table-cell",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"alignX": "center"
 					}
 				}
 			},
-			"components": {
-				"checkbox": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"checkbox":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"fillColor": "iconDark",
 								"backgroundSize": "16px",
 								"backgroundImage": "checkbox",
-								"backgroundPosition": [ "center", "center" ]
+								"backgroundPosition": ["center", "center"]
 							},
-							"properties": {
+							"properties":  {
 								"width": 18,
 								"height": 18
 							}
 						},
-						"checked": {
-							"styles": {
+						"checked":  {
+							"styles":  {
 								"backgroundImage": "checkbox-checked"
 							}
 						},
-						"undetermined": {
-							"styles": {
+						"undetermined":  {
+							"styles":  {
 								"backgroundImage": "checkbox-undefined"
 							}
 						}
@@ -4637,76 +4642,77 @@
 				}
 			}
 		},
-		"table-combobox-cell": {
+		"table-combobox-cell":  {
 			"inherit": "table-cell"
 		},
-		"table-datefield-cell": {
+		"table-datefield-cell":  {
 			"inherit": "table-cell"
 		},
-		"table-header-cell": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 0, 1, 0, 0 ],
+		"table-header-cell":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": [0, 1, 0, 0],
 						"color": "windowFrame",
 						"transition": "background-color 250ms",
 						"backgroundSize": "16px"
 					},
-					"properties": {
-						"padding": [ 2, 3, 2, 3 ],
+					"properties":  {
+						"padding": [2, 3, 2, 3],
 						"sortIcon": "",
-						"textColor": "buttonText"
+						"textColor": "buttonText",
+						"cursor": "default"
 					}
 				},
-				"rightToLeft": {
-					"styles": {
-						"width": [ 0, 0, 0, 1 ]
+				"rightToLeft":  {
+					"styles":  {
+						"width": [0, 0, 0, 1]
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "buttonHighlight"
 					},
-					"properties": {
+					"properties":  {
 						"cursor": "pointer"
 					}
 				},
-				"sorted": {
-					"properties": {
+				"sorted":  {
+					"properties":  {
 						"sortIcon": "icon-sorted-descending"
 					}
 				},
-				"sorted-sortedAscending": {
-					"properties": {
+				"sorted-sortedAscending":  {
+					"properties":  {
 						"sortIcon": "icon-sorted-ascending"
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderBoth": {
-					"styles": {
-						"width": [ 0, 1, 0, 0 ]
+				"borderBoth":  {
+					"styles":  {
+						"width": [0, 1, 0, 0]
 					}
 				},
-				"borderVertical": {
-					"styles": {
-						"width": [ 0, 1, 0, 0 ]
+				"borderVertical":  {
+					"styles":  {
+						"width": [0, 1, 0, 0]
 					}
 				},
-				"borderHorizontal": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderHorizontal":  {
+					"styles":  {
+						"width": 0
 					}
 				}
 			},
-			"components": {
-				"sort-icon": {
-					"states": {
-						"default": {
-							"properties": {
+			"components":  {
+				"sort-icon":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"alignX": "right",
 								"alignY": "middle"
 							}
@@ -4714,10 +4720,10 @@
 					},
 					"inherit": "icon-dark"
 				},
-				"icon": {
-					"states": {
-						"default": {
-							"properties": {
+				"icon":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"alignX": "left",
 								"alignY": "middle",
 								"scale": true,
@@ -4727,10 +4733,10 @@
 					},
 					"inherit": "icon-dark"
 				},
-				"label": {
-					"states": {
-						"default": {
-							"styles": {
+				"label":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"css": "{\"word-wrap\":\"normal\"}"
 							}
 						}
@@ -4738,182 +4744,182 @@
 				}
 			}
 		},
-		"table-image-cell": {
+		"table-image-cell":  {
 			"inherit": "table-cell"
 		},
-		"table-link-cell": {
+		"table-link-cell":  {
 			"inherit": "table-cell",
-			"components": {
-				"link": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"link":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"css": "{\"cursor\":\"pointer\",\"textDecoration\":\"underline\"}"
 							}
 						},
-						"hovered": {
+						"hovered":  {
 						}
 					}
 				}
 			}
 		},
-		"table-row": {
-			"states": {
-				"default": {
-					"styles": {
+		"table-row":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"widthBottom": 1,
 						"colorBottom": "table-row-line",
 						"backgroundColor": "table-row-background"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "table-row"
 					}
 				},
-				"odd": {
-					"styles": {
+				"odd":  {
+					"styles":  {
 						"backgroundColor": "table-row-background-odd"
 					}
 				},
-				"even": {
-					"styles": {
+				"even":  {
+					"styles":  {
 						"backgroundColor": "table-row-background-even"
 					}
 				},
-				"focused": {
+				"focused":  {
 				},
-				"selected": {
-					"styles": {
+				"selected":  {
+					"styles":  {
 						"backgroundColor": "table-row-background-selected"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "table-row-selected"
 					}
 				},
-				"borderNone": {
-					"styles": {
+				"borderNone":  {
+					"styles":  {
 						"widthBottom": 0
 					}
 				},
-				"borderVertical": {
-					"styles": {
+				"borderVertical":  {
+					"styles":  {
 						"widthBottom": 0
 					}
 				},
-				"borderBoth": {
-					"styles": {
+				"borderBoth":  {
+					"styles":  {
 						"widthBottom": 1
 					}
 				},
-				"borderHorizontal": {
-					"styles": {
+				"borderHorizontal":  {
+					"styles":  {
 						"widthBottom": 1
 					}
 				}
 			}
 		},
-		"table-row-header": {
-			"states": {
-				"default": {
-					"styles": {
+		"table-row-header":  {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"widthRight": 1,
 						"colorRight": "windowFrame",
 						"backgroundColor": "buttonFace",
 						"backgroundRepeat": "no-repeat",
-						"backgroundPosition": [ "center", "right" ],
+						"backgroundPosition": ["center", "right"],
 						"backgroundSize": "16px 16px",
 						"fillColor": "windowText"
 					},
-					"properties": {
-						"padding": [ 2, 2, 2, 2 ],
+					"properties":  {
+						"padding": 2,
 						"textColor": "buttonText"
 					}
 				},
-				"selected": {
-					"styles": {
+				"selected":  {
+					"styles":  {
 						"backgroundColor": "table-row-background-selected"
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "table-row-selected"
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"backgroundImage": "table-row-indicator"
 					}
 				},
-				"new": {
-					"styles": {
+				"new":  {
+					"styles":  {
 						"backgroundImage": "table-row-new"
 					}
 				},
-				"new-selected": {
-					"styles": {
+				"new-selected":  {
+					"styles":  {
 						"backgroundImage": "table-row-new"
 					}
 				},
-				"editing": {
-					"styles": {
+				"editing":  {
+					"styles":  {
 						"backgroundImage": "table-row-editing"
 					}
 				},
-				"rightToLeft": {
-					"styles": {
+				"rightToLeft":  {
+					"styles":  {
 						"transform": "rotateZ(180deg)"
 					}
 				}
 			},
-			"components": {
-				"content": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"content":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundRepeat": "no-repeat",
-								"backgroundPosition": [ "center", "left" ],
+								"backgroundPosition": ["center", "left"],
 								"backgroundSize": "20px"
 							},
-							"properties": {
-								"padding": [ 0, 2, 0, 2 ]
+							"properties":  {
+								"padding": [0, 2, 0, 2]
 							}
 						}
 					}
 				},
-				"error": {
-					"states": {
-						"default": {
-							"styles": {
+				"error":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundImage": "icon-error",
 								"fillColor": "invalid",
 								"backgroundRepeat": "no-repeat",
-								"backgroundPosition": [ "center", "center" ],
+								"backgroundPosition": ["center", "center"],
 								"backgroundSize": "16px"
 							},
-							"properties": {
-								"padding": [ 0, 8, 0, 8 ]
+							"properties":  {
+								"padding": [0, 8, 0, 8]
 							}
 						}
 					}
 				},
-				"open": {
-					"states": {
-						"default": {
-							"styles": {
+				"open":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundSize": "16px",
 								"backgroundOrigin": "content-box",
-								"backgroundPosition": [ "center", "right" ],
+								"backgroundPosition": ["center", "right"],
 								"fillColor": "buttonText"
 							},
-							"properties": {
+							"properties":  {
 								"width": 20,
 								"paddingRight": 2
 							}
 						},
-						"expanded": {
-							"styles": {
+						"expanded":  {
+							"styles":  {
 								"backgroundImage": "icon-down"
 							}
 						},
-						"collapsed": {
-							"styles": {
+						"collapsed":  {
+							"styles":  {
 								"backgroundImage": "icon-right"
 							}
 						}
@@ -4921,64 +4927,64 @@
 				}
 			}
 		},
-		"table-scroller": {
-			"components": {
-				"scrollbar-x": {
+		"table-scroller":  {
+			"components":  {
+				"scrollbar-x":  {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-y": {
+				"scrollbar-y":  {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				},
-				"focus-indicator": {
-					"states": {
-						"default": {
-							"styles": {
+				"focus-indicator":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"width": 1,
 								"color": "focusFrame"
 							}
 						}
 					}
 				},
-				"header-container": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 0, 0, 1, 0 ],
+				"header-container":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": [0, 0, 1, 0],
 								"color": "windowFrame"
 							},
-							"properties": {
+							"properties":  {
 								"backgroundColor": "buttonFace",
 								"textColor": "buttonText"
 							}
 						},
-						"borderNone": {
-							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+						"borderNone":  {
+							"styles":  {
+								"width": 0
 							}
 						},
-						"borderBoth": {
-							"styles": {
-								"width": [ 0, 0, 1, 0 ]
+						"borderBoth":  {
+							"styles":  {
+								"width": [0, 0, 1, 0]
 							}
 						},
-						"borderVertical": {
-							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+						"borderVertical":  {
+							"styles":  {
+								"width": 0
 							}
 						},
-						"borderHorizontal": {
-							"styles": {
-								"width": [ 0, 0, 1, 0 ]
+						"borderHorizontal":  {
+							"styles":  {
+								"width": [0, 0, 1, 0]
 							}
 						}
 					}
 				},
-				"resize-line": {
-					"states": {
-						"default": {
-							"properties": {
+				"resize-line":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"width": 3,
 								"backgroundColor": "rgba(189,191,191,0.64)"
 							}
@@ -4987,27 +4993,27 @@
 				}
 			}
 		},
-		"tabmdiview": {
+		"tabmdiview":  {
 			"text": "TabMdiView",
 			"inherit": "tabview",
-			"states": {
-				"default": {
-					"properties": {
-						"padding": [ 10, 10, 10, 10 ]
+			"states":  {
+				"default":  {
+					"properties":  {
+						"padding": 10
 					}
 				}
 			},
-			"components": {
-				"window-preview": {
+			"components":  {
+				"window-preview":  {
 					"inherit": "desktop-taskbar-preview",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"width": 1,
 								"innerWidth": 0,
 								"color": "buttonShadow"
 							},
-							"properties": {
+							"properties":  {
 								"width": 300,
 								"height": 250,
 								"margin": 20
@@ -5015,16 +5021,16 @@
 						}
 					}
 				},
-				"bar": {
+				"bar":  {
 					"inherit": "tabview/bar",
-					"components": {
-						"preview": {
-							"components": {
-								"icon": {
+					"components":  {
+						"preview":  {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark",
-									"states": {
-										"selected": {
-											"properties": {
+									"states":  {
+										"selected":  {
+											"properties":  {
 												"textColor": "#5B5B5B"
 											}
 										}
@@ -5034,48 +5040,48 @@
 						}
 					}
 				},
-				"thumbnails": {
-					"components": {
-						"pane": {
+				"thumbnails":  {
+					"components":  {
+						"pane":  {
 							"inherit": "scrollarea"
 						}
 					}
 				}
 			}
 		},
-		"tabview": {
+		"tabview":  {
 			"text": "TabView",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"opacity": 1,
-						"iconSize": {
+						"iconSize":  {
 							"width": 16,
 							"height": 16
 						}
 					}
 				}
 			},
-			"components": {
-				"bar": {
-					"states": {
-						"default": {
+			"components":  {
+				"bar":  {
+					"states":  {
+						"default":  {
 						},
-						"barTop": {
+						"barTop":  {
 						},
-						"barLeft": {
+						"barLeft":  {
 						},
-						"barRight": {
+						"barRight":  {
 						},
-						"barBottom": {
+						"barBottom":  {
 						}
 					},
-					"components": {
-						"button-backward": {
+					"components":  {
+						"button-backward":  {
 							"text": "Button Backward",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"cursor": "pointer",
 										"width": 16,
 										"height": 16,
@@ -5083,44 +5089,44 @@
 										"center": true
 									}
 								},
-								"disabled": {
-									"properties": {
+								"disabled":  {
+									"properties":  {
 										"opacity": 0.5,
 										"cursor": "default"
 									}
 								},
-								"barTop": {
-									"properties": {
+								"barTop":  {
+									"properties":  {
 										"icon": "icon-left"
 									}
 								},
-								"barLeft": {
-									"properties": {
+								"barLeft":  {
+									"properties":  {
 										"icon": "icon-up"
 									}
 								},
-								"barBottom": {
-									"properties": {
+								"barBottom":  {
+									"properties":  {
 										"icon": "icon-left"
 									}
 								},
-								"barRight": {
-									"properties": {
+								"barRight":  {
+									"properties":  {
 										"icon": "icon-up"
 									}
 								}
 							},
-							"components": {
-								"icon": {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"button-forward": {
+						"button-forward":  {
 							"text": "Button Forward",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"cursor": "pointer",
 										"width": 16,
 										"height": 16,
@@ -5128,149 +5134,149 @@
 										"center": true
 									}
 								},
-								"disabled": {
-									"properties": {
+								"disabled":  {
+									"properties":  {
 										"opacity": 0.5,
 										"cursor": "default"
 									}
 								},
-								"barTop": {
-									"properties": {
+								"barTop":  {
+									"properties":  {
 										"icon": "icon-right"
 									}
 								},
-								"barLeft": {
-									"properties": {
+								"barLeft":  {
+									"properties":  {
 										"icon": "icon-down"
 									}
 								},
-								"barBottom": {
-									"properties": {
+								"barBottom":  {
+									"properties":  {
 										"icon": "icon-right"
 									}
 								},
-								"barRight": {
-									"properties": {
+								"barRight":  {
+									"properties":  {
 										"icon": "icon-down"
 									}
 								}
 							},
-							"components": {
-								"icon": {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"content": {
+						"content":  {
 							"text": "Content",
-							"states": {
-								"default": {
+							"states":  {
+								"default":  {
 								}
 							}
 						},
-						"visibility": {
-							"components": {
-								"icon": {
+						"visibility":  {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark"
 								}
 							}
 						}
 					}
 				},
-				"pane": {
+				"pane":  {
 					"text": "Pane",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame",
 								"innerColor": "windowFrame",
-								"innerWidth": [ 1, 1, 1, 1 ],
-								"width": [ 0, 0, 0, 0 ]
+								"innerWidth": 1,
+								"width": 0
 							}
 						},
-						"barTop": {
-							"styles": {
-								"innerWidth": [ 0, 1, 1, 1 ],
-								"width": [ 1, 0, 0, 0 ]
+						"barTop":  {
+							"styles":  {
+								"innerWidth": [0, 1, 1, 1],
+								"width": [1, 0, 0, 0]
 							},
-							"properties": {
-								"margin": [ -1, 0, 0, 0 ]
+							"properties":  {
+								"margin": [-1, 0, 0, 0]
 							}
 						},
-						"barBottom": {
-							"styles": {
-								"innerWidth": [ 1, 1, 0, 1 ],
-								"width": [ 0, 0, 1, 0 ]
+						"barBottom":  {
+							"styles":  {
+								"innerWidth": [1, 1, 0, 1],
+								"width": [0, 0, 1, 0]
 							},
-							"properties": {
-								"margin": [ 0, 0, -1, 0 ]
+							"properties":  {
+								"margin": [0, 0, -1, 0]
 							}
 						},
-						"barLeft": {
-							"styles": {
-								"innerWidth": [ 1, 1, 1, 0 ],
-								"width": [ 0, 0, 0, 1 ]
+						"barLeft":  {
+							"styles":  {
+								"innerWidth": [1, 1, 1, 0],
+								"width": [0, 0, 0, 1]
 							},
-							"properties": {
-								"margin": [ 0, 0, 0, -1 ]
+							"properties":  {
+								"margin": [0, 0, 0, -1]
 							}
 						},
-						"barRight": {
-							"styles": {
-								"innerWidth": [ 1, 0, 1, 1 ],
-								"width": [ 0, 1, 0, 0 ]
+						"barRight":  {
+							"styles":  {
+								"innerWidth": [1, 0, 1, 1],
+								"width": [0, 1, 0, 0]
 							},
-							"properties": {
-								"margin": [ 0, -1, 0, 0 ]
+							"properties":  {
+								"margin": [0, -1, 0, 0]
 							}
 						},
-						"borderNone": {
-							"styles": {
-								"innerWidth": [ 0, 0, 0, 0 ]
+						"borderNone":  {
+							"styles":  {
+								"innerWidth": 0
 							}
 						},
-						"borderDashed": {
-							"styles": {
-								"innerWidth": [ 1, 1, 1, 1 ],
-								"innerStyle": [ "dashed", "dashed", "dashed", "dashed" ]
+						"borderDashed":  {
+							"styles":  {
+								"innerWidth": 1,
+								"innerStyle": "dashed"
 							}
 						},
-						"borderDotted": {
-							"styles": {
-								"innerWidth": [ 1, 1, 1, 1 ],
-								"innerStyle": [ "dotted", "dotted", "dotted", "dotted" ]
+						"borderDotted":  {
+							"styles":  {
+								"innerWidth": 1,
+								"innerStyle": "dotted"
 							}
 						},
-						"borderDouble": {
-							"styles": {
+						"borderDouble":  {
+							"styles":  {
 								"innerWidth": 3,
-								"innerStyle": [ "double", "double", "double", "double" ]
+								"innerStyle": "double"
 							}
 						}
 					}
 				},
-				"page": {
-					"states": {
-						"default": {
-							"properties": {
+				"page":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"backgroundColor": "white"
 							}
 						}
 					},
-					"components": {
-						"button": {
-							"states": {
-								"default": {
-									"styles": {
+					"components":  {
+						"button":  {
+							"states":  {
+								"default":  {
+									"styles":  {
 										"backgroundColor": "tabFace",
-										"radius": [ 0, 0, 0, 0 ],
-										"width": [ 1, 1, 1, 1 ],
+										"radius": 0,
+										"width": 1,
 										"color": "windowFrame",
-										"transition": "background-color 250ms, left 150ms, top 150ms",
+										"transition": "background-color 250ms",
 										"innerWidth": 1,
 										"innerColor": "transparent"
 									},
-									"properties": {
+									"properties":  {
 										"textColor": "tabText",
 										"opacity": 1,
 										"height": 22,
@@ -5279,183 +5285,183 @@
 										"zIndex": 10
 									}
 								},
-								"disabled": {
-									"properties": {
+								"disabled":  {
+									"properties":  {
 										"opacity": 0.5
 									}
 								},
-								"focused": {
-									"styles": {
+								"focused":  {
+									"styles":  {
 										"innerStyle": "dashed",
 										"innerColor": "focusFrame"
 									}
 								},
-								"hovered": {
-									"styles": {
+								"hovered":  {
+									"styles":  {
 										"backgroundColor": "tabHighlight"
 									},
-									"properties": {
+									"properties":  {
 										"textColor": "tabHighlightText",
 										"cursor": "pointer"
 									}
 								},
-								"checked": {
-									"properties": {
+								"checked":  {
+									"properties":  {
 										"showClose": true
 									}
 								},
-								"barTop": {
-									"styles": {
+								"barTop":  {
+									"styles":  {
 										"radiusBottomLeft": 0,
 										"radiusBottomRight": 0
 									},
-									"properties": {
-										"margin": [ 2, -1, 0, 0 ]
+									"properties":  {
+										"margin": [2, -1, 0, 0]
 									}
 								},
-								"barLeft": {
-									"styles": {
+								"barLeft":  {
+									"styles":  {
 										"radiusTopRight": 0,
 										"radiusBottomRight": 0
 									},
-									"properties": {
-										"margin": [ 0, 0, -1, 2 ]
+									"properties":  {
+										"margin": [0, 0, -1, 2]
 									}
 								},
-								"barRight": {
-									"styles": {
+								"barRight":  {
+									"styles":  {
 										"radiusTopLeft": 0,
 										"radiusBottomLeft": 0
 									},
-									"properties": {
-										"margin": [ 0, 2, -1, 0 ]
+									"properties":  {
+										"margin": [0, 2, -1, 0]
 									}
 								},
-								"barBottom": {
-									"styles": {
+								"barBottom":  {
+									"styles":  {
 										"radiusTopLeft": 0,
 										"radiusTopRight": 0
 									},
-									"properties": {
-										"margin": [ 0, -1, 2, 0 ]
+									"properties":  {
+										"margin": [0, -1, 2, 0]
 									}
 								},
-								"barTop-checked": {
-									"properties": {
+								"barTop-checked":  {
+									"properties":  {
 										"marginTop": 0
 									},
-									"styles": {
+									"styles":  {
 										"colorBottom": "tabFace"
 									}
 								},
-								"barBottom-checked": {
-									"styles": {
+								"barBottom-checked":  {
+									"styles":  {
 										"colorTop": "tabFace"
 									},
-									"properties": {
+									"properties":  {
 										"marginBottom": 0
 									}
 								},
-								"barLeft-checked": {
-									"styles": {
+								"barLeft-checked":  {
+									"styles":  {
 										"colorRight": "tabFace"
 									},
-									"properties": {
+									"properties":  {
 										"marginLeft": 0
 									}
 								},
-								"barRight-checked": {
-									"styles": {
+								"barRight-checked":  {
+									"styles":  {
 										"colorLeft": "tabFace"
 									},
-									"properties": {
+									"properties":  {
 										"marginRight": 0
 									}
 								},
-								"move": {
-									"styles": {
+								"move":  {
+									"styles":  {
 										"transition": "left 0ms, top 0ms"
 									},
-									"properties": {
+									"properties":  {
 										"opacity": 0.7,
 										"zIndex": 100
 									}
 								}
 							},
-							"components": {
-								"icon": {
-									"states": {
-										"default": {
-											"properties": {
+							"components":  {
+								"icon":  {
+									"states":  {
+										"default":  {
+											"properties":  {
 												"alignX": "center",
 												"alignY": "middle",
 												"scale": true
 											}
 										},
-										"horizontal": {
-											"properties": {
-												"margin": [ 0, 0, 0, 4 ]
+										"horizontal":  {
+											"properties":  {
+												"margin": [0, 0, 0, 4]
 											}
 										},
-										"vertical": {
-											"properties": {
-												"margin": [ 0, 0, 4, 0 ]
+										"vertical":  {
+											"properties":  {
+												"margin": [0, 0, 4, 0]
 											}
 										},
-										"vertical-barRight": {
-											"properties": {
-												"margin": [ 4, 0, 0, 0 ]
+										"vertical-barRight":  {
+											"properties":  {
+												"margin": [4, 0, 0, 0]
 											}
 										},
-										"vertical-barBottom": {
-											"properties": {
-												"margin": [ 4, 0, 0, 0 ]
+										"vertical-barBottom":  {
+											"properties":  {
+												"margin": [4, 0, 0, 0]
 											}
 										}
 									}
 								},
-								"label": {
+								"label":  {
 									"text": "Label",
-									"states": {
-										"default": {
+									"states":  {
+										"default":  {
 										},
-										"horizontal": {
-											"properties": {
-												"margin": [ 0, 5, 0, 5 ],
+										"horizontal":  {
+											"properties":  {
+												"margin": [0, 5, 0, 5],
 												"alignX": "left",
 												"alignY": "middle"
 											}
 										},
-										"vertical": {
-											"properties": {
-												"margin": [ 5, 0, 5, 0 ],
+										"vertical":  {
+											"properties":  {
+												"margin": [5, 0, 5, 0],
 												"alignX": "center",
 												"alignY": "bottom"
 											}
 										},
-										"barBottom-vertical": {
-											"properties": {
+										"barBottom-vertical":  {
+											"properties":  {
 												"alignY": "top",
 												"alignX": "center"
 											}
 										},
-										"barRight-vertical": {
-											"properties": {
+										"barRight-vertical":  {
+											"properties":  {
 												"alignY": "top"
 											}
 										},
-										"focused-checked": {
-											"styles": {
-												"width": [ 1, 1, 1, 1 ],
+										"focused-checked":  {
+											"styles":  {
+												"width": 1,
 												"color": "red"
 											}
 										}
 									}
 								},
-								"close-button": {
-									"states": {
-										"default": {
-											"properties": {
+								"close-button":  {
+									"states":  {
+										"default":  {
+											"properties":  {
 												"icon": "tab-close",
 												"opacity": 0.7,
 												"width": 14,
@@ -5465,43 +5471,43 @@
 												"textColor": "iconDark"
 											}
 										},
-										"hovered": {
-											"properties": {
+										"hovered":  {
+											"properties":  {
 												"opacity": 1
 											}
 										},
-										"horizontal": {
-											"properties": {
+										"horizontal":  {
+											"properties":  {
 												"alignY": "top",
 												"alignX": "left"
 											}
 										},
-										"vertical": {
-											"properties": {
+										"vertical":  {
+											"properties":  {
 												"alignX": "left"
 											}
 										},
-										"barBottom-horizontal": {
-											"properties": {
+										"barBottom-horizontal":  {
+											"properties":  {
 												"alignY": "bottom"
 											}
 										},
-										"barBottom-vertical": {
-											"properties": {
+										"barBottom-vertical":  {
+											"properties":  {
 												"alignX": "right"
 											}
 										},
-										"barRight-vertical": {
-											"properties": {
+										"barRight-vertical":  {
+											"properties":  {
 												"alignX": "right"
 											}
 										}
 									},
-									"components": {
-										"icon": {
-											"states": {
-												"default": {
-													"properties": {
+									"components":  {
+										"icon":  {
+											"states":  {
+												"default":  {
+													"properties":  {
 														"width": 14,
 														"height": 14
 													}
@@ -5512,70 +5518,70 @@
 								}
 							}
 						},
-						"pane": {
+						"pane":  {
 							"inherit": "scrollarea"
 						}
 					}
 				}
 			}
 		},
-		"tagtextbox": {
+		"tagtextbox":  {
 			"inherit": "textbox",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"duplicateDuration": 300,
 						"height": 28
 					}
 				}
 			},
-			"components": {
-				"tag": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 1, 1, 1, 1 ],
-								"radius": [ 0, 0, 0, 0 ],
+			"components":  {
+				"tag":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 1,
+								"radius": 0,
 								"color": "transparent",
 								"backgroundColor": "controlLight"
 							},
-							"properties": {
+							"properties":  {
 								"icon": "icon-close",
 								"cursor": "pointer",
-								"padding": [ 0, 2, 1, 4 ],
+								"padding": [0, 2, 1, 4],
 								"textColor": "inherit"
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"backgroundColor": "control"
 							}
 						},
-						"selected": {
-							"styles": {
+						"selected":  {
+							"styles":  {
 								"backgroundColor": "highlight",
 								"color": "rgba(255,255,255,.7)"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "highlightText"
 							}
 						},
-						"duplicate": {
-							"styles": {
+						"duplicate":  {
+							"styles":  {
 								"backgroundColor": "rgba(174,5,8,0.8)",
 								"transition": "background-color 300ms"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "white"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 14,
 										"height": 14
 									}
@@ -5584,11 +5590,11 @@
 						}
 					}
 				},
-				"tag-container": {
-					"states": {
-						"default": {
-							"properties": {
-								"margin": [ 2, 4, 2, 0 ],
+				"tag-container":  {
+					"states":  {
+						"default":  {
+							"properties":  {
+								"margin": [2, 4, 2, 0],
 								"spacingX": 2,
 								"spacingY": 2
 							}
@@ -5597,221 +5603,217 @@
 				}
 			}
 		},
-		"textbox": {
+		"textbox":  {
 			"text": "TextBox",
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame",
-						"radius": [ 2, 2, 2, 2 ]
+						"radius": 2
 					},
-					"properties": {
+					"properties":  {
 						"height": 20,
-						"padding": [ 0, 2, 0, 4 ],
+						"padding": [0, 2, 0, 4],
 						"backgroundColor": "window",
 						"opacity": 1,
 						"textColor": "windowText"
 					}
 				},
-				"hovered": {
-					"properties": {
+				"hovered":  {
+					"properties":  {
 						"cursor": "text"
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"multiline": {
-					"properties": {
-						"padding": [ 2, 4, 2, 4 ]
+				"multiline":  {
+					"properties":  {
+						"padding": [2, 4, 2, 4]
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+				"borderDouble":  {
+					"styles":  {
+						"width": 3,
+						"style": "double"
 					}
 				},
-				"celleditor": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ],
-						"widthLeft": 0
+				"celleditor":  {
+					"styles":  {
+						"width": 0
 					},
-					"properties": {
-						"paddingLeft": 0
+					"properties":  {
+						"padding": [0, 2, 0, 2]
 					}
 				},
-				"invalid": {
-					"styles": {
+				"invalid":  {
+					"styles":  {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			}
 		},
-		"linklabel": {
-			"inherit": "textlabel"
-		},
-		"textlabel": {
+		"textlabel":  {
 			"text": "TextLabel",
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 0,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"opacity": 1
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"borderSolid": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ]
+				"borderSolid":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid"
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+				"borderDouble":  {
+					"styles":  {
+						"width": 3,
+						"style": "double"
 					}
 				}
 			}
 		},
-		"toolbar": {
+		"toolbar":  {
 			"text": "Toolbar",
-			"states": {
-				"default": {
-					"styles": {
+			"states":  {
+				"default":  {
+					"styles":  {
 						"backgroundColor": "toolbar",
 						"widthBottom": 0,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"minWidth": 32,
 						"minHeight": 26,
 						"textColor": "toolbarText"
 					}
 				},
-				"borderSolid": {
-					"styles": {
+				"borderSolid":  {
+					"styles":  {
 						"widthBottom": 1,
-						"style": [ "solid", "solid", "solid", "solid" ]
+						"style": "solid"
 					}
 				},
-				"borderDashed": {
-					"styles": {
+				"borderDashed":  {
+					"styles":  {
 						"widthBottom": 1,
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
+				"borderDotted":  {
+					"styles":  {
 						"widthBottom": 1,
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
+				"borderDouble":  {
+					"styles":  {
 						"widthBottom": 3,
-						"style": [ "double", "double", "double", "double" ]
+						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"button": {
-					"states": {
-						"default": {
-							"properties": {
+			"components":  {
+				"button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"cursor": "pointer",
 								"opacity": 1,
-								"padding": [ 1, 5, 1, 5 ],
+								"padding": [1, 5, 1, 5],
 								"textColor": "inherit"
 							},
-							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+							"styles":  {
+								"width": 1,
 								"color": "transparent",
 								"backgroundColor": "transparent"
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"backgroundColor": "hotTrack"
 							}
 						},
-						"checked": {
-							"styles": {
+						"checked":  {
+							"styles":  {
 								"color": "windowFrame",
 								"backgroundColor": "buttonSelected"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "buttonSelectedText"
 							}
 						},
-						"pressed": {
-							"styles": {
+						"pressed":  {
+							"styles":  {
 								"backgroundColor": "tabSelected"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "tabSelectedText"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5,
 								"cursor": "default"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 16,
 										"height": 16,
 										"scale": true
@@ -5821,65 +5823,65 @@
 						}
 					}
 				},
-				"splitbutton": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+				"splitbutton":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 1,
 								"color": "transparent",
 								"backgroundColor": "transparent"
 							},
-							"properties": {
+							"properties":  {
 								"cursor": "pointer",
 								"textColor": "inherit",
-								"padding": [ 1, 0, 1, 5 ],
+								"padding": [1, 0, 1, 5],
 								"opacity": 1
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"backgroundColor": "hotTrack"
 							}
 						},
-						"checked": {
-							"styles": {
+						"checked":  {
+							"styles":  {
 								"color": "windowFrame",
 								"backgroundColor": "buttonSelected"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "buttonSelectedText"
 							}
 						},
-						"pressed": {
-							"styles": {
+						"pressed":  {
+							"styles":  {
 								"backgroundColor": "tabSelected"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "tabSelectedText"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5,
 								"cursor": "default"
 							}
 						}
 					},
-					"components": {
-						"button": {
-							"states": {
-								"default": {
-									"properties": {
+					"components":  {
+						"button":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"paddingRight": 5
 									}
 								}
 							},
-							"components": {
-								"icon": {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark",
-									"states": {
-										"default": {
-											"properties": {
+									"states":  {
+										"default":  {
+											"properties":  {
 												"width": 16,
 												"height": 16,
 												"scale": true
@@ -5889,118 +5891,118 @@
 								}
 							}
 						},
-						"arrow": {
-							"states": {
-								"default": {
-									"styles": {
+						"arrow":  {
+							"states":  {
+								"default":  {
+									"styles":  {
 										"backgroundColor": "transparent",
-										"width": [ 0, 0, 0, 1 ],
+										"width": [0, 0, 0, 1],
 										"color": "windowFrame"
 									},
-									"properties": {
+									"properties":  {
 										"icon": "icon-down"
 									}
 								}
 							},
-							"components": {
-								"icon": {
+							"components":  {
+								"icon":  {
 									"inherit": "icon-dark"
 								}
 							}
 						}
 					}
 				},
-				"separator": {
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 0, 0, 0, 1 ],
+				"separator":  {
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": [0, 0, 0, 1],
 								"color": "windowFrame"
 							},
-							"properties": {
-								"margin": [ 1, 8, 1, 8 ]
+							"properties":  {
+								"margin": [1, 8, 1, 8]
 							}
 						}
 					}
 				},
-				"overflow": {
+				"overflow":  {
 					"inherit": "menubar/overflow"
 				}
 			}
 		},
-		"toolcontainer": {
+		"toolcontainer":  {
 			"text": "ToolContainer",
-			"states": {
-				"default": {
-					"properties": {
-						"margin": [ 0, 10, 0, 0 ]
+			"states":  {
+				"default":  {
+					"properties":  {
+						"margin": [0, 10, 0, 0]
 					}
 				},
-				"caption": {
-					"properties": {
+				"caption":  {
+					"properties":  {
 						"textColor": "inherit"
 					}
 				},
-				"panel": {
-					"properties": {
+				"panel":  {
+					"properties":  {
 						"textColor": "inherit"
 					}
 				}
 			},
-			"components": {
-				"button": {
-					"states": {
-						"default": {
-							"properties": {
+			"components":  {
+				"button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"opacity": 0.7,
 								"center": true
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						},
-						"disabled": {
-							"properties": {
+						"disabled":  {
+							"properties":  {
 								"opacity": 0.5,
 								"cursor": "default"
 							}
 						},
-						"horizontal": {
-							"properties": {
-								"margin": [ 2, 4, 2, 4 ]
+						"horizontal":  {
+							"properties":  {
+								"margin": [2, 4, 2, 4]
 							}
 						},
-						"vertical": {
-							"properties": {
-								"margin": [ 4, 2, 4, 2 ]
+						"vertical":  {
+							"properties":  {
+								"margin": [4, 2, 4, 2]
 							}
 						},
-						"pressed": {
-							"properties": {
+						"pressed":  {
+							"properties":  {
 								"opacity": 1
 							}
 						},
-						"caption": {
-							"properties": {
-								"margin": [ 0, 10, 0, 10 ]
+						"caption":  {
+							"properties":  {
+								"margin": [0, 10, 0, 10]
 							}
 						}
 					},
-					"components": {
-						"icon": {
-							"states": {
-								"default": {
-									"properties": {
+					"components":  {
+						"icon":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 16,
 										"height": 16,
 										"scale": true
 									}
 								},
-								"caption": {
-									"properties": {
+								"caption":  {
+									"properties":  {
 										"width": 16,
 										"height": 16
 									}
@@ -6011,106 +6013,106 @@
 				}
 			}
 		},
-		"tooltip": {
-			"states": {
-				"default": {
-					"properties": {
+		"tooltip":  {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"placeMethod": "widget",
 						"position": "bottom-center",
 						"maxWidth": 280,
 						"offsetTop": 5
 					}
 				},
-				"placementLeft": {
-					"properties": {
+				"placementLeft":  {
+					"properties":  {
 						"arrowPosition": "right"
 					}
 				},
-				"placementRight": {
-					"properties": {
+				"placementRight":  {
+					"properties":  {
 						"arrowPosition": "left"
 					}
 				},
-				"placementAbove": {
-					"properties": {
+				"placementAbove":  {
+					"properties":  {
 						"arrowPosition": "below"
 					}
 				},
-				"placementBelow": {
-					"properties": {
+				"placementBelow":  {
+					"properties":  {
 						"arrowPosition": "above"
 					}
 				}
 			},
-			"components": {
-				"atom": {
+			"components":  {
+				"atom":  {
 					"text": "Atom",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "window",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "windowFrame"
 							},
-							"properties": {
-								"padding": [ 14, 12, 14, 12 ],
+							"properties":  {
+								"padding": [14, 12, 14, 12],
 								"textColor": "windowText",
 								"icon": "icon-info",
 								"show": "both"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"arrow": {
+				"arrow":  {
 					"text": "Arrow",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"zIndex": 11
 							}
 						},
-						"placementLeft": {
-							"properties": {
+						"placementLeft":  {
+							"properties":  {
 								"marginLeft": -1,
 								"alignY": "middle",
 								"source": "tooltip-arrow-left"
 							},
-							"styles": {
+							"styles":  {
 								"transform": "rotate(180deg)"
 							}
 						},
-						"placementRight": {
-							"properties": {
+						"placementRight":  {
+							"properties":  {
 								"marginRight": -1,
 								"alignY": "middle",
 								"source": "tooltip-arrow-left"
 							},
-							"styles": {
+							"styles":  {
 								"transform": "rotate(0deg)"
 							}
 						},
-						"placementAbove": {
-							"properties": {
+						"placementAbove":  {
+							"properties":  {
 								"marginTop": -3,
 								"alignX": "center",
 								"source": "tooltip-arrow-left"
 							},
-							"styles": {
+							"styles":  {
 								"transform": "rotate(-90deg)"
 							}
 						},
-						"placementBelow": {
-							"properties": {
+						"placementBelow":  {
+							"properties":  {
 								"marginBottom": -3,
 								"alignX": "center",
 								"source": "tooltip-arrow-left"
 							},
-							"styles": {
+							"styles":  {
 								"transform": "rotate(90deg)"
 							}
 						}
@@ -6118,30 +6120,30 @@
 				}
 			}
 		},
-		"tooltip-error": {
+		"tooltip-error":  {
 			"inherit": "tooltip",
-			"components": {
-				"atom": {
-					"states": {
-						"default": {
-							"styles": {
+			"components":  {
+				"atom":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "invalid",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"backgroundColor": "window"
 							},
-							"properties": {
-								"padding": [ 14, 12, 14, 12 ],
+							"properties":  {
+								"padding": [14, 12, 14, 12],
 								"textColor": "windowText",
 								"icon": "icon-error"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "icon-dark",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"textColor": "invalid"
 									}
 								}
@@ -6149,16 +6151,16 @@
 						}
 					}
 				},
-				"arrow": {
-					"states": {
-						"default": {
+				"arrow":  {
+					"states":  {
+						"default":  {
 						}
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"placeMethod": "widget",
 						"position": "bottom-left",
 						"offsetTop": 5,
@@ -6167,72 +6169,72 @@
 				}
 			}
 		},
-		"tree": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+		"tree":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame",
-						"radius": [ 2, 2, 2, 2 ]
+						"radius": 2
 					},
-					"properties": {
+					"properties":  {
 						"backgroundColor": "window",
 						"textColor": "windowText",
 						"opacity": 1,
 						"itemHeight": 22
 					}
 				},
-				"focused": {
-					"styles": {
+				"focused":  {
+					"styles":  {
 						"color": "focusFrame"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+				"borderNone":  {
+					"styles":  {
+						"width": 0
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+				"borderDouble":  {
+					"styles":  {
+						"width": 3,
+						"style": "double"
 					}
 				}
 			},
-			"components": {
-				"scrollbar-y": {
+			"components":  {
+				"scrollbar-y":  {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-x": {
+				"scrollbar-x":  {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"editor": {
+				"editor":  {
 					"inherit": "textfield"
 				},
-				"tools": {
-					"states": {
-						"default": {
-							"styles": {
+				"tools":  {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"color": "windowFrame",
 								"widthBottom": 1
 							}
@@ -6241,65 +6243,65 @@
 				}
 			}
 		},
-		"tree-file": {
+		"tree-file":  {
 			"text": "Tree Item",
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"textColor": "",
 						"indent": 20,
 						"icon": "icon-file",
 						"opacity": 1,
-						"padding": [ 1, 0, 1, 0 ]
+						"padding": [1, 0, 1, 0]
 					},
-					"styles": {
+					"styles":  {
 						"backgroundColor": null
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "hotTrack"
 					},
-					"properties": {
+					"properties":  {
 						"cursor": "pointer"
 					}
 				},
-				"selected": {
-					"properties": {
+				"selected":  {
+					"properties":  {
 						"textColor": "highlightText"
 					},
-					"styles": {
+					"styles":  {
 						"backgroundColor": "highlight"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				}
 			},
-			"components": {
-				"checkbox": {
+			"components":  {
+				"checkbox":  {
 					"inherit": "checkbox",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"width": 0
 							}
 						}
 					}
 				},
-				"state": {
+				"state":  {
 					"inherit": "icon-dark"
 				},
-				"icon": {
+				"icon":  {
 					"inherit": "icon-dark"
 				},
-				"label": {
+				"label":  {
 					"text": "Label",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 5,
 								"marginRight": 5
 							}
@@ -6308,62 +6310,62 @@
 				}
 			}
 		},
-		"tree-folder": {
+		"tree-folder":  {
 			"text": "Tree Node",
-			"components": {
-				"open": {
+			"components":  {
+				"open":  {
 					"text": "Open",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"source": "node-closed"
 							},
-							"styles": {
+							"styles":  {
 								"transition": "transform 250ms"
 							}
 						},
-						"opened": {
-							"properties": {
+						"opened":  {
+							"properties":  {
 								"source": "node-opened"
 							},
-							"styles": {
+							"styles":  {
 								"transform": "rotateZ(45deg)"
 							}
 						},
-						"rightToLeft": {
-							"styles": {
+						"rightToLeft":  {
+							"styles":  {
 								"transform": "rotateZ(180deg)"
 							}
 						},
-						"opened-rightToLeft": {
-							"styles": {
+						"opened-rightToLeft":  {
+							"styles":  {
 								"transform": "rotateZ(135deg)"
 							}
 						}
 					},
 					"inherit": "icon-dark"
 				},
-				"checkbox": {
+				"checkbox":  {
 					"inherit": "checkbox",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"width": 0
 							}
 						}
 					}
 				},
-				"state": {
+				"state":  {
 					"inherit": "icon-dark"
 				},
-				"icon": {
+				"icon":  {
 					"inherit": "icon-dark"
 				},
-				"label": {
+				"label":  {
 					"text": "Label",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"marginLeft": 5,
 								"marginRight": 5
 							}
@@ -6371,194 +6373,194 @@
 					}
 				}
 			},
-			"states": {
-				"default": {
-					"properties": {
+			"states":  {
+				"default":  {
+					"properties":  {
 						"textColor": "",
 						"indent": 20,
 						"icon": "icon-folder",
 						"opacity": 1,
-						"padding": [ 1, 0, 1, 0 ]
+						"padding": [1, 0, 1, 0]
 					},
-					"styles": {
+					"styles":  {
 						"backgroundColor": null
 					}
 				},
-				"hovered": {
-					"styles": {
+				"hovered":  {
+					"styles":  {
 						"backgroundColor": "hotTrack"
 					},
-					"properties": {
+					"properties":  {
 						"cursor": "pointer"
 					}
 				},
-				"selected": {
-					"properties": {
+				"selected":  {
+					"properties":  {
 						"textColor": "highlightText"
 					},
-					"styles": {
+					"styles":  {
 						"backgroundColor": "highlight"
 					}
 				},
-				"opened": {
-					"properties": {
+				"opened":  {
+					"properties":  {
 						"icon": "icon-folder-open"
 					}
 				},
-				"disabled": {
-					"properties": {
+				"disabled":  {
+					"properties":  {
 						"opacity": 0.5
 					}
 				}
 			}
 		},
-		"upload": {
+		"upload":  {
 			"text": "Upload",
-			"components": {
-				"button": {
+			"components":  {
+				"button":  {
 					"text": "Button",
 					"inherit": "button",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "controlLightLight",
 								"color": "control",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"radius": 0
 							},
-							"properties": {
+							"properties":  {
 								"icon": "icon-upload",
 								"height": 22,
-								"padding": [ 0, 5, 0, 5 ],
+								"padding": [0, 5, 0, 5],
 								"textColor": "controlText",
 								"allowGrowX": true
 							}
 						},
-						"hovered": {
-							"styles": {
+						"hovered":  {
+							"styles":  {
 								"backgroundColor": "controlDark"
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "black"
 							}
 						},
-						"middleLeft": {
-							"styles": {
-								"width": [ 0, 1, 0, 0 ]
+						"middleLeft":  {
+							"styles":  {
+								"width": [0, 1, 0, 0]
 							}
 						},
-						"middleRight": {
-							"styles": {
-								"width": [ 0, 0, 0, 1 ]
+						"middleRight":  {
+							"styles":  {
+								"width": [0, 0, 0, 1]
 							}
 						}
 					}
 				},
-				"textfield": {
+				"textfield":  {
 					"text": "TextField",
-					"states": {
-						"default": {
-							"styles": {
-								"width": [ 1, 1, 1, 1 ]
+					"states":  {
+						"default":  {
+							"styles":  {
+								"width": 1
 							},
-							"properties": {
+							"properties":  {
 								"textColor": "controlText",
-								"margin": [ 5, 0, 5, 0 ]
+								"margin": [5, 0, 5, 0]
 							}
 						},
-						"middleLeft": {
-							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+						"middleLeft":  {
+							"styles":  {
+								"width": 0
 							},
-							"properties": {
-								"margin": [ 0, 5, 0, 5 ]
+							"properties":  {
+								"margin": [0, 5, 0, 5]
 							}
 						},
-						"middleRight": {
-							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+						"middleRight":  {
+							"styles":  {
+								"width": 0
 							},
-							"properties": {
-								"margin": [ 0, 5, 0, 5 ]
+							"properties":  {
+								"margin": [0, 5, 0, 5]
 							}
 						}
 					},
 					"inherit": "textfield"
 				}
 			},
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 0,
 						"color": "windowFrame"
 					},
-					"properties": {
+					"properties":  {
 						"height": 22
 					}
 				},
-				"middleLeft": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ]
+				"middleLeft":  {
+					"styles":  {
+						"width": 1
 					}
 				},
-				"middleRight": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ]
+				"middleRight":  {
+					"styles":  {
+						"width": 1
 					}
 				}
 			}
 		},
-		"widget": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ],
+		"widget":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 0,
 						"color": "windowFrame"
 					}
 				},
-				"borderSolid": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ]
+				"borderSolid":  {
+					"styles":  {
+						"width": 1,
+						"style": "solid"
 					}
 				},
-				"borderDashed": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+				"borderDashed":  {
+					"styles":  {
+						"width": 1,
+						"style": "dashed"
 					}
 				},
-				"borderDotted": {
-					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+				"borderDotted":  {
+					"styles":  {
+						"width": 1,
+						"style": "dotted"
 					}
 				},
-				"borderDouble": {
-					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+				"borderDouble":  {
+					"styles":  {
+						"width": 3,
+						"style": "double"
 					}
 				}
 			}
 		},
-		"window": {
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 0, 1, 1, 1 ],
+		"window":  {
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": [0, 1, 1, 1],
 						"color": "inactiveBorder",
-						"innerWidth": [ 0, 4, 4, 4 ],
+						"innerWidth": [0, 4, 4, 4],
 						"innerColor": "inactiveCaption",
-						"radius": [ 4, 4, 4, 4 ]
+						"radius": 4
 					},
-					"properties": {
+					"properties":  {
 						"textColor": "windowText"
 					}
 				},
-				"active": {
-					"styles": {
-						"shadowLength": [ 2, 2 ],
+				"active":  {
+					"styles":  {
+						"shadowLength": [2, 2],
 						"shadowColor": "buttonShadow",
 						"shadowBlurRadius": 15,
 						"colorRight": "#A2EEF7",
@@ -6566,70 +6568,70 @@
 						"colorBottom": "#A2EEF7"
 					}
 				},
-				"maximized": {
-					"styles": {
-						"innerWidth": [ 0, 0, 0, 0 ],
-						"width": [ 0, 0, 0, 0 ],
-						"radius": [ 0, 0, 0, 0 ]
+				"maximized":  {
+					"styles":  {
+						"innerWidth": 0,
+						"width": 0,
+						"radius": 0
 					}
 				},
-				"borderNone": {
-					"styles": {
-						"width": [ 0, 0, 0, 0 ],
+				"borderNone":  {
+					"styles":  {
+						"width": 0,
 						"shadowBlurRadius": 0,
-						"shadowLength": [ 0, 0 ]
+						"shadowLength": [0, 0]
 					}
 				}
 			},
-			"components": {
-				"captionbar": {
+			"components":  {
+				"captionbar":  {
 					"text": "CaptionBar",
-					"states": {
-						"default": {
-							"styles": {
+					"states":  {
+						"default":  {
+							"styles":  {
 								"backgroundColor": "inactiveCaption"
 							},
-							"properties": {
+							"properties":  {
 								"height": 30,
 								"cursor": "move",
-								"padding": [ 0, 0, 0, 10 ],
+								"padding": [0, 0, 0, 10],
 								"textColor": "activeCaptionText"
 							}
 						},
-						"active": {
-							"styles": {
+						"active":  {
+							"styles":  {
 								"backgroundColor": "activeCaption"
 							}
 						},
-						"maximized": {
-							"styles": {
-								"width": [ 1, 1, 0, 1 ],
+						"maximized":  {
+							"styles":  {
+								"width": [1, 1, 0, 1],
 								"color": "windowFrame"
 							}
 						}
 					}
 				},
-				"title": {
-					"states": {
-						"default": {
-							"properties": {
+				"title":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"font": "windowTitle",
 								"textAlign": "left",
 								"alignY": "middle",
 								"textColor": "inactiveCaptionText"
 							}
 						},
-						"active": {
-							"properties": {
+						"active":  {
+							"properties":  {
 								"textColor": "activeCaptionText"
 							}
 						}
 					}
 				},
-				"icon": {
-					"states": {
-						"default": {
-							"properties": {
+				"icon":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"alignY": "middle",
 								"marginRight": 10,
 								"height": 16,
@@ -6638,39 +6640,39 @@
 								"textColor": "inactiveCaptiontext"
 							}
 						},
-						"active": {
-							"properties": {
+						"active":  {
+							"properties":  {
 								"textColor": "activeCaptionText"
 							}
 						}
 					}
 				},
-				"minimize-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"minimize-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "window-minimize",
 								"cursor": "pointer",
 								"maxHeight": 18,
 								"width": 25
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"icon": "window-minimize-hover"
 							}
 						},
-						"rightToLeft": {
-							"styles": {
-								"transform": [ "scale(-1", "1)" ]
+						"rightToLeft":  {
+							"styles":  {
+								"transform": ["scale(-1", "1)"]
 							}
 						}
 					},
-					"components": {
-						"icon": {
-							"states": {
-								"default": {
-									"properties": {
+					"components":  {
+						"icon":  {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 25,
 										"height": 18
 									}
@@ -6680,33 +6682,33 @@
 						}
 					}
 				},
-				"close-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"close-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "window-close",
 								"cursor": "pointer",
 								"opacity": 0.8,
 								"maxHeight": 18
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"opacity": 1
 							}
 						},
-						"rightToLeft": {
-							"styles": {
+						"rightToLeft":  {
+							"styles":  {
 								"transform": "scale(-1,1)"
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"height": 18,
 										"width": 43
 									}
@@ -6715,33 +6717,33 @@
 						}
 					}
 				},
-				"maximize-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"maximize-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "window-maximize",
 								"cursor": "pointer",
 								"maxHeight": 18,
 								"width": 25
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"icon": "window-maximize-hover"
 							}
 						},
-						"rightToLeft": {
-							"styles": {
-								"transform": [ "scale(-1", "1)" ]
+						"rightToLeft":  {
+							"styles":  {
+								"transform": ["scale(-1", "1)"]
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 25,
 										"height": 18
 									}
@@ -6750,34 +6752,34 @@
 						}
 					}
 				},
-				"restore-button": {
-					"states": {
-						"default": {
-							"properties": {
+				"restore-button":  {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"icon": "window-restore",
 								"cursor": "pointer",
 								"maxHeight": 18
 							}
 						},
-						"hovered": {
-							"properties": {
+						"hovered":  {
+							"properties":  {
 								"icon": "window-restore-hover",
 								"width": 25,
 								"height": 18
 							}
 						},
-						"rightToLeft": {
-							"styles": {
-								"transform": [ "scale(-1", "1)" ]
+						"rightToLeft":  {
+							"styles":  {
+								"transform": ["scale(-1", "1)"]
 							}
 						}
 					},
-					"components": {
-						"icon": {
+					"components":  {
+						"icon":  {
 							"inherit": "",
-							"states": {
-								"default": {
-									"properties": {
+							"states":  {
+								"default":  {
+									"properties":  {
 										"width": 25,
 										"height": 18
 									}
@@ -6786,16 +6788,16 @@
 						}
 					}
 				},
-				"pane": {
+				"pane":  {
 					"text": "Pane",
-					"states": {
-						"default": {
-							"properties": {
+					"states":  {
+						"default":  {
+							"properties":  {
 								"backgroundColor": "window"
 							},
-							"styles": {
-								"color": [ "windowFrame", "windowFrame", "windowFrame", "windowFrame" ],
-								"width": [ 1, 1, 1, 1 ]
+							"styles":  {
+								"color": "windowFrame",
+								"width": 1
 							}
 						}
 					},
@@ -6803,13 +6805,13 @@
 				}
 			}
 		},
-		"window-resize-frame": {
+		"window-resize-frame":  {
 			"text": "Window Resize Frame",
-			"states": {
-				"default": {
-					"styles": {
-						"width": [ 2, 2, 2, 2 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ],
+			"states":  {
+				"default":  {
+					"styles":  {
+						"width": 2,
+						"style": "dashed",
 						"color": "windowFrame"
 					}
 				}

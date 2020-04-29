@@ -231,7 +231,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "white",
 						"shadowLength": [ 2, 2 ],
@@ -329,7 +329,7 @@
 						"default": {
 							"properties": {
 								"icon": "icon-close",
-								"margin": [ 0, 0, 0, 0 ],
+								"margin": 0,
 								"alignY": "top",
 								"cursor": "pointer"
 							}
@@ -410,10 +410,10 @@
 						"height": 26
 					},
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "rgba(0,0,0,0.2)",
 						"backgroundColor": "buttonFace",
-						"radius": [ 3, 3, 3, 3 ]
+						"radius": 3
 					}
 				},
 				"hovered": {
@@ -596,7 +596,7 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+								"width": 0
 							}
 						}
 					}
@@ -611,7 +611,7 @@
 							"properties": {
 								"show": "both",
 								"icon": "blank",
-								"padding": [ 5, 5, 5, 5 ]
+								"padding": 5
 							}
 						}
 					},
@@ -620,7 +620,7 @@
 							"states": {
 								"default": {
 									"styles": {
-										"width": [ 1, 1, 1, 1 ],
+										"width": 1,
 										"color": "focusFrame"
 									},
 									"properties": {
@@ -667,9 +667,9 @@
 				"default": {
 					"styles": {
 						"backgroundColor": "window",
-						"color": [ "windowFrame", "windowFrame", "windowFrame", "windowFrame" ],
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ]
+						"color": "windowFrame",
+						"width": 1,
+						"style": "solid"
 					},
 					"properties": {
 						"textColor": "windowText"
@@ -677,13 +677,13 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
@@ -709,15 +709,15 @@
 						"opacity": 1
 					},
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "transparent"
 					}
 				},
 				"focused": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					}
 				},
 				"checked": {
@@ -738,8 +738,8 @@
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				}
 			},
@@ -831,7 +831,7 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+								"width": 0
 							},
 							"properties": {
 								"margin": [ 0, 3, 0, 4 ],
@@ -849,7 +849,7 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "windowFrame",
 								"backgroundColor": "white"
 							}
@@ -891,7 +891,7 @@
 						"color": "windowFrame"
 					},
 					"properties": {
-						"padding": [ 0, 0, 0, 0 ],
+						"padding": 0,
 						"backgroundColor": "window",
 						"height": 22,
 						"opacity": 1,
@@ -935,11 +935,14 @@
 				"simple": {
 				},
 				"celleditor": {
+					"styles": {
+						"width": 0
+					}
 				},
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			}
@@ -1087,7 +1090,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "windowFrame"
 					},
 					"properties": {
@@ -1209,7 +1212,7 @@
 								"backgroundColor": "activeCaption"
 							},
 							"properties": {
-								"padding": [ 5, 5, 5, 5 ]
+								"padding": 5
 							}
 						}
 					},
@@ -1219,11 +1222,11 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "transparent"
 							},
 							"properties": {
-								"padding": [ 4, 4, 4, 4 ],
+								"padding": 4,
 								"backgroundColor": "",
 								"textColor": "",
 								"opacity": 1,
@@ -1278,10 +1281,10 @@
 						"default": {
 							"styles": {
 								"backgroundColor": "white",
-								"width": [ 1, 1, 1, 1 ]
+								"width": 1
 							},
 							"properties": {
-								"padding": [ 4, 4, 4, 4 ],
+								"padding": 4,
 								"textColor": "",
 								"textAlign": "center"
 							}
@@ -1386,7 +1389,7 @@
 							"states": {
 								"default": {
 									"styles": {
-										"width": [ 1, 1, 1, 1 ]
+										"width": 1
 									},
 									"properties": {
 										"padding": [ 4, 6, 4, 6 ],
@@ -1416,7 +1419,7 @@
 							"states": {
 								"default": {
 									"styles": {
-										"width": [ 1, 1, 1, 1 ]
+										"width": 1
 									},
 									"properties": {
 										"padding": [ 4, 6, 4, 6 ],
@@ -1608,13 +1611,13 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame"
 					},
 					"properties": {
 						"height": 22,
-						"padding": [ 0, 0, 0, 0 ],
+						"padding": 0,
 						"backgroundColor": "window",
 						"opacity": 1,
 						"textColor": "windowText"
@@ -1632,40 +1635,36 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				},
 				"borderDouble": {
 					"styles": {
 						"width": 3,
-						"style": [ "double", "double", "double", "double" ]
+						"style": "double"
 					}
 				},
 				"celleditor": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ],
-						"widthLeft": 0
-					},
-					"properties": {
-						"paddingLeft": 0
+						"width": 0
 					}
 				},
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			}
@@ -1711,7 +1710,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "rgba(189,191,191,0.5)"
 					},
 					"properties": {
@@ -1803,7 +1802,7 @@
 					"states": {
 						"default": {
 							"properties": {
-								"margin": [ 8, 8, 8, 8 ]
+								"margin": 8
 							}
 						}
 					}
@@ -1812,7 +1811,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 12, 12, 12, 12 ],
+						"width": 12,
 						"color": "rgba(55,146,211,0.8)",
 						"backgroundColor": "rgba(151,204,254,0.8)",
 						"transition": "all 200ms"
@@ -1880,8 +1879,7 @@
 							"properties": {
 								"icon": "checkbox",
 								"margin": [ 0, 0, 0, 10 ],
-								"padding": [ 0, 5, 0, 5 ],
-								"textColor": "tabText"
+								"padding": [ 0, 5, 0, 5 ]
 							}
 						},
 						"checked": {
@@ -1900,7 +1898,7 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "windowFrame"
 							}
 						}
@@ -1942,6 +1940,9 @@
 			},
 			"states": {
 				"default": {
+					"properties": {
+						"labelBackgroundColor": "window"
+					}
 				}
 			}
 		},
@@ -1949,14 +1950,14 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "controlLight"
 					},
 					"properties": {
 						"placeMethod": "widget",
 						"maxWidth": 350,
-						"padding": [ 15, 15, 15, 15 ],
+						"padding": 15,
 						"minWidth": 80,
 						"minHeight": 40,
 						"position": "right-middle",
@@ -2124,25 +2125,16 @@
 				}
 			}
 		},
-		"shape": {
-			"states": {
-				"default": {
-					"properties": {
-						"borderSize": 1,
-						"borderColor": "windowFrame",
-						"borderStyle": "solid",
-						"backgroundColor": "transparent"
-					}
-				}
-			}
+		"linklabel": {
+			"inherit": "textlabel"
 		},
 		"list": {
 			"text": "ListBox",
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame"
 					},
 					"properties": {
@@ -2159,31 +2151,31 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				},
 				"borderDouble": {
 					"styles": {
 						"width": 3,
-						"style": [ "double", "double", "double", "double" ]
+						"style": "double"
 					}
 				},
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				},
 				"disabled": {
@@ -2237,6 +2229,7 @@
 				},
 				"disabled": {
 					"properties": {
+						"opacity": 0.5,
 						"cursor": "default"
 					}
 				},
@@ -2250,12 +2243,6 @@
 					"properties": {
 						"backgroundColor": "highlight",
 						"textColor": "highlightText"
-					}
-				},
-				"disabled": {
-					"properties": {
-						"opacity": 0.5,
-						"cursor": "default"
 					}
 				}
 			},
@@ -2290,9 +2277,9 @@
 				"default": {
 					"styles": {
 						"backgroundColor": "window",
-						"color": [ "windowFrame", "windowFrame", "windowFrame", "windowFrame" ],
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ]
+						"color": "windowFrame",
+						"width": 1,
+						"style": "solid"
 					},
 					"properties": {
 						"textColor": "windowText",
@@ -2306,13 +2293,13 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
@@ -2404,13 +2391,13 @@
 						"borderDouble": {
 							"styles": {
 								"widthBottom": 3,
-								"style": [ "double", "double", "double", "double" ]
+								"style": "double"
 							}
 						},
 						"borderDoubleHorizontal": {
 							"styles": {
 								"widthBottom": 3,
-								"style": [ "double", "double", "double", "double" ]
+								"style": "double"
 							}
 						},
 						"borderSingleVertical": {
@@ -2612,7 +2599,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "menu",
 						"shadowColor": "buttonShadow",
@@ -2621,7 +2608,7 @@
 					},
 					"properties": {
 						"font": "menu",
-						"padding": [ 5, 5, 5, 5 ],
+						"padding": 5,
 						"iconColumnWidth": 16
 					}
 				},
@@ -2833,7 +2820,7 @@
 								"maxWidth": 32,
 								"width": 32,
 								"center": true,
-								"padding": [ 0, 0, 0, 0 ]
+								"padding": 0
 							}
 						}
 					},
@@ -3015,7 +3002,7 @@
 				"default": {
 					"styles": {
 						"color": "windowFrame",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					},
 					"properties": {
 						"maxWidth": 450
@@ -3149,7 +3136,12 @@
 								"margin": [ 0, 10, 0, 10 ]
 							}
 						},
-						"vertical": {
+						"barLeft": {
+							"properties": {
+								"margin": [ 10, 0, 20, 0 ]
+							}
+						},
+						"barRight": {
 							"properties": {
 								"margin": [ 10, 0, 10, 0 ]
 							}
@@ -3498,7 +3490,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "transparent"
 					},
 					"properties": {
@@ -3509,7 +3501,7 @@
 				"focused": {
 					"styles": {
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					}
 				},
 				"checked": {
@@ -3525,8 +3517,8 @@
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				}
 			}
@@ -3536,7 +3528,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 2, 2, 2, 2 ],
+						"width": 2,
 						"style": "dashed",
 						"color": "windowFrame"
 					}
@@ -3547,7 +3539,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 5, 5, 5, 5 ],
+						"width": 5,
 						"color": "windowFrame"
 					}
 				}
@@ -3619,7 +3611,7 @@
 										"color": "transparent"
 									},
 									"properties": {
-										"margin": [ 1, 1, 1, 1 ]
+										"margin": 1
 									}
 								},
 								"horizontal": {
@@ -3708,6 +3700,18 @@
 								"opacity": 1
 							}
 						}
+					}
+				}
+			}
+		},
+		"shape": {
+			"states": {
+				"default": {
+					"properties": {
+						"borderSize": 1,
+						"borderColor": "windowFrame",
+						"borderStyle": "solid",
+						"backgroundColor": "transparent"
 					}
 				}
 			}
@@ -3801,7 +3805,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "transparent",
 						"backgroundPositionX": "center"
 					},
@@ -3814,9 +3818,9 @@
 				},
 				"focused": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					},
 					"properties": {
 						"backgroundColor": "focusFrame"
@@ -3836,9 +3840,9 @@
 						"default": {
 							"styles": {
 								"backgroundColor": "window",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "windowFrame",
-								"radius": [ 4, 4, 4, 4 ]
+								"radius": 4
 							}
 						},
 						"hovered": {
@@ -3870,7 +3874,7 @@
 						"default": {
 							"styles": {
 								"color": "windowFrame",
-								"width": [ 1, 1, 1, 1 ]
+								"width": 1
 							}
 						},
 						"vertical": {
@@ -3890,7 +3894,7 @@
 						"default": {
 							"styles": {
 								"backgroundColor": "white",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "windowFrame"
 							}
 						},
@@ -3911,7 +3915,7 @@
 						"default": {
 							"properties": {
 								"textColor": "highlightText",
-								"padding": [ 4, 4, 4, 4 ],
+								"padding": 4,
 								"opacity": 0.6
 							}
 						},
@@ -3945,13 +3949,13 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame"
 					},
 					"properties": {
 						"height": 22,
-						"padding": [ 0, 0, 0, 0 ],
+						"padding": 0,
 						"buttonsLayout": "horizontal",
 						"backgroundColor": "window",
 						"opacity": 1,
@@ -3970,40 +3974,36 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				},
 				"borderDouble": {
 					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+						"width": 3,
+						"style": "double"
 					}
 				},
 				"celleditor": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ],
-						"widthLeft": 0
-					},
-					"properties": {
-						"paddingLeft": 0
+						"width": 0
 					}
 				},
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			},
@@ -4102,7 +4102,7 @@
 				"default": {
 					"styles": {
 						"radius": 3,
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "rgba(0,0,0,0.2)",
 						"backgroundColor": "buttonFace"
 					},
@@ -4216,6 +4216,15 @@
 						"vertical": {
 							"styles": {
 								"backgroundImage": "splitter-grip-horizontal"
+							}
+						},
+						"fixed": {
+							"styles": {
+								"backgroundImage": ""
+							},
+							"properties": {
+								"width": 3,
+								"height": 3
 							}
 						}
 					}
@@ -4337,15 +4346,15 @@
 						"minHeight": 24
 					},
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "transparent"
 					}
 				},
 				"focused": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
+						"width": 1,
 						"color": "focusFrame",
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"style": "dotted"
 					}
 				},
 				"disabled": {
@@ -4356,8 +4365,8 @@
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				}
 			},
@@ -4367,8 +4376,8 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 1, 1, 1, 1 ],
-								"radius": [ 3, 3, 3, 3 ],
+								"width": 1,
+								"radius": 3,
 								"css": "{\":before\":{\"content\":\"\",\"width\":\"20px\",\"height\":\"20px\",\"border-radius\":\"20px\",\"background-color\":\"controlDark\",\"position\":\"absolute\",\"top\":\"0px\",\"left\":\"0px\",\"transition\":\"left 100ms\"}}",
 								"color": "windowFrame"
 							},
@@ -4422,8 +4431,8 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame"
 					},
 					"properties": {
@@ -4436,25 +4445,25 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				},
 				"borderDouble": {
 					"styles": {
 						"width": 3,
-						"style": [ "double", "double", "double", "double" ]
+						"style": "double"
 					}
 				}
 			},
@@ -4706,12 +4715,13 @@
 						"width": [ 0, 1, 0, 0 ],
 						"color": "windowFrame",
 						"transition": "background-color 250ms",
-						"backgroundSize": "24px 24px"
+						"backgroundSize": "24px"
 					},
 					"properties": {
-						"padding": [ 5, 5, 5, 5 ],
+						"padding": 5,
 						"sortIcon": "",
-						"textColor": "buttonText"
+						"textColor": "buttonText",
+						"cursor": "default"
 					}
 				},
 				"rightToLeft": {
@@ -4739,7 +4749,7 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderBoth": {
@@ -4754,7 +4764,7 @@
 				},
 				"borderHorizontal": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				}
 			},
@@ -4878,7 +4888,7 @@
 						"fillColor": "windowText"
 					},
 					"properties": {
-						"padding": [ 2, 2, 2, 2 ],
+						"padding": 2,
 						"textColor": "buttonText"
 					}
 				},
@@ -5009,7 +5019,7 @@
 						},
 						"borderNone": {
 							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+								"width": 0
 							}
 						},
 						"borderBoth": {
@@ -5019,7 +5029,7 @@
 						},
 						"borderVertical": {
 							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+								"width": 0
 							}
 						},
 						"borderHorizontal": {
@@ -5047,7 +5057,7 @@
 			"states": {
 				"default": {
 					"properties": {
-						"padding": [ 10, 10, 10, 10 ]
+						"padding": 10
 					}
 				}
 			},
@@ -5238,7 +5248,7 @@
 						"default": {
 							"styles": {
 								"innerColor": "windowFrame",
-								"innerWidth": [ 1, 1, 1, 1 ],
+								"innerWidth": 1,
 								"color": "windowFrame"
 							}
 						},
@@ -5317,11 +5327,11 @@
 								"default": {
 									"styles": {
 										"backgroundColor": "tabFace",
-										"radius": [ 3, 3, 3, 3 ],
-										"width": [ 1, 1, 1, 1 ],
+										"radius": 3,
+										"width": 1,
 										"color": "transparent",
 										"clip": "padding-box",
-										"transition": "background-color 250ms, left 150ms, top 150ms",
+										"transition": "background-color 250ms",
 										"innerWidth": 1,
 										"innerColor": "transparent"
 									},
@@ -5662,8 +5672,8 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ],
+						"width": 1,
+						"style": "solid",
 						"color": "windowFrame"
 					},
 					"properties": {
@@ -5696,46 +5706,42 @@
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ]
+						"width": 0
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				},
 				"borderDouble": {
 					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+						"width": 3,
+						"style": "double"
 					}
 				},
 				"celleditor": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ],
-						"widthLeft": 0
+						"width": 0
 					},
 					"properties": {
-						"paddingLeft": 0
+						"padding": [ 0, 2, 0, 2 ]
 					}
 				},
 				"invalid": {
 					"styles": {
 						"color": "invalid",
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			}
-		},
-		"linklabel": {
-			"inherit": "textlabel"
 		},
 		"textlabel": {
 			"text": "TextLabel",
@@ -5827,11 +5833,11 @@
 							"properties": {
 								"cursor": "pointer",
 								"opacity": 1,
-								"padding": [ 5, 5, 5, 5 ],
+								"padding": 5,
 								"textColor": "inherit"
 							},
 							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "transparent",
 								"backgroundColor": "transparent"
 							}
@@ -5884,7 +5890,7 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "transparent",
 								"backgroundColor": "transparent"
 							},
@@ -6108,7 +6114,7 @@
 						"default": {
 							"styles": {
 								"backgroundColor": "window",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"color": "windowFrame"
 							},
 							"properties": {
@@ -6185,7 +6191,7 @@
 						"default": {
 							"styles": {
 								"color": "invalid",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"backgroundColor": "window"
 							},
 							"properties": {
@@ -6463,9 +6469,8 @@
 					"states": {
 						"default": {
 							"styles": {
-								"backgroundColor": "controlLightLight",
 								"color": "control",
-								"width": [ 1, 1, 1, 1 ],
+								"width": 1,
 								"radius": 0
 							},
 							"properties": {
@@ -6501,7 +6506,7 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": [ 1, 1, 1, 1 ]
+								"width": 1
 							},
 							"properties": {
 								"textColor": "controlText",
@@ -6510,7 +6515,7 @@
 						},
 						"middleLeft": {
 							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+								"width": 0
 							},
 							"properties": {
 								"margin": [ 0, 5, 0, 5 ]
@@ -6518,7 +6523,7 @@
 						},
 						"middleRight": {
 							"styles": {
-								"width": [ 0, 0, 0, 0 ]
+								"width": 0
 							},
 							"properties": {
 								"margin": [ 0, 5, 0, 5 ]
@@ -6531,21 +6536,23 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ],
-						"color": "windowFrame"
+						"width": 0,
+						"color": "windowFrame",
+						"backgroundColor": "window"
 					},
 					"properties": {
-						"height": 22
+						"height": 22,
+						"backgroundColor": "controlLight"
 					}
 				},
 				"middleLeft": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				},
 				"middleRight": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ]
+						"width": 1
 					}
 				}
 			}
@@ -6554,32 +6561,32 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ],
+						"width": 0,
 						"color": "windowFrame"
 					}
 				},
 				"borderSolid": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "solid", "solid", "solid", "solid" ]
+						"width": 1,
+						"style": "solid"
 					}
 				},
 				"borderDashed": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dashed", "dashed", "dashed", "dashed" ]
+						"width": 1,
+						"style": "dashed"
 					}
 				},
 				"borderDotted": {
 					"styles": {
-						"width": [ 1, 1, 1, 1 ],
-						"style": [ "dotted", "dotted", "dotted", "dotted" ]
+						"width": 1,
+						"style": "dotted"
 					}
 				},
 				"borderDouble": {
 					"styles": {
-						"width": [ 3, 3, 3, 3 ],
-						"style": [ "double", "double", "double", "double" ]
+						"width": 3,
+						"style": "double"
 					}
 				}
 			}
@@ -6589,33 +6596,30 @@
 				"default": {
 					"styles": {
 						"width": [ 0, 1, 1, 1 ],
-						"color": "inactiveCaption"
+						"color": "inactiveCaption",
+						"shadowColor": "buttonShadow",
+						"shadowBlurRadius": 10,
+						"shadowSpreadRadius": 4,
+						"shadowLength": [ 0, 0 ]
 					},
 					"properties": {
-						"textColor": "windowText",
-						"opacity": 0.5
+						"textColor": "windowText"
 					}
 				},
 				"active": {
 					"styles": {
-						"color": "activeCaption",
-						"shadowLength": [ 2, 2 ],
-						"shadowColor": "buttonShadow",
-						"shadowBlurRadius": 15
-					},
-					"properties": {
-						"opacity": 1
+						"color": "activeCaption"
 					}
 				},
 				"maximized": {
 					"styles": {
-						"innerWidth": [ 0, 0, 0, 0 ],
-						"width": [ 0, 0, 0, 0 ]
+						"innerWidth": 0,
+						"width": 0
 					}
 				},
 				"borderNone": {
 					"styles": {
-						"width": [ 0, 0, 0, 0 ],
+						"width": 0,
 						"shadowBlurRadius": 0,
 						"shadowLength": [ 0, 0 ]
 					}
@@ -6817,7 +6821,7 @@
 			"states": {
 				"default": {
 					"styles": {
-						"width": [ 2, 2, 2, 2 ],
+						"width": 2,
 						"style": "dashed",
 						"color": "windowFrame"
 					}
