@@ -1,31 +1,31 @@
- {
+{
 	"name": "Graphite-3",
-	"settings":  {
+	"settings": {
 		"overlapped-scrollbars": true
 	},
-	"fonts":  {
-		"default":  {
+	"fonts": {
+		"default": {
 			"size": 13,
-			"family": ["helvetica", "arial", "  verdana", "sans-serif"],
+			"family": [ "helvetica", "arial", "  verdana", "sans-serif" ],
 			"bold": false
 		},
-		"windowTitle":  {
+		"windowTitle": {
 			"size": 20,
-			"family": ["helvetica", "arial", "  verdana", "sans-serif"],
+			"family": [ "helvetica", "arial", "  verdana", "sans-serif" ],
 			"bold": false
 		},
-		"defaultBold":  {
+		"defaultBold": {
 			"size": 13,
-			"family": ["helvetica", "arial", " verdana", "sans-serif"],
+			"family": [ "helvetica", "arial", " verdana", "sans-serif" ],
 			"bold": true
 		},
-		"menu":  {
+		"menu": {
 			"size": 13,
-			"family": ["arial", "verdana", "sans-serif"],
+			"family": [ "arial", "verdana", "sans-serif" ],
 			"bold": false
 		}
 	},
-	"images":  {
+	"images": {
 		"baseUrl": "",
 		"blank": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAA1JREFUGFdjYGBgYAAAAAUAAYoz4wAAAAAASUVORK5CYII=",
 		"checkbox-checked": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==",
@@ -118,7 +118,7 @@
 		"wallpaper": "https://s3.amazonaws.com/wisej/images/wisej-desktop.jpg",
 		"checkmark": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjQ0OC44cHgiIGhlaWdodD0iNDQ4LjhweCIgdmlld0JveD0iMCAwIDQ0OC44IDQ0OC44IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NDguOCA0NDguODsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQoJPg0KPGc+DQoJPGcgaWQ9ImNoZWNrIj4NCgkJPHBvbHlnb24gcG9pbnRzPSIxNDIuOCwzMjMuODUgMzUuNywyMTYuNzUgMCwyNTIuNDUgMTQyLjgsMzk1LjI1IDQ0OC44LDg5LjI1IDQxMy4xLDUzLjU1IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
 	},
-	"colors":  {
+	"colors": {
 		"activeBorder": "#3096D0",
 		"activeCaption": "#606060",
 		"activeCaptionText": "#FFFFFF",
@@ -127,7 +127,7 @@
 		"buttonText": "#606061",
 		"buttonHighlight": "#606061",
 		"buttonShadow": "rgba(0,0,0,0.12)",
-		"buttonPressed": "#BCBCBC",
+		"buttonPressed": "#606061",
 		"control": "#E4E4E4",
 		"controlDark": "#B9B9B9",
 		"controlLight": "#E5E5E5",
@@ -175,7 +175,7 @@
 		"tabText": "#3F3F3F",
 		"tabSelected": "#FE5252",
 		"tabSelectedText": "white",
-		"tabHighlight": "rgb(221, 238, 255)",
+		"tabHighlight": "#E4E4E4",
 		"tabHighlightText": "#3F3F3F",
 		"menuSelected": "#606061",
 		"menuSelectedText": "white",
@@ -194,28 +194,28 @@
 		"controlFrame": "#E1E1E1",
 		"buttonBorder": "#606061"
 	},
-	"appearances":  {
-		"accordion":  {
+	"appearances": {
+		"accordion": {
 			"inherit": "panel",
-			"components":  {
-				"panel":  {
+			"components": {
+				"panel": {
 					"inherit": "panel",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"transform": "translateZ(0)",
 								"transition": "top 200ms, height 200ms"
 							}
 						}
 					},
-					"components":  {
-						"open-button":  {
+					"components": {
+						"open-button": {
 							"inherit": "panel/close-button"
 						},
-						"icon":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+						"icon": {
+							"states": {
+								"default": {
+									"properties": {
 										"marginLeft": 8,
 										"scale": true,
 										"width": 18,
@@ -224,12 +224,12 @@
 								}
 							}
 						},
-						"captionbar":  {
+						"captionbar": {
 							"text": "CaptionBar",
 							"inherit": "panel/captionbar",
-							"states":  {
-								"hovered":  {
-									"properties":  {
+							"states": {
+								"hovered": {
+									"properties": {
 										"cursor": "pointer"
 									}
 								}
@@ -239,16 +239,16 @@
 				}
 			}
 		},
-		"alertbox":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"alertbox": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "#1061CB",
 						"backgroundColor": "white"
 					},
-					"properties":  {
-						"margin": [5, 0, 5, 0],
+					"properties": {
+						"margin": [ 5, 0, 5, 0 ],
 						"textColor": "windowText",
 						"minHeight": 50,
 						"minWidth": 330,
@@ -257,137 +257,137 @@
 						"showProgressBar": true
 					}
 				},
-				"information":  {
-					"styles":  {
+				"information": {
+					"styles": {
 						"color": "#1061CB"
 					}
 				},
-				"error":  {
-					"styles":  {
+				"error": {
+					"styles": {
 						"color": "#9C0203"
 					}
 				},
-				"hand":  {
-					"styles":  {
+				"hand": {
+					"styles": {
 						"color": "rgba(174,5,8,0.99)"
 					}
 				},
-				"stop":  {
-					"styles":  {
+				"stop": {
+					"styles": {
 						"color": "#9C0203"
 					}
 				},
-				"warning":  {
-					"styles":  {
+				"warning": {
+					"styles": {
 						"color": "#E6A900"
 					}
 				},
-				"question":  {
-					"styles":  {
+				"question": {
+					"styles": {
 						"color": "#006B32"
 					}
 				}
 			},
-			"components":  {
-				"dockingpane":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"margin": [20, 0, 0, 20]
+			"components": {
+				"dockingpane": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 20, 0, 0, 20 ]
 							}
 						}
 					}
 				},
-				"icon":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"icon": {
+					"states": {
+						"default": {
+							"properties": {
 								"alignY": "middle",
 								"width": 48,
 								"height": 48,
 								"textColor": "white",
 								"margin": 5
 							},
-							"styles":  {
-								"backgroundPosition": ["center", "center"]
+							"styles": {
+								"backgroundPosition": [ "center", "center" ]
 							}
 						}
 					}
 				},
-				"iconPane":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"iconPane": {
+					"states": {
+						"default": {
+							"styles": {
 								"widthRight": 0
 							},
-							"properties":  {
+							"properties": {
 								"width": 60
 							}
 						},
-						"information":  {
-							"styles":  {
+						"information": {
+							"styles": {
 								"backgroundColor": "#1061CB"
 							}
 						},
-						"error":  {
-							"styles":  {
+						"error": {
+							"styles": {
 								"backgroundColor": "rgba(174,5,8,0.99)"
 							}
 						},
-						"hand":  {
-							"styles":  {
+						"hand": {
+							"styles": {
 								"backgroundColor": "rgba(174,5,8,0.99)"
 							}
 						},
-						"stop":  {
-							"styles":  {
+						"stop": {
+							"styles": {
 								"backgroundColor": "#9C0203"
 							}
 						},
-						"warning":  {
-							"styles":  {
+						"warning": {
+							"styles": {
 								"backgroundColor": "#E6A900"
 							}
 						},
-						"question":  {
-							"styles":  {
+						"question": {
+							"styles": {
 								"backgroundColor": "#006B32"
 							}
 						}
 					}
 				},
-				"message":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"padding": [30, 20, 30, 20]
+				"message": {
+					"states": {
+						"default": {
+							"properties": {
+								"padding": [ 30, 20, 30, 20 ]
 							}
 						}
 					}
 				},
-				"close":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"close": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-close",
-								"margin": [5, 5, 0, 0],
+								"margin": [ 5, 5, 0, 0 ],
 								"alignY": "top",
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 24,
 										"height": 24
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"textColor": "black"
 									}
 								}
@@ -395,45 +395,45 @@
 						}
 					}
 				},
-				"progressbar":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"progressbar": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "#1061CB"
 							},
-							"properties":  {
+							"properties": {
 								"height": 0,
 								"marginTop": -2,
 								"zIndex": 11
 							}
 						},
-						"information":  {
-							"styles":  {
+						"information": {
+							"styles": {
 								"backgroundColor": "#1061CB"
 							}
 						},
-						"error":  {
-							"styles":  {
+						"error": {
+							"styles": {
 								"backgroundColor": "#9C0203"
 							}
 						},
-						"hand":  {
-							"styles":  {
+						"hand": {
+							"styles": {
 								"backgroundColor": "#9C0203"
 							}
 						},
-						"stop":  {
-							"styles":  {
+						"stop": {
+							"styles": {
 								"backgroundColor": "#9C0203"
 							}
 						},
-						"warning":  {
-							"styles":  {
+						"warning": {
+							"styles": {
 								"backgroundColor": "#E6A900"
 							}
 						},
-						"question":  {
-							"styles":  {
+						"question": {
+							"styles": {
 								"backgroundColor": "#006B32"
 							}
 						}
@@ -441,86 +441,87 @@
 				}
 			}
 		},
-		"button":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"button": {
+			"states": {
+				"default": {
+					"properties": {
 						"opacity": 1,
 						"center": true,
 						"textColor": "buttonText",
 						"height": 26
 					},
-					"styles":  {
+					"styles": {
 						"backgroundColor": "buttonFace",
 						"width": 1,
 						"color": "buttonBorder"
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "buttonHighlight"
 					},
-					"properties":  {
+					"properties": {
 						"cursor": "pointer",
 						"textColor": "white"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5,
 						"cursor": "default"
 					}
 				},
-				"checked":  {
-					"styles":  {
+				"checked": {
+					"styles": {
 						"backgroundColor": "buttonSelected"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "buttonSelectedText"
 					}
 				},
-				"pressed":  {
-					"styles":  {
-						"backgroundColor": "buttonFace"
+				"pressed": {
+					"styles": {
+						"backgroundColor": "buttonPressed",
+						"transform": "translate(1px, 1px)"
 					},
-					"properties":  {
-						"textColor": "buttonText"
+					"properties": {
+						"textColor": "white"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 2,
 						"style": "solid"
 					}
 				}
 			},
-			"components":  {
-				"arrow":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"arrow": {
+					"states": {
+						"default": {
+							"properties": {
 								"source": "menubutton-arrow",
 								"marginRight": 2,
 								"width": 20,
@@ -528,16 +529,16 @@
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"icon":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"icon": {
+					"states": {
+						"default": {
+							"properties": {
 								"scale": true,
 								"width": 18,
 								"height": 18
@@ -547,141 +548,141 @@
 				}
 			}
 		},
-		"button-alert":  {
+		"button-alert": {
 			"inherit": "button",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "#F0AD4E"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "white"
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "#EB961F"
 					}
 				},
-				"pressed":  {
+				"pressed": {
 				}
 			}
 		},
-		"button-cancel":  {
+		"button-cancel": {
 			"inherit": "button",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"textColor": "windowText"
 					},
-					"styles":  {
+					"styles": {
 						"backgroundColor": "white"
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "#E6E6E6"
 					}
 				},
-				"pressed":  {
+				"pressed": {
 				}
 			}
 		},
-		"button-error":  {
+		"button-error": {
 			"inherit": "button",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "#D9524E"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "white"
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "#C92F2B"
 					}
 				},
-				"pressed":  {
+				"pressed": {
 				}
 			}
 		},
-		"button-info":  {
+		"button-info": {
 			"inherit": "button",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "#106BC8"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "white"
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "#30B0D5"
 					}
 				},
-				"pressed":  {
+				"pressed": {
 				}
 			}
 		},
-		"button-ok":  {
+		"button-ok": {
 			"inherit": "button",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "#5BB85B"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "white"
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "#439D43"
 					}
 				},
-				"pressed":  {
+				"pressed": {
 				}
 			}
 		},
-		"calendar":  {
-			"components":  {
-				"datechooser":  {
+		"calendar": {
+			"components": {
+				"datechooser": {
 					"inherit": "datechooser",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 0
 							}
 						}
 					}
 				},
-				"today":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"today": {
+					"states": {
+						"default": {
+							"styles": {
 								"widthTop": 1,
 								"color": "windowFrame"
 							},
-							"properties":  {
+							"properties": {
 								"show": "both",
 								"icon": "blank",
 								"padding": 5
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+					"components": {
+						"icon": {
+							"states": {
+								"default": {
+									"styles": {
 										"width": 1,
 										"color": "primary"
 									},
-									"properties":  {
+									"properties": {
 										"width": 16,
 										"height": 16,
 										"textColor": "buttonHighlight"
@@ -691,129 +692,129 @@
 						}
 					}
 				},
-				"tools":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"tools": {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "windowFrame"
 							}
 						},
-						"top":  {
-							"styles":  {
+						"top": {
+							"styles": {
 								"widthBottom": 0
 							}
 						},
-						"left":  {
-							"styles":  {
+						"left": {
+							"styles": {
 								"widthRight": 1
 							}
 						},
-						"right":  {
-							"styles":  {
+						"right": {
+							"styles": {
 								"widthLeft": 1
 							}
 						},
-						"bottom":  {
-							"styles":  {
+						"bottom": {
+							"styles": {
 								"widthTop": 1
 							}
 						}
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "window",
 						"color": "windowFrame",
 						"width": 1,
 						"style": "solid"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "windowText"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			}
 		},
-		"checkbox":  {
+		"checkbox": {
 			"text": "CheckBox",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"icon": "checkbox",
 						"opacity": 1
 					},
-					"styles":  {
+					"styles": {
 						"width": 1,
 						"color": "transparent"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"width": 1,
 						"color": "focusFrame",
 						"style": "dotted"
 					}
 				},
-				"checked":  {
-					"properties":  {
+				"checked": {
+					"properties": {
 						"icon": "checkbox-checked"
 					}
 				},
-				"undetermined":  {
-					"properties":  {
+				"undetermined": {
+					"properties": {
 						"icon": "checkbox-undefined"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1,
 						"style": "dotted"
 					}
 				}
 			},
-			"components":  {
-				"icon":  {
+			"components": {
+				"icon": {
 					"inherit": "icon-dark"
 				},
-				"label":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 4
 							}
 						},
-						"rightAligned":  {
-							"properties":  {
+						"rightAligned": {
+							"properties": {
 								"marginLeft": 0
 							}
 						}
@@ -821,42 +822,42 @@
 				}
 			}
 		},
-		"combobox":  {
+		"combobox": {
 			"text": "ComboBox",
 			"inherit": "inputElement",
-			"components":  {
-				"button":  {
+			"components": {
+				"button": {
 					"text": "Button",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "control"
 							},
-							"properties":  {
+							"properties": {
 								"width": 20,
 								"icon": "combo-arrow"
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "hotTrack"
 							},
-							"properties":  {
+							"properties": {
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 20
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"textColor": "white"
 									}
 								}
@@ -864,100 +865,100 @@
 						}
 					}
 				},
-				"icon":  {
+				"icon": {
 					"inherit": "icon-dark",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 6
 							}
 						}
 					}
 				},
-				"labelfield":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"labelfield": {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 6
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"textfield":  {
+				"textfield": {
 					"text": "Textfield",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 0
 							},
-							"properties":  {
-								"margin": [0, 3, 0, 6],
+							"properties": {
+								"margin": [ 0, 3, 0, 6 ],
 								"alignY": "middle"
 							}
 						},
-						"simple":  {
-							"properties":  {
+						"simple": {
+							"properties": {
 								"height": 20
 							}
 						}
 					}
 				},
-				"list":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"list": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "white"
 							}
 						},
-						"simple":  {
-							"styles":  {
-								"width": [1, 0, 0, 0]
+						"simple": {
+							"styles": {
+								"width": [ 1, 0, 0, 0 ]
 							}
 						}
 					},
-					"components":  {
-						"scrollbar-x":  {
+					"components": {
+						"scrollbar-x": {
 							"inherit": "scrollbar"
 						},
-						"scrollbar-y":  {
+						"scrollbar-y": {
 							"text": "Scrollbar-Y",
 							"inherit": "scrollbar"
 						}
 					}
 				},
-				"popup":  {
-					"states":  {
-						"default":  {
-							"styles":  {
-								"width": [0, 1, 1, 1],
+				"popup": {
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 0, 1, 1, 1 ],
 								"color": "focusFrame"
 							},
-							"properties":  {
-								"offset": [-1, 0, 0, 0]
+							"properties": {
+								"offset": [ -1, 0, 0, 0 ]
 							}
 						},
-						"placementAbove":  {
-							"styles":  {
-								"width": [1, 1, 0, 1]
+						"placementAbove": {
+							"styles": {
+								"width": [ 1, 1, 0, 1 ]
 							},
-							"properties":  {
-								"offset": [0, 0, -1, 0]
+							"properties": {
+								"offset": [ 0, 0, -1, 0 ]
 							}
 						}
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"style": "solid"
 					},
-					"properties":  {
+					"properties": {
 						"padding": 0,
 						"backgroundColor": "window",
 						"height": 22,
@@ -966,162 +967,168 @@
 						"itemHeight": 26
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"simple":  {
+				"simple": {
 				},
-				"simple-focused":  {
-					"styles":  {
+				"simple-focused": {
+					"styles": {
 						"color": "focusFrame",
 						"widthBottom": 1
 					}
 				},
-				"celleditor":  {
-					"styles":  {
+				"celleditor": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1
 					}
 				}
 			}
 		},
-		"dataRepeater":  {
+		"dataRepeater": {
 			"inherit": "scrollarea",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"style": "solid",
 						"color": "windowFrame"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"cell":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"cell": {
+					"states": {
+						"default": {
+							"properties": {
 								"opacity": 1
+							},
+							"styles": {
+								"filter": ""
 							}
 						},
-						"loading":  {
-							"properties":  {
+						"loading": {
+							"properties": {
 								"opacity": 0.5
+							},
+							"styles": {
+								"filter": "blur(5px)"
 							}
 						}
 					}
 				}
 			}
 		},
-		"dataRepeaterItem":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"dataRepeaterItem": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 0,
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"headerSize": 20,
 						"headerVisible": true,
 						"headerPosition": "left"
 					}
 				},
-				"horizontal":  {
-					"styles":  {
+				"horizontal": {
+					"styles": {
 						"widthRight": 1
 					},
-					"properties":  {
+					"properties": {
 						"headerPosition": "top"
 					}
 				},
-				"vertical":  {
-					"styles":  {
+				"vertical": {
+					"styles": {
 						"widthBottom": 1
 					},
-					"properties":  {
+					"properties": {
 						"headerPosition": "left"
 					}
 				}
 			},
-			"components":  {
-				"header":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"header": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "inactiveCaption"
 							},
-							"properties":  {
+							"properties": {
 								"width": 20,
 								"height": 20,
 								"center": true,
 								"textColor": "inactiveCaptionText"
 							}
 						},
-						"horizontal":  {
-							"properties":  {
+						"horizontal": {
+							"properties": {
 								"icon": "icon-down"
 							}
 						},
-						"vertical":  {
-							"properties":  {
+						"vertical": {
+							"properties": {
 								"icon": "icon-right"
 							}
 						},
-						"selected":  {
-							"styles":  {
+						"selected": {
+							"styles": {
 								"backgroundColor": "activeCaption"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "activeCaptionText"
 							}
 						},
-						"rightToLeft-vertical":  {
-							"styles":  {
+						"rightToLeft-vertical": {
+							"styles": {
 								"transform": "rotateZ(180deg)"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"textColor": "inactiveCaptionText"
 									}
 								},
-								"selected":  {
-									"properties":  {
+								"selected": {
+									"properties": {
 										"textColor": "activeCaptionText"
 									}
 								}
@@ -1131,146 +1138,146 @@
 				}
 			}
 		},
-		"datechooser":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"datechooser": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"backgroundColor": "window"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame"
 					}
 				}
 			},
 			"text": "DateChooser",
-			"components":  {
-				"last-month-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"last-month-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-left",
 								"cursor": "pointer",
 								"marginRight": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Last Month Button",
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"next-month-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"next-month-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-right",
 								"marginLeft": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Next Month Button",
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"last-year-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"last-year-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-first",
 								"marginRight": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Last Year Button",
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"next-year-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"next-year-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-last",
 								"marginLeft": 0,
 								"opacity": 0.5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						}
 					},
 					"text": "Next Year Button",
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"date-pane":  {
-					"states":  {
-						"default":  {
+				"date-pane": {
+					"states": {
+						"default": {
 						}
 					},
 					"text": "Date Pane"
 				},
-				"navigation-bar":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"navigation-bar": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "activeCaption"
 							},
-							"properties":  {
+							"properties": {
 								"padding": 5
 							}
 						}
 					},
 					"text": "Navigation Bar"
 				},
-				"day":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"day": {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 1,
 								"color": "transparent"
 							},
-							"properties":  {
+							"properties": {
 								"padding": 4,
 								"backgroundColor": "",
 								"textColor": "",
@@ -1278,212 +1285,212 @@
 								"textAlign": "center"
 							}
 						},
-						"today":  {
-							"styles":  {
+						"today": {
+							"styles": {
 								"color": "primary"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5
 							}
 						},
-						"otherMonth":  {
-							"properties":  {
+						"otherMonth": {
+							"properties": {
 								"opacity": 0.5
 							}
 						},
-						"selected":  {
-							"properties":  {
+						"selected": {
+							"properties": {
 								"backgroundColor": "highlight",
 								"textColor": "highlightText"
 							}
 						},
-						"bolded":  {
-							"styles":  {
-								"css": "{\"font-weight\":\"900\"}"
+						"bolded": {
+							"styles": {
+								"css": "{\"font-weight\":\"900 !important\"}"
 							}
 						}
 					},
 					"text": "Day"
 				},
-				"week":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"week": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "controlLight"
 							},
-							"properties":  {
-								"padding": [6, 4, 4, 4],
+							"properties": {
+								"padding": [ 6, 4, 4, 4 ],
 								"marginRight": 4
 							}
 						}
 					},
 					"text": "Week"
 				},
-				"weekday":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"weekday": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "white",
 								"width": 1
 							},
-							"properties":  {
+							"properties": {
 								"padding": 4,
 								"textColor": "",
 								"textAlign": "center"
 							}
 						},
-						"weekend":  {
-							"properties":  {
+						"weekend": {
+							"properties": {
 								"textColor": "activeCaption"
 							}
 						}
 					},
 					"text": "Weekday"
 				},
-				"month-year-label":  {
+				"month-year-label": {
 					"text": "Month Year Label",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"textAlign": "center",
 								"alignY": "middle",
 								"textColor": "activeCaptionText"
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"cursor": "pointer"
 							}
 						}
 					}
 				},
-				"month-year-selector":  {
-					"components":  {
-						"separator":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+				"month-year-selector": {
+					"components": {
+						"separator": {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 1
 									}
 								}
 							}
 						},
-						"prev-year":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+						"prev-year": {
+							"states": {
+								"default": {
+									"properties": {
 										"icon": "icon-left",
 										"center": true
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"cursor": "pointer"
 									}
 								}
 							},
-							"components":  {
-								"icon":  {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"next-year":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+						"next-year": {
+							"states": {
+								"default": {
+									"properties": {
 										"icon": "icon-right",
 										"center": true
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"cursor": "pointer"
 									}
 								}
 							},
-							"components":  {
-								"icon":  {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"close":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+						"close": {
+							"states": {
+								"default": {
+									"properties": {
 										"icon": "icon-close",
 										"center": true
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"cursor": "pointer"
 									}
 								}
 							},
-							"components":  {
-								"icon":  {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"month":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+						"month": {
+							"states": {
+								"default": {
+									"styles": {
 										"width": 1
 									},
-									"properties":  {
-										"padding": [4, 6, 4, 6],
+									"properties": {
+										"padding": [ 4, 6, 4, 6 ],
 										"textColor": "inherit",
 										"backgroundColor": "inherit"
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"cursor": "pointer",
 										"textColor": "windowText",
 										"backgroundColor": "hotTrack"
 									}
 								},
-								"selected":  {
-									"styles":  {
+								"selected": {
+									"styles": {
 										"color": "windowFrame"
 									},
-									"properties":  {
+									"properties": {
 										"textColor": "highlightText",
 										"backgroundColor": "highlight"
 									}
 								}
 							}
 						},
-						"year":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+						"year": {
+							"states": {
+								"default": {
+									"styles": {
 										"width": 1
 									},
-									"properties":  {
-										"padding": [4, 6, 4, 6],
+									"properties": {
+										"padding": [ 4, 6, 4, 6 ],
 										"textColor": "inherit",
 										"backgroundColor": "inherit"
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"cursor": "pointer",
 										"textColor": "windowText",
 										"backgroundColor": "hotTrack"
 									}
 								},
-								"selected":  {
-									"styles":  {
+								"selected": {
+									"styles": {
 										"color": "windowFrame"
 									},
-									"properties":  {
+									"properties": {
 										"textColor": "highlightText",
 										"backgroundColor": "highlight"
 									}
@@ -1491,52 +1498,52 @@
 							}
 						}
 					},
-					"states":  {
-						"default":  {
+					"states": {
+						"default": {
 						}
 					}
 				}
 			}
 		},
-		"datefield":  {
-			"components":  {
-				"button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+		"datefield": {
+			"components": {
+				"button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-calendar",
 								"width": 20,
 								"center": true
 							},
-							"styles":  {
+							"styles": {
 								"backgroundColor": "control"
 							},
-							"rightToLeft":  {
-								"styles":  {
-									"width": [0, 1, 0, 0]
+							"rightToLeft": {
+								"styles": {
+									"width": [ 0, 1, 0, 0 ]
 								}
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "hotTrack"
 							},
-							"properties":  {
+							"properties": {
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"scale": true
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"textColor": "white"
 									}
 								}
@@ -1544,38 +1551,38 @@
 						}
 					}
 				},
-				"textfield":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"textfield": {
+					"states": {
+						"default": {
+							"properties": {
 								"marginRight": 3,
 								"marginLeft": 6
 							}
 						},
-						"focused":  {
-							"properties":  {
+						"focused": {
+							"properties": {
 								"marginLeft": 6
 							}
 						},
-						"unchecked":  {
-							"properties":  {
+						"unchecked": {
+							"properties": {
 								"marginLeft": 4,
 								"opacity": 0.5
 							}
 						},
-						"checked":  {
-							"properties":  {
+						"checked": {
+							"properties": {
 								"opacity": 1,
 								"marginLeft": 2
 							}
 						}
 					}
 				},
-				"list":  {
-					"states":  {
-						"default":  {
-							"styles":  {
-								"width": [0, 1, 1, 1],
+				"list": {
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 0, 1, 1, 1 ],
 								"color": "focusFrame"
 							}
 						}
@@ -1584,85 +1591,85 @@
 					"inherit": "datechooser",
 					"components": null
 				},
-				"popup":  {
-					"states":  {
-						"default":  {
+				"popup": {
+					"states": {
+						"default": {
 						}
 					}
 				},
-				"checkbox":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"checkbox": {
+					"states": {
+						"default": {
+							"properties": {
 								"source": "checkbox",
-								"margin": [-5, 0, -5, 0]
+								"margin": [ -5, 0, -5, 0 ]
 							}
 						},
-						"checked":  {
-							"properties":  {
+						"checked": {
+							"properties": {
 								"source": "checkbox-checked"
 							}
 						}
 					},
 					"inherit": "icon-dark"
 				},
-				"upbutton":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"upbutton": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "spinner-up",
 								"center": true,
-								"margin": [-8, 0, -12, 0]
+								"margin": [ -8, 0, -12, 0 ]
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
+							"states": {
+								"default": {
 								}
 							}
 						}
 					}
 				},
-				"downbutton":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"downbutton": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "spinner-down",
 								"center": true,
-								"margin": [-12, 0, -8, 0]
+								"margin": [ -12, 0, -8, 0 ]
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"cursor": "pointer"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
+							"states": {
+								"default": {
 								}
 							}
 						}
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"style": "solid"
 					},
-					"properties":  {
+					"properties": {
 						"height": 22,
 						"padding": 0,
 						"backgroundColor": "window",
@@ -1670,21 +1677,21 @@
 						"textColor": "windowText"
 					}
 				},
-				"focused":  {
+				"focused": {
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5,
 						"cursor": "default"
 					}
 				},
-				"celleditor":  {
-					"styles":  {
+				"celleditor": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1
 					}
@@ -1692,26 +1699,26 @@
 			},
 			"inherit": "inputElement"
 		},
-		"desktop":  {
-			"components":  {
-				"taskbar":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+		"desktop": {
+			"components": {
+				"taskbar": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "rgba(0,0,0,.7)"
 							},
-							"properties":  {
+							"properties": {
 								"width": 58,
 								"height": 48
 							}
 						}
 					},
-					"components":  {
-						"items":  {
+					"components": {
+						"items": {
 							"text": "Items",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"scrollStep": 20
 									}
 								}
@@ -1721,58 +1728,58 @@
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"wallpaper": "wallpaper"
 					}
 				}
 			}
 		},
-		"desktop-taskbar-item":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"desktop-taskbar-item": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "rgba(189,191,191,0.5)"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "white"
 					}
 				},
-				"vertical":  {
-					"properties":  {
-						"margin": [0, 0, 2, 0],
-						"padding": [10, 0, 10, 0]
+				"vertical": {
+					"properties": {
+						"margin": [ 0, 0, 2, 0 ],
+						"padding": [ 10, 0, 10, 0 ]
 					}
 				},
-				"horizontal":  {
-					"properties":  {
-						"margin": [0, 2, 0, 0],
-						"padding": [0, 10, 0, 10]
+				"horizontal": {
+					"properties": {
+						"margin": [ 0, 2, 0, 0 ],
+						"padding": [ 0, 10, 0, 10 ]
 					}
 				},
-				"notification":  {
-					"styles":  {
+				"notification": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"hovered":  {
-					"styles":  {
-						"gradientStart": ["rgba(255,255,255,0.29)", "80"],
-						"gradientEnd": ["rgba(255,255,255,0.16)", "100"]
+				"hovered": {
+					"styles": {
+						"gradientStart": [ "rgba(255,255,255,0.29)", "80" ],
+						"gradientEnd": [ "rgba(255,255,255,0.16)", "100" ]
 					},
-					"properties":  {
+					"properties": {
 						"cursor": "pointer"
 					}
 				}
 			},
-			"components":  {
-				"icon":  {
+			"components": {
+				"icon": {
 					"inherit": "icon-light",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"width": 36,
 								"height": 36,
 								"scale": true
@@ -1782,110 +1789,110 @@
 				}
 			}
 		},
-		"desktop-taskbar-preview":  {
-			"components":  {
-				"title":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"margin": [8, 5, 2, 8],
+		"desktop-taskbar-preview": {
+			"components": {
+				"title": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 8, 5, 2, 8 ],
 								"textColor": "white"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"close":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"close": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "window-close",
-								"margin": [8, 8, 0, 8],
+								"margin": [ 8, 8, 0, 8 ],
 								"opacity": 0.7,
 								"cursor": "pointer"
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"preview":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"preview": {
+					"states": {
+						"default": {
+							"properties": {
 								"margin": 8
 							}
 						}
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 12,
 						"color": "transparent",
 						"backgroundColor": "rgba(96,96,97,0.8)",
 						"transition": "all 200ms"
 					},
-					"properties":  {
+					"properties": {
 						"minWidth": 160,
 						"minHeight": 120,
 						"width": 240,
 						"height": 200
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"color": "activeCaption",
 						"backgroundColor": "hotTrack"
 					}
 				}
 			}
 		},
-		"dragdrop-cursor":  {
+		"dragdrop-cursor": {
 			"text": "Drag & Drop Cursor",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"source": "cursor-nodrop",
 						"position": "right-top",
-						"offset": [16, 0, 0, 14]
+						"offset": [ 16, 0, 0, 14 ]
 					}
 				},
-				"copy":  {
-					"properties":  {
+				"copy": {
+					"properties": {
 						"source": "cursor-copy"
 					}
 				},
-				"move":  {
-					"properties":  {
+				"move": {
+					"properties": {
 						"source": "cursor-move"
 					}
 				},
-				"alias":  {
-					"properties":  {
+				"alias": {
+					"properties": {
 						"source": "cursor-link"
 					}
 				}
 			}
 		},
-		"errorprovider":  {
+		"errorprovider": {
 			"text": "ErrorProvider",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"width": 24,
 						"height": 24,
 						"textColor": "invalid"
@@ -1893,44 +1900,44 @@
 				}
 			}
 		},
-		"groupbox":  {
+		"groupbox": {
 			"text": "GroupBox",
-			"components":  {
-				"legend":  {
-					"states":  {
-						"default":  {
+			"components": {
+				"legend": {
+					"states": {
+						"default": {
 							"properties": {
 								"icon": "checkbox",
 								"margin": [ 0, 0, 0, 10 ],
 								"padding": [ 0, 5, 0, 5 ]
 							}
 						},
-						"checked":  {
-							"properties":  {
+						"checked": {
+							"properties": {
 								"icon": "checkbox-checked"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"frame":  {
-					"states":  {
-						"default":  {
-							"styles":  {
-								"width": [1, 0, 0, 0],
+				"frame": {
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 1, 0, 0, 0 ],
 								"color": "windowFrame"
 							}
 						}
 					}
 				},
-				"close-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"close-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-down",
 								"cursor": "pointer",
 								"alignX": "center",
@@ -1938,21 +1945,21 @@
 								"backgroundColor": "window",
 								"center": true,
 								"height": 25,
-								"margin": [-4, 10, 0, 0]
+								"margin": [ -4, 10, 0, 0 ]
 							}
 						},
-						"collapsed":  {
-							"properties":  {
+						"collapsed": {
+							"properties": {
 								"icon": "icon-up"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"height": 24
 									}
 								}
@@ -1961,7 +1968,7 @@
 					}
 				}
 			},
-			"states":  {
+			"states": {
 				"default": {
 					"properties": {
 						"labelBackgroundColor": "window"
@@ -1969,15 +1976,15 @@
 				}
 			}
 		},
-		"helptip":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"helptip": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "controlLight"
 					},
-					"properties":  {
+					"properties": {
 						"placeMethod": "widget",
 						"maxWidth": 350,
 						"padding": 15,
@@ -1991,12 +1998,12 @@
 					}
 				}
 			},
-			"components":  {
-				"icon":  {
+			"components": {
+				"icon": {
 					"inherit": "icon-dark",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"width": 24,
 								"height": 24
 							}
@@ -2005,36 +2012,36 @@
 				}
 			}
 		},
-		"icon-dark":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"icon-dark": {
+			"states": {
+				"default": {
+					"properties": {
 						"width": 18,
 						"height": 18,
 						"textColor": "iconDark"
 					}
 				},
-				"hovered":  {
-					"properties":  {
+				"hovered": {
+					"properties": {
 						"textColor": "windowText"
 					}
 				},
-				"selected":  {
-					"properties":  {
+				"selected": {
+					"properties": {
 						"textColor": "highlightText"
 					}
 				},
-				"checked":  {
-					"properties":  {
+				"checked": {
+					"properties": {
 						"textColor": "iconDark"
 					}
 				}
 			}
 		},
-		"icon-light":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"icon-light": {
+			"states": {
+				"default": {
+					"properties": {
 						"width": 18,
 						"height": 18,
 						"textColor": "iconLight"
@@ -2042,143 +2049,143 @@
 				}
 			}
 		},
-		"inputElement":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"inputElement": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "controlFrame"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
-						"width": [0, 0, 1, 0],
+				"borderDashed": {
+					"styles": {
+						"width": [ 0, 0, 1, 0 ],
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
-						"width": [0, 0, 1, 0],
+				"borderDotted": {
+					"styles": {
+						"width": [ 0, 0, 1, 0 ],
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
-						"width": [0, 0, 3, 0],
+				"borderDouble": {
+					"styles": {
+						"width": [ 0, 0, 3, 0 ],
 						"style": "double"
 					}
 				}
 			}
 		},
-		"label-editor":  {
+		"label-editor": {
 			"text": "Label Editor",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"backgroundColor": "window",
 						"textColor": "windowText"
 					}
 				}
 			}
 		},
-		"label-wrapper":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"label-wrapper": {
+			"states": {
+				"default": {
+					"properties": {
 						"opacity": 1
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				}
 			},
-			"components":  {
-				"label":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 0,
-								"padding": [0, 5, 0, 0]
+								"padding": [ 0, 5, 0, 0 ]
 							}
 						},
-						"inside":  {
-							"styles":  {
+						"inside": {
+							"styles": {
 								"transformOrigin": "top left",
 								"transition": "transform .4s"
 							},
-							"properties":  {
+							"properties": {
 								"textAlign": "middleLeft",
-								"padding": [0, 0, 0, 6]
+								"padding": [ 0, 0, 0, 6 ]
 							}
 						},
-						"inside-multiline":  {
-							"properties":  {
+						"inside-multiline": {
+							"properties": {
 								"textAlign": "topLeft",
-								"padding": [2, 0, 0, 6]
+								"padding": [ 2, 0, 0, 6 ]
 							}
 						},
-						"inside-focused":  {
-							"styles":  {
+						"inside-focused": {
+							"styles": {
 								"transform": "scale(0.75)"
 							},
-							"properties":  {
+							"properties": {
 								"textAlign": "topLeft",
-								"padding": [2, 0, 0, 6]
+								"padding": [ 2, 0, 0, 6 ]
 							}
 						},
-						"inside-full":  {
-							"styles":  {
+						"inside-full": {
+							"styles": {
 								"transform": "scale(0.75)"
 							},
-							"properties":  {
+							"properties": {
 								"textAlign": "topLeft",
-								"padding": [2, 0, 0, 6]
+								"padding": [ 2, 0, 0, 6 ]
 							}
 						},
-						"top":  {
-							"properties":  {
-								"padding": [0, 0, 5, 0]
+						"top": {
+							"properties": {
+								"padding": [ 0, 0, 5, 0 ]
 							}
 						},
-						"bottom":  {
-							"properties":  {
-								"padding": [5, 0, 0, 0]
+						"bottom": {
+							"properties": {
+								"padding": [ 5, 0, 0, 0 ]
 							}
 						},
-						"left":  {
-							"properties":  {
-								"padding": [0, 5, 0, 0]
+						"left": {
+							"properties": {
+								"padding": [ 0, 5, 0, 0 ]
 							}
 						},
-						"right":  {
-							"properties":  {
-								"padding": [0, 0, 0, 5]
+						"right": {
+							"properties": {
+								"padding": [ 0, 0, 0, 5 ]
 							}
 						}
 					}
 				}
 			}
 		},
-		"line":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"line": {
+			"states": {
+				"default": {
+					"properties": {
 						"lineSize": 1,
 						"lineColor": "windowFrame",
 						"lineStyle": "solid"
@@ -2186,78 +2193,78 @@
 				}
 			}
 		},
-		"linklabel":  {
+		"linklabel": {
 			"inherit": "textlabel"
 		},
-		"list":  {
+		"list": {
 			"text": "ListBox",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"style": "solid",
 						"color": "controlFrame"
 					},
-					"properties":  {
+					"properties": {
 						"opacity": 1,
 						"backgroundColor": "window",
 						"textColor": "windowText",
 						"itemHeight": 26
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				}
 			},
-			"components":  {
-				"scrollbar-x":  {
+			"components": {
+				"scrollbar-x": {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-y":  {
+				"scrollbar-y": {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				},
-				"tools":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"tools": {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "windowFrame",
 								"widthBottom": 1
 							}
@@ -2266,66 +2273,66 @@
 				}
 			}
 		},
-		"listitem":  {
+		"listitem": {
 			"text": "List Item",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "transparent"
 					},
-					"properties":  {
+					"properties": {
 						"opacity": 1,
-						"padding": [3, 2, 3, 6],
+						"padding": [ 3, 2, 3, 6 ],
 						"textColor": "inherit",
 						"backgroundColor": "inherit"
 					}
 				},
-				"hovered":  {
-					"properties":  {
+				"hovered": {
+					"properties": {
 						"cursor": "pointer",
 						"textColor": "windowText",
 						"backgroundColor": "control"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5,
 						"cursor": "default"
 					}
 				},
-				"lead":  {
-					"styles":  {
+				"lead": {
+					"styles": {
 						"style": "dotted",
 						"color": "windowFrame"
 					}
 				},
-				"selected":  {
-					"properties":  {
+				"selected": {
+					"properties": {
 						"backgroundColor": "highlight",
 						"textColor": "highlightText"
 					}
 				}
 			},
-			"components":  {
-				"checkbox":  {
+			"components": {
+				"checkbox": {
 					"inherit": "checkbox",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 0
 							},
-							"properties":  {
+							"properties": {
 								"marginRight": 4
 							}
 						}
 					}
 				},
-				"icon":  {
+				"icon": {
 					"inherit": "icon-dark",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"marginRight": 2
 							}
 						}
@@ -2333,276 +2340,282 @@
 				}
 			}
 		},
-		"listview":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"listview": {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "window",
 						"color": "windowFrame",
 						"width": 1,
 						"style": "solid"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "windowText",
 						"iconColor": "iconDark",
 						"opacity": 1,
-						"stateIconSize":  {
+						"stateIconSize": {
 							"width": 18,
 							"height": 18
 						}
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				},
-				"tile":  {
-					"properties":  {
-						"itemSize":  {
+				"tile": {
+					"properties": {
+						"itemSize": {
 							"width": 128,
 							"height": 64
 						},
-						"iconSize":  {
+						"iconSize": {
 							"width": 48,
 							"height": 48
 						}
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"smallIcon":  {
-					"properties":  {
-						"itemSize":  {
+				"smallIcon": {
+					"properties": {
+						"itemSize": {
 							"width": 128,
 							"height": 48
 						},
-						"iconSize":  {
+						"iconSize": {
 							"width": 18,
 							"height": 18
 						}
 					}
 				},
-				"largeIcon":  {
-					"properties":  {
-						"itemSize":  {
+				"largeIcon": {
+					"properties": {
+						"itemSize": {
 							"width": 64,
 							"height": 60
 						},
-						"iconSize":  {
+						"iconSize": {
 							"width": 32,
 							"height": 32
 						}
 					}
 				}
 			},
-			"components":  {
-				"item-view":  {
+			"components": {
+				"item-view": {
 					"inherit": "scrollarea"
 				},
-				"grid-view":  {
+				"grid-view": {
 					"inherit": "table"
 				},
-				"grid-row":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"grid-row": {
+					"states": {
+						"default": {
+							"styles": {
 								"style": "solid",
 								"colorBottom": "table-row-line",
 								"backgroundColor": "table-row-background"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "table-row"
 							}
 						},
-						"selected":  {
-							"styles":  {
+						"selected": {
+							"styles": {
 								"backgroundColor": "table-row-background-selected"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "table-row-selected"
 							}
 						},
-						"borderNone":  {
-							"styles":  {
+						"borderNone": {
+							"styles": {
 								"widthBottom": 0
 							}
 						},
-						"borderDouble":  {
-							"styles":  {
+						"borderDouble": {
+							"styles": {
 								"widthBottom": 3,
 								"style": "double"
 							}
 						},
-						"borderDoubleHorizontal":  {
-							"styles":  {
+						"borderDoubleHorizontal": {
+							"styles": {
 								"widthBottom": 3,
 								"style": "double"
 							}
 						},
-						"borderSingleVertical":  {
-							"styles":  {
+						"borderSingleVertical": {
+							"styles": {
 								"widthBottom": 0
 							}
 						},
-						"borderDoubleVertical":  {
-							"styles":  {
+						"borderDoubleVertical": {
+							"styles": {
 								"widthBottom": 0
 							}
 						}
 					}
 				},
-				"grid-cell":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"grid-cell": {
+					"states": {
+						"default": {
+							"styles": {
 								"widthRight": 1,
 								"colorRight": "table-column-line"
 							}
 						},
-						"borderNone":  {
-							"styles":  {
+						"borderNone": {
+							"styles": {
 								"widthRight": 0
 							}
 						},
-						"borderBoth":  {
-							"styles":  {
+						"borderBoth": {
+							"styles": {
 								"widthRight": 1
 							}
 						},
-						"borderVertical":  {
-							"styles":  {
+						"borderVertical": {
+							"styles": {
 								"widthRight": 1
 							}
 						},
-						"borderHorizontal":  {
-							"styles":  {
+						"borderHorizontal": {
+							"styles": {
 								"widthRight": 0
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
-							"states":  {
-								"default":  {
-									"styles":  {
-										"backgroundPosition": ["center", "center"],
+					"components": {
+						"icon": {
+							"states": {
+								"default": {
+									"styles": {
+										"backgroundPosition": [ "center", "center" ],
 										"backgroundSize": "18px"
 									},
-									"properties":  {
+									"properties": {
 										"width": 18,
-										"margin": [0, 2, 0, 2]
+										"margin": [ 0, 2, 0, 2 ]
 									}
 								}
 							}
 						},
-						"stateIcon":  {
-							"states":  {
-								"default":  {
-									"styles":  {
-										"backgroundPosition": ["center", "center"],
+						"stateIcon": {
+							"states": {
+								"default": {
+									"styles": {
+										"backgroundPosition": [ "center", "center" ],
 										"backgroundSize": "18px"
 									},
-									"properties":  {
+									"properties": {
 										"width": 18,
-										"margin": [0, 2, 0, 2]
+										"margin": [ 0, 2, 0, 2 ]
 									}
 								}
 							}
 						},
-						"checkbox":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+						"checkbox": {
+							"states": {
+								"default": {
+									"styles": {
 										"backgroundImage": "checkbox",
-										"backgroundPosition": ["center", "center"],
+										"backgroundPosition": [ "center", "center" ],
 										"backgroundSize": "18px",
 										"fillColor": "iconDark"
 									},
-									"properties":  {
+									"properties": {
 										"width": 18,
-										"margin": [0, 2, 0, 2]
+										"margin": [ 0, 2, 0, 2 ]
 									}
 								},
-								"checked":  {
-									"styles":  {
+								"checked": {
+									"styles": {
 										"backgroundImage": "checkbox-checked"
 									}
 								}
 							}
 						},
-						"content":  {
-							"states":  {
-								"default":  {
+						"content": {
+							"states": {
+								"default": {
 								}
 							}
 						}
 					}
 				},
-				"item":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"item": {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "transparent",
 								"backgroundColor": "",
 								"width": 1
+							},
+							"properties": {
+								"textColor": "windowText"
 							}
 						},
-						"selected":  {
-							"styles":  {
+						"selected": {
+							"styles": {
 								"color": "windowFrame",
 								"backgroundColor": "hotTrack"
+							},
+							"properties": {
+								"textColor": "highlightText"
 							}
 						},
-						"focused":  {
-							"styles":  {
+						"focused": {
+							"styles": {
 								"color": "focusFrame"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+					"components": {
+						"icon": {
+							"states": {
+								"default": {
+									"properties": {
 										"scale": true,
 										"marginRight": 5
 									}
 								}
 							}
 						},
-						"label":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+						"label": {
+							"states": {
+								"default": {
+									"properties": {
 										"textAlign": "left"
 									}
 								},
-								"selected":  {
+								"selected": {
 								},
-								"largeIcon":  {
-									"properties":  {
+								"largeIcon": {
+									"properties": {
 										"textAlign": "center"
 									}
 								}
@@ -2610,30 +2623,30 @@
 						}
 					}
 				},
-				"tools":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"tools": {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "windowFrame"
 							}
 						},
-						"top":  {
-							"styles":  {
+						"top": {
+							"styles": {
 								"widthBottom": 1
 							}
 						},
-						"left":  {
-							"styles":  {
+						"left": {
+							"styles": {
 								"widthRight": 1
 							}
 						},
-						"right":  {
-							"styles":  {
+						"right": {
+							"styles": {
 								"widthLeft": 1
 							}
 						},
-						"bottom":  {
-							"styles":  {
+						"bottom": {
+							"styles": {
 								"widthTop": 1
 							}
 						}
@@ -2641,124 +2654,124 @@
 				}
 			}
 		},
-		"mainmenu":  {
+		"mainmenu": {
 			"inherit": "menubar",
 			"text": "MainMenu",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"widthBottom": 1,
 						"color": "controlFrame"
 					},
-					"properties":  {
+					"properties": {
 						"font": "menu"
 					}
 				}
 			}
 		},
-		"menu":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"menu": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "windowFrame",
 						"backgroundColor": "menu",
 						"css": "{\"before\":{\"content\":\"\",\"display\":\"block\",\"position\":\"absolute\",\"top\":\"0px\",\"left\":\"0px\",\"width\":\"32px\",\"height\":\"100%\",\"background-color\":\"control\"}}"
 					},
-					"properties":  {
+					"properties": {
 						"iconColumnWidth": 32,
 						"font": "menu",
 						"placementModeX": "best-fit"
 					}
 				},
-				"submenu":  {
-					"properties":  {
+				"submenu": {
+					"properties": {
 						"position": "right-top",
 						"offset": -1
 					}
 				}
 			},
-			"components":  {
-				"item":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"item": {
+					"states": {
+						"default": {
+							"properties": {
 								"textColor": "menuText",
 								"opacity": 1,
 								"height": 32
 							},
-							"styles":  {
+							"styles": {
 								"backgroundColor": "transparent"
 							}
 						},
-						"selected":  {
-							"styles":  {
+						"selected": {
+							"styles": {
 								"backgroundColor": "menuSelected"
 							},
-							"properties":  {
+							"properties": {
 								"cursor": "pointer",
 								"textColor": "menuSelectedText"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5
 							}
 						},
-						"unchecked":  {
+						"unchecked": {
 						},
-						"checked":  {
-							"styles":  {
+						"checked": {
+							"styles": {
 								"css": "{\"before\":{\"content\":\"\",\"display\":\"block\",\"position\":\"absolute\",\"top\":\"0px\",\"left\":\"0px\",\"width\":\"32px\",\"height\":\"100%\",\"background-size\":\"16px 16px\",\"background-color\":\"menuSelected\"},\"after\":{\"content\":\"\",\"display\":\"block\",\"position\":\"absolute\",\"top\":\"10px\",\"left\":\"8px\",\"width\":\"12px\",\"height\":\"6px\",\"transform\":\"rotateZ(-45deg)\",\"border\":\"none\",\"border-left\":\"2px solid white\",\"border-bottom\":\"2px solid white\"}}"
 							}
 						},
-						"radio-checked":  {
-							"styles":  {
+						"radio-checked": {
+							"styles": {
 								"css": "{\"before\":{\"content\":\"\",\"display\":\"block\",\"position\":\"absolute\",\"top\":\"0px\",\"left\":\"0px\",\"width\":\"32px\",\"height\":\"100%\",\"background-size\":\"16px 16px\",\"background-color\":\"menuSelected\"},\"after\":{\"content\":\"\",\"display\":\"block\",\"position\":\"absolute\",\"top\":\"12px\",\"left\":\"12px\",\"width\":\"8px\",\"height\":\"8px\",\"border-radius\":\"8px\",\"background-color\":\"white\"}}"
 							}
 						}
 					},
-					"components":  {
-						"shortcut":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+					"components": {
+						"shortcut": {
+							"states": {
+								"default": {
+									"properties": {
 										"paddingLeft": 20,
 										"paddingRight": 10
 									}
 								}
 							}
 						},
-						"arrow":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+						"arrow": {
+							"states": {
+								"default": {
+									"properties": {
 										"source": "menu-parent"
 									}
 								},
-								"rightToLeft":  {
-									"styles":  {
+								"rightToLeft": {
+									"styles": {
 										"transform": "rotateZ(180deg)"
 									}
 								}
 							},
 							"inherit": "icon-dark"
 						},
-						"label":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+						"label": {
+							"states": {
+								"default": {
+									"properties": {
 										"marginLeft": 10,
 										"marginRight": 10
 									}
 								}
 							}
 						},
-						"icon":  {
-							"states":  {
-								"default":  {
-									"properties":  {
-										"padding": [0, 14, 0, 14]
+						"icon": {
+							"states": {
+								"default": {
+									"properties": {
+										"padding": [ 0, 14, 0, 14 ]
 									}
 								}
 							},
@@ -2766,109 +2779,109 @@
 						}
 					}
 				},
-				"separator":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"separator": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "controlDark"
 							},
-							"properties":  {
+							"properties": {
 								"width": 1,
 								"height": 1,
-								"margin": [6, 0, 6, 40]
+								"margin": [ 6, 0, 6, 40 ]
 							}
 						}
 					}
 				}
 			}
 		},
-		"menubar":  {
+		"menubar": {
 			"text": "MenuBar",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"widthBottom": 0,
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"height": 30,
 						"backgroundColor": "menuBar",
 						"textColor": "menuText",
 						"font": "menu"
 					}
 				},
-				"borderSolid":  {
-					"styles":  {
+				"borderSolid": {
+					"styles": {
 						"widthBottom": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"widthBottom": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"widthBottom": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"widthBottom": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"item":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"padding": [0, 12, 0, 12],
+			"components": {
+				"item": {
+					"states": {
+						"default": {
+							"properties": {
+								"padding": [ 0, 12, 0, 12 ],
 								"textColor": "",
 								"opacity": 1
 							},
-							"styles":  {
+							"styles": {
 								"backgroundColor": null
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "menuHighlight"
 							},
-							"properties":  {
+							"properties": {
 								"cursor": "pointer",
 								"textColor": "menuHighlightText"
 							}
 						},
-						"pressed":  {
-							"styles":  {
+						"pressed": {
+							"styles": {
 								"backgroundColor": "menuSelected"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "menuSelectedText"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"scale": true
 									}
 								},
-								"pressed":  {
-									"properties":  {
+								"pressed": {
+									"properties": {
 										"textColor": "menuSelectedText"
 									}
 								}
@@ -2876,11 +2889,11 @@
 						}
 					}
 				},
-				"overflow":  {
+				"overflow": {
 					"inherit": "menubar/item",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "menu-overflow",
 								"maxWidth": 32,
 								"width": 32,
@@ -2889,104 +2902,104 @@
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark"
 						}
 					}
 				}
 			}
 		},
-		"menubutton":  {
+		"menubutton": {
 			"text": "Menu Button",
 			"inherit": "button",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"show": "both"
 					}
 				},
-				"pressed":  {
-					"styles":  {
+				"pressed": {
+					"styles": {
 						"transform": null
 					}
 				}
 			}
 		},
-		"messagebox":  {
+		"messagebox": {
 			"text": "MessageBox",
 			"inherit": "window",
-			"components":  {
-				"image":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"margin": [10, 0, 0, 20],
+			"components": {
+				"image": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 10, 0, 0, 20 ],
 								"width": 58,
 								"height": 58
 							},
-							"styles":  {
-								"backgroundPosition": ["center", "center"],
+							"styles": {
+								"backgroundPosition": [ "center", "center" ],
 								"backgroundRepeat": "no-repeat"
 							}
 						},
-						"information":  {
-							"properties":  {
+						"information": {
+							"properties": {
 								"textColor": "#1061CB"
 							}
 						},
-						"error":  {
-							"properties":  {
+						"error": {
+							"properties": {
 								"textColor": "#AC0C16"
 							}
 						},
-						"hand":  {
-							"properties":  {
+						"hand": {
+							"properties": {
 								"textColor": "#AC0C16"
 							}
 						},
-						"stop":  {
-							"properties":  {
+						"stop": {
+							"properties": {
 								"textColor": "#AC0C16"
 							}
 						},
-						"warning":  {
-							"properties":  {
+						"warning": {
+							"properties": {
 								"textColor": "#E09E01"
 							}
 						},
-						"question":  {
-							"properties":  {
+						"question": {
+							"properties": {
 								"textColor": "#0B934F"
 							}
 						}
 					}
 				},
-				"message":  {
+				"message": {
 					"text": "Message",
-					"states":  {
-						"default":  {
-							"properties":  {
-								"margin": [25, 40, 20, 20]
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 25, 40, 20, 20 ]
 							}
 						}
 					}
 				},
-				"buttonsPane":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"buttonsPane": {
+					"states": {
+						"default": {
+							"properties": {
 								"backgroundColor": "window",
 								"padding": 20
 							}
 						}
 					},
-					"components":  {
-						"button":  {
+					"components": {
+						"button": {
 							"inherit": "button",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"padding": 8,
 										"width": 120
 									}
@@ -2995,227 +3008,239 @@
 						}
 					}
 				},
-				"captionbar":  {
+				"captionbar": {
 					"text": "CaptionBar",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"textColor": "activeCaptionText"
 							},
-							"styles":  {
+							"styles": {
 								"backgroundColor": "#1061CB"
 							}
 						},
-						"information":  {
-							"styles":  {
+						"information": {
+							"styles": {
 								"backgroundColor": "#1061CB"
 							}
 						},
-						"error":  {
-							"styles":  {
+						"error": {
+							"styles": {
 								"backgroundColor": "#AC0C16"
 							}
 						},
-						"hand":  {
-							"styles":  {
+						"hand": {
+							"styles": {
 								"backgroundColor": "#AC0C16"
 							}
 						},
-						"stop":  {
-							"styles":  {
+						"stop": {
+							"styles": {
 								"backgroundColor": "#AC0C16"
 							}
 						},
-						"warning":  {
-							"styles":  {
+						"warning": {
+							"styles": {
 								"backgroundColor": "#E09E01"
 							}
 						},
-						"question":  {
-							"styles":  {
+						"question": {
+							"styles": {
 								"backgroundColor": "#0B934F"
 							}
 						}
 					},
 					"inherit": "window/captionbar"
+				},
+				"title": {
+					"states": {
+						"default": {
+							"styles": {
+							},
+							"properties": {
+								"textColor": "activeCaptionText"
+							}
+						}
+					},
+					"inherit": "window/title"
 				}
 			},
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 6,
 						"color": "#1061CB"
 					},
-					"properties":  {
+					"properties": {
 						"maxWidth": 750
 					}
 				},
-				"information":  {
-					"styles":  {
+				"information": {
+					"styles": {
 						"color": "#1061CB"
 					}
 				},
-				"error":  {
-					"styles":  {
+				"error": {
+					"styles": {
 						"color": "#AC0C16"
 					}
 				},
-				"hand":  {
-					"styles":  {
+				"hand": {
+					"styles": {
 						"color": "#AC0C16"
 					}
 				},
-				"stop":  {
-					"styles":  {
+				"stop": {
+					"styles": {
 						"color": "#AC0C16"
 					}
 				},
-				"warning":  {
-					"styles":  {
+				"warning": {
+					"styles": {
 						"color": "#E09E01"
 					}
 				},
-				"question":  {
-					"styles":  {
+				"question": {
+					"styles": {
 						"color": "#0B934F"
 					}
 				}
 			}
 		},
-		"page":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"page": {
+			"states": {
+				"default": {
+					"properties": {
 						"backgroundColor": "window",
 						"textColor": "controlText"
 					}
 				}
 			},
-			"components":  {
-				"pane":  {
+			"components": {
+				"pane": {
 					"inherit": "scrollarea"
 				}
 			}
 		},
-		"panel":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"panel": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"style": "solid",
 						"color": "windowFrame"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"pane":  {
+			"components": {
+				"pane": {
 					"inherit": "scrollarea"
 				},
-				"captionbar":  {
+				"captionbar": {
 					"text": "CaptionBar",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "windowFrame",
 								"width": 0,
 								"backgroundColor": "activeCaption"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "white"
 							}
 						},
-						"horizontal":  {
-							"properties":  {
+						"horizontal": {
+							"properties": {
 								"height": 28
 							}
 						},
-						"vertical":  {
-							"properties":  {
+						"vertical": {
+							"properties": {
 								"width": 28,
 								"maxHeight": null
 							}
 						},
-						"barTop":  {
-							"styles":  {
+						"barTop": {
+							"styles": {
 								"widthBottom": 1
 							}
 						},
-						"barLeft":  {
-							"styles":  {
+						"barLeft": {
+							"styles": {
 								"widthRight": 1
 							}
 						},
-						"barRight":  {
-							"styles":  {
+						"barRight": {
+							"styles": {
 								"widthLeft": 1
 							}
 						},
-						"barBottom":  {
-							"styles":  {
+						"barBottom": {
+							"styles": {
 								"widthTop": 1
 							}
 						}
 					}
 				},
-				"close-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"close-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-down",
 								"cursor": "pointer",
 								"opacity": 0.5,
 								"alignX": "center",
 								"alignY": "middle",
-								"margin": [0, 10, 0, 10],
+								"margin": [ 0, 10, 0, 10 ],
 								"width": 24,
 								"height": 24
 							}
 						},
-						"vertical":  {
-							"properties":  {
-								"margin": [10, 0, 10, 0]
+						"vertical": {
+							"properties": {
+								"margin": [ 10, 0, 10, 0 ]
 							}
 						},
-						"collapsed":  {
-							"properties":  {
+						"collapsed": {
+							"properties": {
 								"icon": "icon-up"
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 24,
 										"height": 24
 									}
@@ -3224,137 +3249,137 @@
 						}
 					}
 				},
-				"title":  {
-					"states":  {
-						"default":  {
+				"title": {
+					"states": {
+						"default": {
 						},
-						"horizontal":  {
-							"properties":  {
-								"margin": [0, 10, 0, 10]
+						"horizontal": {
+							"properties": {
+								"margin": [ 0, 10, 0, 10 ]
 							}
 						},
-						"barLeft":  {
-							"properties":  {
-								"margin": [10, 0, 20, 0]
+						"barLeft": {
+							"properties": {
+								"margin": [ 10, 0, 20, 0 ]
 							}
 						},
-						"barRight":  {
-							"properties":  {
-								"margin": [10, 0, 10, 0]
+						"barRight": {
+							"properties": {
+								"margin": [ 10, 0, 10, 0 ]
 							}
 						}
 					}
 				},
-				"icon":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"icon": {
+					"states": {
+						"default": {
+							"properties": {
 								"scale": true,
 								"width": 18,
 								"height": 18
 							}
 						},
-						"vertical":  {
-							"properties":  {
-								"margin": [0, 0, 8, 0]
+						"vertical": {
+							"properties": {
+								"margin": [ 0, 0, 8, 0 ]
 							}
 						},
-						"horizontal":  {
-							"properties":  {
-								"margin": [0, 0, 0, 8]
+						"horizontal": {
+							"properties": {
+								"margin": [ 0, 0, 0, 8 ]
 							}
 						}
 					}
 				}
 			}
 		},
-		"picturebox":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"picturebox": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 0,
 						"color": "windowFrame"
 					}
 				},
-				"borderSolid":  {
-					"styles":  {
+				"borderSolid": {
+					"styles": {
 						"width": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			}
 		},
-		"progressbar":  {
+		"progressbar": {
 			"text": "ProgressBar",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "window",
 						"width": 0,
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"height": 24,
 						"textColor": "controlDark"
 					}
 				},
-				"borderSolid":  {
-					"styles":  {
+				"borderSolid": {
+					"styles": {
 						"width": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"progress":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"progress": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "primary"
 							}
 						}
 					}
 				},
-				"label":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
 								"textAlign": "center"
 							}
 						}
@@ -3362,73 +3387,73 @@
 				}
 			}
 		},
-		"propertygrid":  {
+		"propertygrid": {
 			"text": "PropertyGrid",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"style": "solid",
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"indent": 20,
 						"rowHeight": 24,
 						"headerWidth": 24
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"grid":  {
+			"components": {
+				"grid": {
 					"inherit": "table",
-					"components":  {
-						"tools":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+					"components": {
+						"tools": {
+							"states": {
+								"default": {
+									"styles": {
 										"color": "windowFrame"
 									}
 								},
-								"top":  {
-									"styles":  {
+								"top": {
+									"styles": {
 										"widthBottom": 1
 									}
 								},
-								"left":  {
-									"styles":  {
+								"left": {
+									"styles": {
 										"widthRight": 1
 									}
 								},
-								"right":  {
-									"styles":  {
+								"right": {
+									"styles": {
 										"widthLeft": 1
 									}
 								},
-								"bottom":  {
-									"styles":  {
+								"bottom": {
+									"styles": {
 										"widthTop": 1
 									}
 								}
@@ -3436,62 +3461,62 @@
 						}
 					}
 				},
-				"grid-row":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"grid-row": {
+					"states": {
+						"default": {
+							"styles": {
 								"widthBottom": 1,
 								"colorBottom": "table-row-line",
 								"backgroundColor": "table-row-background"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "table-row"
 							}
 						},
-						"selected":  {
-							"styles":  {
+						"selected": {
+							"styles": {
 								"backgroundColor": "table-row-background-selected"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "table-row-selected"
 							}
 						}
 					}
 				},
-				"grid-cell":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"grid-cell": {
+					"states": {
+						"default": {
+							"styles": {
 								"widthRight": 1,
 								"colorRight": "table-column-line"
 							},
-							"properties":  {
+							"properties": {
 								"paddingLeft": 5
 							}
 						}
 					},
-					"components":  {
-						"open":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+					"components": {
+						"open": {
+							"states": {
+								"default": {
+									"styles": {
 										"backgroundSize": "16px",
 										"backgroundOrigin": "content-box",
-										"backgroundPosition": ["center", "right"],
+										"backgroundPosition": [ "center", "right" ],
 										"fillColor": "windowText"
 									},
-									"properties":  {
+									"properties": {
 										"width": 20,
 										"paddingRight": 2
 									}
 								},
-								"expanded":  {
-									"styles":  {
+								"expanded": {
+									"styles": {
 										"backgroundImage": "icon-down"
 									}
 								},
-								"collapsed":  {
-									"styles":  {
+								"collapsed": {
+									"styles": {
 										"backgroundImage": "icon-right"
 									}
 								}
@@ -3499,49 +3524,49 @@
 						}
 					}
 				},
-				"grid-category-cell":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"grid-category-cell": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "activeCaption"
 							},
-							"properties":  {
+							"properties": {
 								"paddingLeft": 5,
 								"textColor": "activeCaptionText"
 							}
 						}
 					}
 				},
-				"grid-header":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"grid-header": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "activeCaption"
 							}
 						}
 					},
-					"components":  {
-						"open":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+					"components": {
+						"open": {
+							"states": {
+								"default": {
+									"styles": {
 										"backgroundSize": "16px",
 										"backgroundOrigin": "content-box",
-										"backgroundPosition": ["center", "right"],
+										"backgroundPosition": [ "center", "right" ],
 										"fillColor": "activeCaptionText"
 									},
-									"properties":  {
+									"properties": {
 										"width": 20,
 										"paddingRight": 2
 									}
 								},
-								"expanded":  {
-									"styles":  {
+								"expanded": {
+									"styles": {
 										"backgroundImage": "icon-down"
 									}
 								},
-								"collapsed":  {
-									"styles":  {
+								"collapsed": {
+									"styles": {
 										"backgroundImage": "icon-right"
 									}
 								}
@@ -3549,11 +3574,11 @@
 						}
 					}
 				},
-				"help":  {
+				"help": {
 					"inherit": "panel",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"padding": 4,
 								"backgroundColor": "window"
 							}
@@ -3562,55 +3587,55 @@
 				}
 			}
 		},
-		"radiobutton":  {
-			"components":  {
-				"icon":  {
+		"radiobutton": {
+			"components": {
+				"icon": {
 					"inherit": "icon-dark"
 				},
-				"label":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 4
 							}
 						},
-						"rightAligned":  {
-							"properties":  {
+						"rightAligned": {
+							"properties": {
 								"marginLeft": 0
 							}
 						}
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "transparent"
 					},
-					"properties":  {
+					"properties": {
 						"icon": "radiobutton",
 						"opacity": 1
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame",
 						"style": "dotted"
 					}
 				},
-				"checked":  {
-					"properties":  {
+				"checked": {
+					"properties": {
 						"icon": "radiobutton-checked"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1,
 						"style": "dotted"
@@ -3618,11 +3643,11 @@
 				}
 			}
 		},
-		"resize-frame":  {
+		"resize-frame": {
 			"text": "Control Resize Frame",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 2,
 						"style": "dashed",
 						"color": "windowFrame"
@@ -3630,138 +3655,138 @@
 				}
 			}
 		},
-		"resizer":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"resizer": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 5,
 						"color": "windowFrame"
 					}
 				}
 			}
 		},
-		"root":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"root": {
+			"states": {
+				"default": {
+					"properties": {
 						"font": "default",
 						"textColor": "windowText"
 					}
 				}
 			}
 		},
-		"scrollarea":  {
+		"scrollarea": {
 			"text": "Scrollarea",
-			"states":  {
-				"default":  {
+			"states": {
+				"default": {
 				}
 			},
-			"components":  {
-				"corner":  {
+			"components": {
+				"corner": {
 					"text": "Corner",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "scrollBar"
 							}
 						}
 					}
 				},
-				"scrollbar-x":  {
+				"scrollbar-x": {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-y":  {
+				"scrollbar-y": {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				}
 			}
 		},
-		"scrollbar":  {
+		"scrollbar": {
 			"text": "ScrollBar",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "scrollBar"
 					},
-					"properties":  {
+					"properties": {
 						"width": 20
 					}
 				},
-				"horizontal":  {
-					"properties":  {
+				"horizontal": {
+					"properties": {
 						"height": 20
 					},
-					"styles":  {
+					"styles": {
 						"css": "{\"height\":\"5px !important\",\"transform\":\"translateY(15px)\",\"transition\":\"height 100ms, transform 100ms\",\"opacity\":\".6\",\"hover\":{\"height\":\"20px !important\",\"transform\":\"translateY(0px)\",\"opacity\":\".8\"}}"
 					}
 				},
-				"vertical":  {
-					"styles":  {
+				"vertical": {
+					"styles": {
 						"css": "{\"width\":\"5px !important\",\"transform\":\"translateX(15px)\",\"transition\":\"width 100ms, transform 100ms\",\"opacity\":\".6\",\"hover\":{\"width\":\"20px !important\",\"transform\":\"translateX(0px)\",\"opacity\":\".8\"}}"
 					}
 				}
 			},
-			"components":  {
-				"slider":  {
-					"components":  {
-						"knob":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+			"components": {
+				"slider": {
+					"components": {
+						"knob": {
+							"states": {
+								"default": {
+									"styles": {
 										"backgroundColor": "scrollbarSlider",
 										"color": "transparent",
 										"transition": "background-color 250ms"
 									}
 								},
-								"horizontal":  {
-									"properties":  {
+								"horizontal": {
+									"properties": {
 										"minWidth": 10
 									}
 								},
-								"vertical":  {
-									"properties":  {
+								"vertical": {
+									"properties": {
 										"minHeight": 10
 									}
 								},
-								"hovered":  {
-									"styles":  {
+								"hovered": {
+									"styles": {
 										"backgroundColor": "scrollbarActive"
 									},
-									"properties":  {
+									"properties": {
 										"cursor": "pointer"
 									}
 								}
 							}
 						}
 					},
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"padding": 2
 							}
 						}
 					}
 				},
-				"button-end":  {
-					"states":  {
-						"default":  {
+				"button-end": {
+					"states": {
+						"default": {
 						}
 					},
 					"text": "Button End"
 				},
-				"button-begin":  {
-					"states":  {
-						"default":  {
+				"button-begin": {
+					"states": {
+						"default": {
 						}
 					}
 				}
 			}
 		},
-		"shape":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"shape": {
+			"states": {
+				"default": {
+					"properties": {
 						"borderSize": 1,
 						"borderColor": "windowFrame",
 						"borderStyle": "solid",
@@ -3770,100 +3795,100 @@
 				}
 			}
 		},
-		"slidebar":  {
+		"slidebar": {
 			"text": "SlideBar",
 			"inherit": "widget",
-			"components":  {
-				"button-forward":  {
+			"components": {
+				"button-forward": {
 					"text": "Button Forward",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-right",
 								"opacity": 0.7,
 								"center": true,
 								"backgroundColor": "slidebarButtons"
 							}
 						},
-						"vertical":  {
-							"properties":  {
+						"vertical": {
+							"properties": {
 								"icon": "icon-down"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.1
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"cursor": "pointer",
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"button-backward":  {
+				"button-backward": {
 					"text": "Button Backward",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "icon-left",
 								"opacity": 0.7,
 								"center": true,
 								"backgroundColor": "slidebarButtons"
 							}
 						},
-						"vertical":  {
-							"properties":  {
+						"vertical": {
+							"properties": {
 								"icon": "icon-up"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.1
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"cursor": "pointer",
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-light"
 						}
 					}
 				},
-				"content":  {
+				"content": {
 					"text": "Content",
-					"states":  {
-						"default":  {
+					"states": {
+						"default": {
 						}
 					}
 				}
 			},
-			"states":  {
-				"default":  {
+			"states": {
+				"default": {
 				}
 			}
 		},
-		"slider":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"slider": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"color": "transparent",
 						"backgroundPositionX": "center"
 					},
-					"properties":  {
+					"properties": {
 						"opacity": 1,
 						"width": 36,
 						"height": 36,
@@ -3871,110 +3896,110 @@
 						"tickStyle": "none"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"horizontal":  {
+				"horizontal": {
 				}
 			},
-			"components":  {
-				"knob":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"knob": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "primary",
 								"color": "windowFrame",
 								"radius": 12,
 								"transition": "height 0.3s, width 0.3s"
 							},
-							"properties":  {
+							"properties": {
 								"width": 12,
 								"height": 12
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"cursor": "pointer"
 							}
 						},
-						"focused":  {
-							"styles":  {
+						"focused": {
+							"styles": {
 								"transition": "height 0.3s, width 0.3s"
 							},
-							"properties":  {
+							"properties": {
 								"width": 22,
 								"height": 22
 							}
 						}
 					}
 				},
-				"begin":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"begin": {
+					"states": {
+						"default": {
+							"properties": {
 								"width": 2,
 								"height": 2
 							}
 						}
 					}
 				},
-				"end":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"end": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "controlDark"
 							},
-							"properties":  {
+							"properties": {
 								"width": 2,
 								"height": 2
 							}
 						}
 					}
 				},
-				"bubble":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"bubble": {
+					"states": {
+						"default": {
+							"properties": {
 								"textColor": "highlightText",
 								"padding": 4,
 								"opacity": 0.6
 							}
 						},
-						"horizontal":  {
-							"properties":  {
+						"horizontal": {
+							"properties": {
 								"position": "top-center",
 								"offsetBottom": 2,
 								"paddingBottom": 10
 							},
-							"styles":  {
+							"styles": {
 								"backgroundImage": "slider-bubble-horizontal",
-								"backgroundPosition": ["bottom", "center"]
+								"backgroundPosition": [ "bottom", "center" ]
 							}
 						},
-						"vertical":  {
-							"properties":  {
+						"vertical": {
+							"properties": {
 								"position": "right-middle",
 								"offsetLeft": 2,
 								"paddingLeft": 12
 							},
-							"styles":  {
+							"styles": {
 								"backgroundImage": "slider-bubble-vertical",
-								"backgroundPosition": ["center", "left"]
+								"backgroundPosition": [ "center", "left" ]
 							}
 						}
 					}
 				}
 			}
 		},
-		"spinner":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"spinner": {
+			"states": {
+				"default": {
+					"styles": {
 						"style": "solid"
 					},
-					"properties":  {
+					"properties": {
 						"height": 22,
 						"padding": 0,
 						"buttonsLayout": "horizontal",
@@ -3984,65 +4009,65 @@
 						"upDownAlign": "center"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"celleditor":  {
-					"styles":  {
+				"celleditor": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1
 					}
 				}
 			},
-			"components":  {
-				"upbutton":  {
+			"components": {
+				"upbutton": {
 					"text": "UpButton",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"opacity": 1,
 								"icon": "spinner-plus",
 								"width": 20,
 								"center": true
 							},
-							"styles":  {
+							"styles": {
 								"backgroundColor": "control"
 							}
 						},
-						"list":  {
-							"properties":  {
+						"list": {
+							"properties": {
 								"icon": "spinner-up"
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "hotTrack"
 							},
-							"properties":  {
+							"properties": {
 								"cursor": "pointer"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
+							"states": {
+								"default": {
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"textColor": "white"
 									}
 								}
@@ -4050,47 +4075,47 @@
 						}
 					}
 				},
-				"downbutton":  {
+				"downbutton": {
 					"text": "DownButton",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"opacity": 1,
 								"icon": "spinner-minus",
 								"width": 20,
 								"center": true
 							},
-							"styles":  {
+							"styles": {
 								"backgroundColor": "control"
 							}
 						},
-						"list":  {
-							"properties":  {
+						"list": {
+							"properties": {
 								"icon": "spinner-down"
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "hotTrack"
 							},
-							"properties":  {
+							"properties": {
 								"cursor": "pointer"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
+							"states": {
+								"default": {
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"textColor": "white"
 									}
 								}
@@ -4098,118 +4123,118 @@
 						}
 					}
 				},
-				"textfield":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"margin": [0, 3, 0, 6],
+				"textfield": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 0, 3, 0, 6 ],
 								"alignY": "middle"
 							}
 						},
-						"focused":  {
+						"focused": {
 						}
 					}
 				}
 			},
 			"inherit": "inputElement"
 		},
-		"splitbutton":  {
+		"splitbutton": {
 			"text": "Split Button",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"radius": 2,
 						"width": 1,
 						"color": "buttonBorder",
 						"backgroundColor": "buttonFace"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "buttonText",
 						"height": 26,
-						"padding": [5, 0, 5, 0]
+						"padding": [ 5, 0, 5, 0 ]
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "buttonHighlight"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "white"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame"
 					}
 				},
-				"vertical":  {
-					"properties":  {
-						"padding": [0, 5, 0, 5]
+				"vertical": {
+					"properties": {
+						"padding": [ 0, 5, 0, 5 ]
 					}
 				}
 			},
-			"components":  {
-				"button":  {
+			"components": {
+				"button": {
 					"inherit": "button",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"radius": 0,
 								"width": 0,
-								"innerWidth": [0, 1, 0, 0],
+								"innerWidth": [ 0, 1, 0, 0 ],
 								"innerColor": "buttonBorder",
 								"backgroundColor": "inherit",
 								"shadowBlurRadius": 0,
-								"shadowLength": [0, 0]
+								"shadowLength": [ 0, 0 ]
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "inherit"
 							}
 						},
-						"pressed":  {
+						"pressed": {
 						},
-						"vertical":  {
-							"styles":  {
-								"innerWidth": [0, 0, 1, 0]
+						"vertical": {
+							"styles": {
+								"innerWidth": [ 0, 0, 1, 0 ]
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"innerColor": "white"
 							}
 						}
 					}
 				},
-				"arrow":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"arrow": {
+					"states": {
+						"default": {
+							"styles": {
 								"radius": 0,
 								"width": 0,
 								"backgroundColor": "",
 								"shadowBlurRadius": 0,
-								"shadowLength": [0, 0]
+								"shadowLength": [ 0, 0 ]
 							},
-							"properties":  {
+							"properties": {
 								"icon": "menubutton-arrow"
 							}
 						},
-						"pressed":  {
+						"pressed": {
 						}
 					},
 					"inherit": "button",
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 20,
 										"height": 20
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"textColor": "white"
 									}
 								}
@@ -4219,14 +4244,14 @@
 				}
 			}
 		},
-		"splitpane":  {
+		"splitpane": {
 			"text": "SplitPane",
-			"states":  {
-				"default":  {
+			"states": {
+				"default": {
 				}
 			},
-			"components":  {
-				"splitter":  {
+			"components": {
+				"splitter": {
 					"states": {
 						"default": {
 							"properties": {
@@ -4262,106 +4287,106 @@
 						}
 					}
 				},
-				"slider":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"slider": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "rgba(189,191,191,0.64)"
 							}
 						},
-						"vertical":  {
+						"vertical": {
 						},
-						"horizontal":  {
+						"horizontal": {
 						}
 					}
 				}
 			}
 		},
-		"statusbar":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"statusbar": {
+			"states": {
+				"default": {
+					"styles": {
 						"widthTop": 1,
 						"color": "windowFrame"
 					}
 				}
 			},
-			"components":  {
-				"label":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"padding": [0, 10, 0, 10]
+			"components": {
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
+								"padding": [ 0, 10, 0, 10 ]
 							}
 						}
 					}
 				},
-				"panel":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"panel": {
+					"states": {
+						"default": {
+							"styles": {
 								"widthRight": 0,
 								"styleRight": "solid",
 								"color": "windowFrame"
 							},
-							"properties":  {
-								"padding": [0, 10, 0, 10]
+							"properties": {
+								"padding": [ 0, 10, 0, 10 ]
 							}
 						},
-						"borderNone":  {
-							"styles":  {
+						"borderNone": {
+							"styles": {
 								"widthRight": 0
 							}
 						},
-						"borderDashed":  {
-							"styles":  {
+						"borderDashed": {
+							"styles": {
 								"widthRight": 1,
 								"styleRight": "dashed"
 							}
 						},
-						"borderDotted":  {
-							"styles":  {
+						"borderDotted": {
+							"styles": {
 								"widthRight": 1,
 								"styleRight": "dotted"
 							}
 						},
-						"borderDouble":  {
-							"styles":  {
+						"borderDouble": {
+							"styles": {
 								"widthRight": 3,
 								"styleRight": "double"
 							}
 						},
-						"borderRaised":  {
-							"styles":  {
+						"borderRaised": {
+							"styles": {
 								"widthRight": 1,
 								"styleRight": "outset"
 							}
 						},
-						"borderSunken":  {
-							"styles":  {
+						"borderSunken": {
+							"styles": {
 								"widthRight": 1,
 								"styleRight": "inset"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark"
 						}
 					}
 				},
-				"grip":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"grip": {
+					"states": {
+						"default": {
+							"styles": {
 								"transform": "rotate(0deg)"
 							},
-							"properties":  {
+							"properties": {
 								"source": "corner-grip"
 							}
 						},
-						"rightToLeft":  {
-							"styles":  {
+						"rightToLeft": {
+							"styles": {
 								"transform": "rotate(90deg)"
 							}
 						}
@@ -4369,90 +4394,90 @@
 				}
 			}
 		},
-		"switch":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"switch": {
+			"states": {
+				"default": {
+					"properties": {
 						"opacity": 1,
 						"icon": "blank",
 						"minWidth": 40,
 						"minHeight": 24
 					},
-					"styles":  {
+					"styles": {
 						"width": 1,
 						"color": "transparent"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"width": 1,
 						"color": "focusFrame",
 						"style": "dotted"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1,
 						"style": "dotted"
 					}
 				}
 			},
-			"components":  {
-				"icon":  {
+			"components": {
+				"icon": {
 					"inherit": "",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 0,
 								"radius": 10,
 								"css": "{\"overflow\":\"visible !important\",\":before\":{\"content\":\"\",\"width\":\"18px\",\"height\":\"18px\",\"border-radius\":\"20px\",\"background-color\":\"control\",\"position\":\"absolute\",\"top\":\"-4px\",\"left\":\"0px\",\"transition\":\"left 100ms, background-color 100ms\"}}"
 							},
-							"properties":  {
+							"properties": {
 								"width": 40,
 								"height": 10,
-								"margin": [4, 0, 4, 0],
+								"margin": [ 4, 0, 4, 0 ],
 								"backgroundColor": "switchOff"
 							}
 						},
-						"checked":  {
-							"styles":  {
+						"checked": {
+							"styles": {
 								"color": "transparent",
 								"css": "{\"overflow\":\"visible !important\",\":before\":{\"content\":\"\",\"width\":\"18px\",\"height\":\"18px\",\"border-radius\":\"20px\",\"background-color\":\"#0FCC6D\",\"position\":\"absolute\",\"top\":\"-4px\",\"left\":\"22px\",\"transition\":\"left 100ms\"}}"
 							},
-							"properties":  {
+							"properties": {
 								"backgroundColor": "switchOn"
 							}
 						},
-						"undetermined":  {
-							"styles":  {
+						"undetermined": {
+							"styles": {
 								"css": "{\"overflow\":\"visible !important\",\":before\":{\"content\":\"\",\"width\":\"18px\",\"height\":\"18px\",\"border-radius\":\"10px\",\"background-color\":\"controlDark\",\"position\":\"absolute\",\"top\":\"-4px\",\"left\":\"11px\",\"transition\":\"left 100ms\"}}"
 							},
-							"properties":  {
+							"properties": {
 								"backgroundColor": "control"
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"cursor": "pointer"
 							}
 						}
 					}
 				},
-				"label":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"label": {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 2
 							}
 						},
-						"rightAligned":  {
-							"properties":  {
+						"rightAligned": {
+							"properties": {
 								"marginLeft": 0
 							}
 						}
@@ -4460,55 +4485,55 @@
 				}
 			}
 		},
-		"table":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"table": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"style": "solid",
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"indent": 20,
 						"rowHeight": 32,
 						"headerCellHeight": 32,
 						"backgroundColor": "window",
-						"headerBackColor": "buttonFace"
+						"headerBackColor": "control"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"column-button":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"column-button": {
+					"states": {
+						"default": {
+							"styles": {
 								"widthLeft": 1,
 								"colorLeft": "windowFrame"
 							},
-							"properties":  {
+							"properties": {
 								"width": 20,
 								"paddingLeft": 0,
 								"icon": "icon-columns",
@@ -4516,18 +4541,18 @@
 								"opacity": 0.8
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 16
 									}
 								}
@@ -4535,40 +4560,40 @@
 						}
 					}
 				},
-				"resize-line":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"resize-line": {
+					"states": {
+						"default": {
+							"properties": {
 								"height": 3,
 								"backgroundColor": "rgba(189,191,191,0.64)"
 							}
 						}
 					}
 				},
-				"tools":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"tools": {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "windowFrame"
 							}
 						},
-						"top":  {
-							"styles":  {
+						"top": {
+							"styles": {
 								"widthBottom": 1
 							}
 						},
-						"left":  {
-							"styles":  {
+						"left": {
+							"styles": {
 								"widthRight": 1
 							}
 						},
-						"right":  {
-							"styles":  {
+						"right": {
+							"styles": {
 								"widthLeft": 1
 							}
 						},
-						"bottom":  {
-							"styles":  {
+						"bottom": {
+							"styles": {
 								"widthTop": 1
 							}
 						}
@@ -4576,14 +4601,14 @@
 				}
 			}
 		},
-		"table-button-cell":  {
+		"table-button-cell": {
 			"inherit": "table-cell",
-			"components":  {
-				"button":  {
+			"components": {
+				"button": {
 					"inherit": "button",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"height": "100%",
 								"alignX": "center"
 							}
@@ -4592,110 +4617,110 @@
 				}
 			}
 		},
-		"table-cell":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"table-cell": {
+			"states": {
+				"default": {
+					"styles": {
 						"widthRight": 1,
 						"colorRight": "table-column-line"
 					}
 				},
-				"rightToLeft":  {
-					"properties":  {
+				"rightToLeft": {
+					"properties": {
 						"alignX": "right"
 					}
 				},
-				"odd":  {
-					"styles":  {
+				"odd": {
+					"styles": {
 						"backgroundColor": "table-row-background-odd"
 					}
 				},
-				"even":  {
-					"styles":  {
+				"even": {
+					"styles": {
 						"backgroundColor": "table-row-background-even"
 					}
 				},
-				"selected":  {
-					"styles":  {
+				"selected": {
+					"styles": {
 						"backgroundColor": "table-row-background-selected"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "table-row-selected"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"widthRight": 0
 					}
 				},
-				"borderBoth":  {
-					"styles":  {
+				"borderBoth": {
+					"styles": {
 						"widthRight": 1
 					}
 				},
-				"borderVertical":  {
-					"styles":  {
+				"borderVertical": {
+					"styles": {
 						"widthRight": 1
 					}
 				},
-				"borderHorizontal":  {
-					"styles":  {
+				"borderHorizontal": {
+					"styles": {
 						"widthRight": 0
 					}
 				}
 			},
-			"components":  {
-				"content":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"content": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundRepeat": "no-repeat",
 								"backgroundSize": "18px"
 							},
-							"properties":  {
-								"padding": [0, 2, 0, 2]
+							"properties": {
+								"padding": [ 0, 2, 0, 2 ]
 							}
 						}
 					}
 				},
-				"error":  {
+				"error": {
 					"text": "Error",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundImage": "icon-error",
 								"fillColor": "invalid",
 								"backgroundRepeat": "no-repeat",
-								"backgroundPosition": ["center", "center"],
+								"backgroundPosition": [ "center", "center" ],
 								"backgroundSize": "16px"
 							},
-							"properties":  {
-								"padding": [0, 8, 0, 8]
+							"properties": {
+								"padding": [ 0, 8, 0, 8 ]
 							}
 						}
 					}
 				},
-				"open":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"open": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundSize": "16px",
 								"backgroundOrigin": "content-box",
-								"backgroundPosition": ["center", "right"],
+								"backgroundPosition": [ "center", "right" ],
 								"fillColor": "windowText"
 							},
-							"properties":  {
+							"properties": {
 								"width": 20,
 								"paddingRight": 2
 							}
 						},
-						"expanded":  {
-							"styles":  {
+						"expanded": {
+							"styles": {
 								"backgroundImage": "icon-down"
 							}
 						},
-						"collapsed":  {
-							"styles":  {
+						"collapsed": {
+							"styles": {
 								"backgroundImage": "icon-right"
 							}
 						}
@@ -4703,37 +4728,37 @@
 				}
 			}
 		},
-		"table-checkbox-cell":  {
+		"table-checkbox-cell": {
 			"inherit": "table-cell",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"alignX": "center"
 					}
 				}
 			},
-			"components":  {
-				"checkbox":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"checkbox": {
+					"states": {
+						"default": {
+							"styles": {
 								"fillColor": "iconDark",
 								"backgroundSize": "18px",
 								"backgroundImage": "checkbox",
-								"backgroundPosition": ["center", "center"]
+								"backgroundPosition": [ "center", "center" ]
 							},
-							"properties":  {
+							"properties": {
 								"width": 20,
 								"height": 20
 							}
 						},
-						"checked":  {
-							"styles":  {
+						"checked": {
+							"styles": {
 								"backgroundImage": "checkbox-checked"
 							}
 						},
-						"undetermined":  {
-							"styles":  {
+						"undetermined": {
+							"styles": {
 								"backgroundImage": "checkbox-undefined"
 							}
 						}
@@ -4741,79 +4766,79 @@
 				}
 			}
 		},
-		"table-combobox-cell":  {
+		"table-combobox-cell": {
 			"inherit": "table-cell"
 		},
-		"table-datefield-cell":  {
+		"table-datefield-cell": {
 			"inherit": "table-cell"
 		},
-		"table-header-cell":  {
-			"states":  {
-				"default":  {
-					"styles":  {
-						"width": [0, 1, 0, 0],
+		"table-header-cell": {
+			"states": {
+				"default": {
+					"styles": {
+						"width": [ 0, 1, 0, 0 ],
 						"color": "windowFrame",
 						"transition": "background-color 250ms",
 						"backgroundSize": "18x",
 						"backgroundColor": "control"
 					},
-					"properties":  {
+					"properties": {
 						"padding": 5,
 						"sortIcon": "",
 						"textColor": "controlText",
 						"cursor": "default"
 					}
 				},
-				"rightToLeft":  {
-					"styles":  {
-						"width": [0, 0, 0, 1]
+				"rightToLeft": {
+					"styles": {
+						"width": [ 0, 0, 0, 1 ]
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "buttonHighlight"
 					},
-					"properties":  {
+					"properties": {
 						"cursor": "pointer",
 						"textColor": "highlightText"
 					}
 				},
-				"sorted":  {
-					"properties":  {
+				"sorted": {
+					"properties": {
 						"sortIcon": "icon-sorted-descending"
 					}
 				},
-				"sorted-sortedAscending":  {
-					"properties":  {
+				"sorted-sortedAscending": {
+					"properties": {
 						"sortIcon": "icon-sorted-ascending"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderBoth":  {
-					"styles":  {
-						"width": [0, 1, 0, 0]
+				"borderBoth": {
+					"styles": {
+						"width": [ 0, 1, 0, 0 ]
 					}
 				},
-				"borderVertical":  {
-					"styles":  {
-						"width": [0, 1, 0, 0]
+				"borderVertical": {
+					"styles": {
+						"width": [ 0, 1, 0, 0 ]
 					}
 				},
-				"borderHorizontal":  {
-					"styles":  {
+				"borderHorizontal": {
+					"styles": {
 						"width": 0
 					}
 				}
 			},
-			"components":  {
-				"sort-icon":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"sort-icon": {
+					"states": {
+						"default": {
+							"properties": {
 								"alignX": "right",
 								"alignY": "middle",
 								"textColor": "inherit"
@@ -4822,10 +4847,10 @@
 					},
 					"inherit": "icon-dark"
 				},
-				"icon":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"icon": {
+					"states": {
+						"default": {
+							"properties": {
 								"alignX": "left",
 								"alignY": "middle",
 								"scale": true
@@ -4834,10 +4859,10 @@
 					},
 					"inherit": "icon-dark"
 				},
-				"label":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"label": {
+					"states": {
+						"default": {
+							"styles": {
 								"css": "{\"word-wrap\":\"normal\"}"
 							}
 						}
@@ -4845,182 +4870,182 @@
 				}
 			}
 		},
-		"table-image-cell":  {
+		"table-image-cell": {
 			"inherit": "table-cell"
 		},
-		"table-link-cell":  {
+		"table-link-cell": {
 			"inherit": "table-cell",
-			"components":  {
-				"link":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"link": {
+					"states": {
+						"default": {
+							"styles": {
 								"css": "{\"cursor\":\"pointer\",\"textDecoration\":\"underline\"}"
 							}
 						},
-						"hovered":  {
+						"hovered": {
 						}
 					}
 				}
 			}
 		},
-		"table-row":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"table-row": {
+			"states": {
+				"default": {
+					"styles": {
 						"widthBottom": 1,
 						"colorBottom": "table-row-line",
 						"backgroundColor": "table-row-background"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "table-row"
 					}
 				},
-				"odd":  {
-					"styles":  {
+				"odd": {
+					"styles": {
 						"backgroundColor": "table-row-background-odd"
 					}
 				},
-				"even":  {
-					"styles":  {
+				"even": {
+					"styles": {
 						"backgroundColor": "table-row-background-even"
 					}
 				},
-				"focused":  {
+				"focused": {
 				},
-				"selected":  {
-					"styles":  {
+				"selected": {
+					"styles": {
 						"backgroundColor": "table-row-background-selected"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "table-row-selected"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"widthBottom": 0
 					}
 				},
-				"borderVertical":  {
-					"styles":  {
+				"borderVertical": {
+					"styles": {
 						"widthBottom": 0
 					}
 				},
-				"borderBoth":  {
-					"styles":  {
+				"borderBoth": {
+					"styles": {
 						"widthBottom": 1
 					}
 				},
-				"borderHorizontal":  {
-					"styles":  {
+				"borderHorizontal": {
+					"styles": {
 						"widthBottom": 1
 					}
 				}
 			}
 		},
-		"table-row-header":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"table-row-header": {
+			"states": {
+				"default": {
+					"styles": {
 						"widthRight": 1,
 						"colorRight": "windowFrame",
 						"backgroundColor": "buttonFace",
 						"backgroundRepeat": "no-repeat",
-						"backgroundPosition": ["center", "right"],
+						"backgroundPosition": [ "center", "right" ],
 						"backgroundSize": "16px 16px",
 						"fillColor": "windowText"
 					},
-					"properties":  {
+					"properties": {
 						"padding": 2,
 						"textColor": "buttonText"
 					}
 				},
-				"selected":  {
-					"styles":  {
+				"selected": {
+					"styles": {
 						"backgroundColor": "table-row-background-selected"
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "table-row-selected"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"backgroundImage": "table-row-indicator"
 					}
 				},
-				"new":  {
-					"styles":  {
+				"new": {
+					"styles": {
 						"backgroundImage": "table-row-new"
 					}
 				},
-				"new-selected":  {
-					"styles":  {
+				"new-selected": {
+					"styles": {
 						"backgroundImage": "table-row-new"
 					}
 				},
-				"editing":  {
-					"styles":  {
+				"editing": {
+					"styles": {
 						"backgroundImage": "table-row-editing"
 					}
 				},
-				"rightToLeft":  {
-					"styles":  {
+				"rightToLeft": {
+					"styles": {
 						"transform": "rotateZ(180deg)"
 					}
 				}
 			},
-			"components":  {
-				"content":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"content": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundRepeat": "no-repeat",
-								"backgroundPosition": ["center", "left"],
+								"backgroundPosition": [ "center", "left" ],
 								"backgroundSize": "20px"
 							},
-							"properties":  {
-								"padding": [0, 2, 0, 2]
+							"properties": {
+								"padding": [ 0, 2, 0, 2 ]
 							}
 						}
 					}
 				},
-				"error":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"error": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundImage": "icon-error",
 								"fillColor": "invalid",
 								"backgroundRepeat": "no-repeat",
-								"backgroundPosition": ["center", "center"],
+								"backgroundPosition": [ "center", "center" ],
 								"backgroundSize": "16px"
 							},
-							"properties":  {
-								"padding": [0, 8, 0, 8]
+							"properties": {
+								"padding": [ 0, 8, 0, 8 ]
 							}
 						}
 					}
 				},
-				"open":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"open": {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundSize": "16px",
 								"backgroundOrigin": "content-box",
-								"backgroundPosition": ["center", "right"],
+								"backgroundPosition": [ "center", "right" ],
 								"fillColor": "buttonText"
 							},
-							"properties":  {
+							"properties": {
 								"width": 20,
 								"paddingRight": 2
 							}
 						},
-						"expanded":  {
-							"styles":  {
+						"expanded": {
+							"styles": {
 								"backgroundImage": "icon-down"
 							}
 						},
-						"collapsed":  {
-							"styles":  {
+						"collapsed": {
+							"styles": {
 								"backgroundImage": "icon-right"
 							}
 						}
@@ -5028,64 +5053,64 @@
 				}
 			}
 		},
-		"table-scroller":  {
-			"components":  {
-				"scrollbar-x":  {
+		"table-scroller": {
+			"components": {
+				"scrollbar-x": {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-y":  {
+				"scrollbar-y": {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				},
-				"focus-indicator":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"focus-indicator": {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 1,
 								"color": "focusFrame"
 							}
 						}
 					}
 				},
-				"header-container":  {
-					"states":  {
-						"default":  {
-							"styles":  {
-								"width": [0, 0, 2, 0],
+				"header-container": {
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 0, 0, 2, 0 ],
 								"color": "windowFrame"
 							},
-							"properties":  {
-								"backgroundColor": "buttonFace",
+							"properties": {
+								"backgroundColor": "control",
 								"textColor": "buttonText"
 							}
 						},
-						"borderNone":  {
-							"styles":  {
+						"borderNone": {
+							"styles": {
 								"width": 0
 							}
 						},
-						"borderBoth":  {
-							"styles":  {
-								"width": [0, 0, 1, 0]
+						"borderBoth": {
+							"styles": {
+								"width": [ 0, 0, 1, 0 ]
 							}
 						},
-						"borderVertical":  {
-							"styles":  {
+						"borderVertical": {
+							"styles": {
 								"width": 0
 							}
 						},
-						"borderHorizontal":  {
-							"styles":  {
-								"width": [0, 0, 1, 0]
+						"borderHorizontal": {
+							"styles": {
+								"width": [ 0, 0, 1, 0 ]
 							}
 						}
 					}
 				},
-				"resize-line":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"resize-line": {
+					"states": {
+						"default": {
+							"properties": {
 								"width": 3,
 								"backgroundColor": "rgba(189,191,191,0.64)"
 							}
@@ -5094,27 +5119,27 @@
 				}
 			}
 		},
-		"tabmdiview":  {
+		"tabmdiview": {
 			"text": "TabMdiView",
 			"inherit": "tabview",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"padding": 10
 					}
 				}
 			},
-			"components":  {
-				"window-preview":  {
+			"components": {
+				"window-preview": {
 					"inherit": "desktop-taskbar-preview",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 1,
 								"innerWidth": 0,
 								"color": "buttonShadow"
 							},
-							"properties":  {
+							"properties": {
 								"width": 300,
 								"height": 250,
 								"margin": 20
@@ -5122,16 +5147,16 @@
 						}
 					}
 				},
-				"bar":  {
+				"bar": {
 					"inherit": "tabview/bar",
-					"components":  {
-						"preview":  {
-							"components":  {
-								"icon":  {
+					"components": {
+						"preview": {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark",
-									"states":  {
-										"selected":  {
-											"properties":  {
+									"states": {
+										"selected": {
+											"properties": {
 												"textColor": "#5B5B5B"
 											}
 										}
@@ -5141,81 +5166,81 @@
 						}
 					}
 				},
-				"thumbnails":  {
-					"components":  {
-						"pane":  {
+				"thumbnails": {
+					"components": {
+						"pane": {
 							"inherit": "scrollarea"
 						}
 					}
 				}
 			}
 		},
-		"tabview":  {
+		"tabview": {
 			"text": "TabView",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"opacity": 1,
-						"iconSize":  {
+						"iconSize": {
 							"width": 18,
 							"height": 18
 						}
 					},
-					"styles":  {
+					"styles": {
 						"width": 1,
 						"color": "controlFrame",
 						"style": "solid"
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame"
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"bar":  {
-					"states":  {
-						"default":  {
+			"components": {
+				"bar": {
+					"states": {
+						"default": {
 						},
-						"barTop":  {
+						"barTop": {
 						},
-						"barLeft":  {
+						"barLeft": {
 						},
-						"barRight":  {
+						"barRight": {
 						},
-						"barBottom":  {
+						"barBottom": {
 						}
 					},
-					"components":  {
-						"button-backward":  {
+					"components": {
+						"button-backward": {
 							"text": "Button Backward",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"cursor": "pointer",
 										"width": 16,
 										"height": 16,
@@ -5223,44 +5248,44 @@
 										"center": true
 									}
 								},
-								"disabled":  {
-									"properties":  {
+								"disabled": {
+									"properties": {
 										"opacity": 0.5,
 										"cursor": "default"
 									}
 								},
-								"barTop":  {
-									"properties":  {
+								"barTop": {
+									"properties": {
 										"icon": "icon-left"
 									}
 								},
-								"barLeft":  {
-									"properties":  {
+								"barLeft": {
+									"properties": {
 										"icon": "icon-up"
 									}
 								},
-								"barBottom":  {
-									"properties":  {
+								"barBottom": {
+									"properties": {
 										"icon": "icon-left"
 									}
 								},
-								"barRight":  {
-									"properties":  {
+								"barRight": {
+									"properties": {
 										"icon": "icon-up"
 									}
 								}
 							},
-							"components":  {
-								"icon":  {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"button-forward":  {
+						"button-forward": {
 							"text": "Button Forward",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"cursor": "pointer",
 										"width": 16,
 										"height": 16,
@@ -5268,105 +5293,105 @@
 										"center": true
 									}
 								},
-								"disabled":  {
-									"properties":  {
+								"disabled": {
+									"properties": {
 										"opacity": 0.5,
 										"cursor": "default"
 									}
 								},
-								"barTop":  {
-									"properties":  {
+								"barTop": {
+									"properties": {
 										"icon": "icon-right"
 									}
 								},
-								"barLeft":  {
-									"properties":  {
+								"barLeft": {
+									"properties": {
 										"icon": "icon-down"
 									}
 								},
-								"barBottom":  {
-									"properties":  {
+								"barBottom": {
+									"properties": {
 										"icon": "icon-right"
 									}
 								},
-								"barRight":  {
-									"properties":  {
+								"barRight": {
+									"properties": {
 										"icon": "icon-down"
 									}
 								}
 							},
-							"components":  {
-								"icon":  {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark"
 								}
 							}
 						},
-						"content":  {
+						"content": {
 							"text": "Content",
-							"states":  {
-								"default":  {
+							"states": {
+								"default": {
 								}
 							}
 						},
-						"visibility":  {
-							"components":  {
-								"icon":  {
+						"visibility": {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark"
 								}
 							}
 						}
 					}
 				},
-				"pane":  {
+				"pane": {
 					"text": "Pane",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "windowFrame"
 							}
 						},
-						"barTop":  {
-							"styles":  {
+						"barTop": {
+							"styles": {
 								"widthTop": 1
 							}
 						},
-						"barLeft":  {
-							"styles":  {
+						"barLeft": {
+							"styles": {
 								"widthLeft": 1
 							}
 						},
-						"barRight":  {
-							"styles":  {
+						"barRight": {
+							"styles": {
 								"widthRight": 1
 							}
 						},
-						"barBottom":  {
-							"styles":  {
+						"barBottom": {
+							"styles": {
 								"widthBottom": 1
 							}
 						}
 					}
 				},
-				"page":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"page": {
+					"states": {
+						"default": {
+							"properties": {
 								"backgroundColor": "white"
 							}
 						}
 					},
-					"components":  {
-						"button":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+					"components": {
+						"button": {
+							"states": {
+								"default": {
+									"styles": {
 										"backgroundColor": "tabFace",
 										"color": "windowFrame",
 										"innerWidth": 1,
 										"innerColor": "transparent",
 										"transition": "background-color 250ms"
 									},
-									"properties":  {
+									"properties": {
 										"textColor": "tabText",
 										"opacity": 1,
 										"height": 40,
@@ -5375,178 +5400,182 @@
 										"zIndex": 10
 									}
 								},
-								"disabled":  {
-									"properties":  {
+								"disabled": {
+									"properties": {
 										"opacity": 0.5,
 										"cursor": "default"
 									}
 								},
-								"focused":  {
-									"styles":  {
+								"focused": {
+									"styles": {
 										"innerStyle": "dashed",
 										"innerColor": "focusFrame"
 									}
 								},
-								"hovered":  {
-									"properties":  {
-										"cursor": "pointer"
+								"hovered": {
+									"properties": {
+										"cursor": "pointer",
+										"textColor": "tabHighlightText"
+									},
+									"styles": {
+										"backgroundColor": "tabHighlight"
 									}
 								},
-								"checked":  {
-									"properties":  {
+								"checked": {
+									"properties": {
 										"showClose": true
 									}
 								},
-								"barTop":  {
-									"properties":  {
-										"margin": [0, 2, 0, 2]
+								"barTop": {
+									"properties": {
+										"margin": [ 0, 2, 0, 2 ]
 									}
 								},
-								"barLeft":  {
-									"properties":  {
-										"margin": [2, 0, 2, 0]
+								"barLeft": {
+									"properties": {
+										"margin": [ 2, 0, 2, 0 ]
 									}
 								},
-								"barRight":  {
-									"properties":  {
-										"margin": [2, 0, 2, 0]
+								"barRight": {
+									"properties": {
+										"margin": [ 2, 0, 2, 0 ]
 									}
 								},
-								"barBottom":  {
-									"properties":  {
-										"margin": [0, 2, 0, 2]
+								"barBottom": {
+									"properties": {
+										"margin": [ 0, 2, 0, 2 ]
 									}
 								},
-								"barTop-checked":  {
-									"styles":  {
-										"width": [0, 0, 1, 0]
+								"barTop-checked": {
+									"styles": {
+										"width": [ 0, 0, 2, 0 ]
 									}
 								},
-								"barLeft-checked":  {
-									"styles":  {
-										"width": [0, 1, 0, 0]
+								"barLeft-checked": {
+									"styles": {
+										"width": [ 0, 2, 0, 0 ]
 									}
 								},
-								"barBottom-checked":  {
-									"styles":  {
-										"width": [1, 0, 0, 0]
+								"barBottom-checked": {
+									"styles": {
+										"width": [ 2, 0, 0, 0 ]
 									}
 								},
-								"barRight-checked":  {
-									"styles":  {
-										"width": [0, 0, 0, 1]
+								"barRight-checked": {
+									"styles": {
+										"width": [ 0, 0, 0, 2 ]
 									}
 								},
-								"move":  {
-									"styles":  {
+								"move": {
+									"styles": {
 										"transition": "left 0ms, top 0ms"
 									},
-									"properties":  {
+									"properties": {
 										"opacity": 0.7,
 										"zIndex": 100
 									}
 								}
 							},
-							"components":  {
-								"menu":  {
+							"components": {
+								"menu": {
 									"inherit": "icon-dark",
-									"states":  {
-										"default":  {
+									"states": {
+										"default": {
 										},
-										"hovered":  {
-											"properties":  {
+										"hovered": {
+											"properties": {
 												"cursor": "pointer"
 											}
 										},
-										"horizontal":  {
-											"properties":  {
-												"margin": [0, 0, 0, 4]
+										"horizontal": {
+											"properties": {
+												"margin": [ 0, 0, 0, 4 ]
 											}
 										},
-										"vertical":  {
-											"properties":  {
-												"margin": [0, 0, 4, 0]
+										"vertical": {
+											"properties": {
+												"margin": [ 0, 0, 4, 0 ]
 											}
 										},
-										"vertical-barRight":  {
-											"properties":  {
-												"margin": [4, 0, 0, 0]
+										"vertical-barRight": {
+											"properties": {
+												"margin": [ 4, 0, 0, 0 ]
 											}
 										},
-										"vertical-barBottom":  {
-											"properties":  {
-												"margin": [4, 0, 0, 0]
+										"vertical-barBottom": {
+											"properties": {
+												"margin": [ 4, 0, 0, 0 ]
 											}
 										}
 									}
 								},
-								"icon":  {
-									"states":  {
-										"default":  {
-											"properties":  {
+								"icon": {
+									"states": {
+										"default": {
+											"properties": {
 												"alignX": "center",
 												"alignY": "middle",
 												"scale": true
 											}
 										},
-										"horizontal":  {
-											"properties":  {
-												"margin": [0, 0, 0, 4]
+										"horizontal": {
+											"properties": {
+												"margin": [ 0, 0, 0, 4 ]
 											}
 										},
-										"vertical":  {
-											"properties":  {
-												"margin": [0, 0, 4, 0]
+										"vertical": {
+											"properties": {
+												"margin": [ 0, 0, 4, 0 ]
 											}
 										},
-										"vertical-barRight":  {
-											"properties":  {
-												"margin": [4, 0, 0, 0]
+										"vertical-barRight": {
+											"properties": {
+												"margin": [ 4, 0, 0, 0 ]
 											}
 										},
-										"vertical-barBottom":  {
-											"properties":  {
-												"margin": [4, 0, 0, 0]
+										"vertical-barBottom": {
+											"properties": {
+												"margin": [ 4, 0, 0, 0 ]
 											}
 										}
 									}
 								},
-								"label":  {
+								"label": {
 									"text": "Label",
-									"states":  {
-										"default":  {
+									"states": {
+										"default": {
 										},
-										"horizontal":  {
-											"properties":  {
-												"margin": [0, 10, 0, 10],
+										"horizontal": {
+											"properties": {
+												"margin": [ 0, 10, 0, 10 ],
 												"alignX": "left",
 												"alignY": "middle"
 											}
 										},
-										"vertical":  {
-											"properties":  {
-												"margin": [10, 0, 10, 0],
+										"vertical": {
+											"properties": {
+												"margin": [ 10, 0, 10, 0 ],
 												"alignX": "center",
 												"alignY": "bottom"
 											}
 										},
-										"barBottom-vertical":  {
-											"properties":  {
+										"barBottom-vertical": {
+											"properties": {
 												"alignY": "top",
 												"alignX": "center"
 											}
 										},
-										"barRight-vertical":  {
-											"properties":  {
+										"barRight-vertical": {
+											"properties": {
 												"alignY": "top"
 											}
 										}
 									}
 								},
-								"close-button":  {
-									"states":  {
-										"default":  {
-											"properties":  {
+								"close-button": {
+									"states": {
+										"default": {
+											"properties": {
 												"icon": "tab-close",
 												"opacity": 0.7,
 												"width": 14,
@@ -5556,43 +5585,43 @@
 												"textColor": "iconDark"
 											}
 										},
-										"hovered":  {
-											"properties":  {
+										"hovered": {
+											"properties": {
 												"opacity": 1
 											}
 										},
-										"horizontal":  {
-											"properties":  {
+										"horizontal": {
+											"properties": {
 												"alignY": "top",
 												"alignX": "left"
 											}
 										},
-										"vertical":  {
-											"properties":  {
+										"vertical": {
+											"properties": {
 												"alignX": "left"
 											}
 										},
-										"barBottom-horizontal":  {
-											"properties":  {
+										"barBottom-horizontal": {
+											"properties": {
 												"alignY": "bottom"
 											}
 										},
-										"barBottom-vertical":  {
-											"properties":  {
+										"barBottom-vertical": {
+											"properties": {
 												"alignX": "right"
 											}
 										},
-										"barRight-vertical":  {
-											"properties":  {
+										"barRight-vertical": {
+											"properties": {
 												"alignX": "right"
 											}
 										}
 									},
-									"components":  {
-										"icon":  {
-											"states":  {
-												"default":  {
-													"properties":  {
+									"components": {
+										"icon": {
+											"states": {
+												"default": {
+													"properties": {
 														"width": 14,
 														"height": 14
 													}
@@ -5603,70 +5632,70 @@
 								}
 							}
 						},
-						"pane":  {
+						"pane": {
 							"inherit": "scrollarea"
 						}
 					}
 				}
 			}
 		},
-		"tagtextbox":  {
+		"tagtextbox": {
 			"inherit": "textbox",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"duplicateDuration": 300,
 						"height": 28
 					}
 				}
 			},
-			"components":  {
-				"tag":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"tag": {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 1,
 								"radius": 0,
 								"color": "transparent",
 								"backgroundColor": "controlLight"
 							},
-							"properties":  {
+							"properties": {
 								"icon": "icon-close",
 								"cursor": "pointer",
-								"padding": [1, 2, 1, 4],
+								"padding": [ 1, 2, 1, 4 ],
 								"textColor": "inherit"
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "control"
 							}
 						},
-						"selected":  {
-							"styles":  {
+						"selected": {
+							"styles": {
 								"backgroundColor": "primary",
 								"color": "rgba(255,255,255,.7)"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "highlightText"
 							}
 						},
-						"duplicate":  {
-							"styles":  {
+						"duplicate": {
+							"styles": {
 								"backgroundColor": "rgba(174,5,8,0.8)",
 								"transition": "background-color 300ms"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "white"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 16,
 										"height": 16
 									}
@@ -5675,11 +5704,11 @@
 						}
 					}
 				},
-				"tag-container":  {
-					"states":  {
-						"default":  {
-							"properties":  {
-								"margin": [2, 4, 2, 0],
+				"tag-container": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 2, 4, 2, 0 ],
 								"spacingX": 2,
 								"spacingY": 2
 							}
@@ -5688,48 +5717,48 @@
 				}
 			}
 		},
-		"textbox":  {
+		"textbox": {
 			"text": "TextBox",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"style": "solid"
 					},
-					"properties":  {
+					"properties": {
 						"height": 22,
-						"padding": [0, 2, 0, 4],
+						"padding": [ 0, 2, 0, 4 ],
 						"backgroundColor": "window",
 						"opacity": 1,
 						"textColor": "windowText"
 					}
 				},
-				"hovered":  {
-					"properties":  {
+				"hovered": {
+					"properties": {
 						"cursor": "text"
 					}
 				},
-				"focused":  {
+				"focused": {
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"multiline":  {
-					"properties":  {
-						"padding": [2, 4, 2, 4]
+				"multiline": {
+					"properties": {
+						"padding": [ 2, 4, 2, 4 ]
 					}
 				},
-				"celleditor":  {
-					"styles":  {
+				"celleditor": {
+					"styles": {
 						"width": 0
 					},
-					"properties":  {
-						"padding": [0, 2, 0, 2]
+					"properties": {
+						"padding": [ 0, 2, 0, 2 ]
 					}
 				},
-				"invalid":  {
-					"styles":  {
+				"invalid": {
+					"styles": {
 						"color": "invalid",
 						"width": 1
 					}
@@ -5737,154 +5766,154 @@
 			},
 			"inherit": "inputElement"
 		},
-		"textlabel":  {
+		"textlabel": {
 			"text": "TextLabel",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 0,
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"opacity": 1
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"borderSolid":  {
-					"styles":  {
+				"borderSolid": {
+					"styles": {
 						"width": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			}
 		},
-		"toolbar":  {
+		"toolbar": {
 			"text": "Toolbar",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"backgroundColor": "toolbar",
 						"widthBottom": 0,
 						"color": "windowFrame"
 					},
-					"properties":  {
+					"properties": {
 						"minWidth": 32,
 						"minHeight": 26,
 						"textColor": "toolbarText"
 					}
 				},
-				"borderSolid":  {
-					"styles":  {
+				"borderSolid": {
+					"styles": {
 						"widthBottom": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"widthBottom": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"widthBottom": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"widthBottom": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"button": {
+					"states": {
+						"default": {
+							"properties": {
 								"cursor": "pointer",
 								"opacity": 1,
 								"padding": 5,
 								"textColor": "inherit"
 							},
-							"styles":  {
+							"styles": {
 								"width": 1,
 								"color": "transparent",
 								"backgroundColor": "transparent"
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "hotTrack"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "highlightText"
 							}
 						},
-						"checked":  {
-							"styles":  {
+						"checked": {
+							"styles": {
 								"backgroundColor": "buttonSelected"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "buttonSelectedText"
 							}
 						},
-						"pressed":  {
-							"styles":  {
+						"pressed": {
+							"styles": {
 								"backgroundColor": "buttonPressed"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "buttonText"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5,
 								"cursor": "default"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 18,
 										"height": 18,
 										"scale": true
 									}
 								},
-								"hovered":  {
-									"properties":  {
+								"hovered": {
+									"properties": {
 										"textColor": "inherit"
 									}
 								},
-								"checked":  {
-									"properties":  {
+								"checked": {
+									"properties": {
 										"textColor": "iconLight"
 									}
 								}
@@ -5892,79 +5921,79 @@
 						}
 					}
 				},
-				"splitbutton":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"splitbutton": {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 1,
 								"color": "transparent",
 								"backgroundColor": "transparent"
 							},
-							"properties":  {
+							"properties": {
 								"cursor": "pointer",
 								"textColor": "inherit",
-								"padding": [5, 0, 5, 5],
+								"padding": [ 5, 0, 5, 5 ],
 								"opacity": 1
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "hotTrack"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "highlightText"
 							}
 						},
-						"checked":  {
-							"styles":  {
+						"checked": {
+							"styles": {
 								"backgroundColor": "buttonSelected"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "buttonSelectedText"
 							}
 						},
-						"pressed":  {
-							"styles":  {
+						"pressed": {
+							"styles": {
 								"backgroundColor": "buttonPressed"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "buttonText"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5,
 								"cursor": "default"
 							}
 						}
 					},
-					"components":  {
-						"button":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+					"components": {
+						"button": {
+							"states": {
+								"default": {
+									"properties": {
 										"paddingRight": 5
 									}
 								}
 							},
-							"components":  {
-								"icon":  {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark",
-									"states":  {
-										"default":  {
-											"properties":  {
+									"states": {
+										"default": {
+											"properties": {
 												"width": 18,
 												"height": 18,
 												"scale": true
 											}
 										},
-										"hovered":  {
-											"properties":  {
+										"hovered": {
+											"properties": {
 												"textColor": "inherit"
 											}
 										},
-										"checked":  {
-											"properties":  {
+										"checked": {
+											"properties": {
 												"textColor": "iconLight"
 											}
 										}
@@ -5972,51 +6001,51 @@
 								}
 							}
 						},
-						"arrow":  {
-							"states":  {
-								"default":  {
-									"styles":  {
+						"arrow": {
+							"states": {
+								"default": {
+									"styles": {
 										"backgroundColor": "transparent",
-										"width": [0, 0, 0, 1],
+										"width": [ 0, 0, 0, 1 ],
 										"color": "windowFrame"
 									},
-									"properties":  {
+									"properties": {
 										"icon": "combo-arrow"
 									}
 								},
-								"hovered":  {
-									"styles":  {
+								"hovered": {
+									"styles": {
 										"color": "highlightText"
 									}
 								},
-								"checked":  {
-									"styles":  {
+								"checked": {
+									"styles": {
 										"color": "highlightText"
 									}
 								}
 							},
-							"components":  {
-								"icon":  {
+							"components": {
+								"icon": {
 									"inherit": "icon-dark",
-									"states":  {
-										"default":  {
-											"properties":  {
+									"states": {
+										"default": {
+											"properties": {
 												"width": 20,
 												"height": 20
 											}
 										},
-										"checked":  {
-											"properties":  {
+										"checked": {
+											"properties": {
 												"textColor": "iconLight"
 											}
 										},
-										"hovered":  {
-											"properties":  {
+										"hovered": {
+											"properties": {
 												"textColor": "iconLight"
 											}
 										},
-										"pressed":  {
-											"properties":  {
+										"pressed": {
+											"properties": {
 												"textColor": "inherit"
 											}
 										}
@@ -6026,97 +6055,97 @@
 						}
 					}
 				},
-				"separator":  {
-					"states":  {
-						"default":  {
-							"styles":  {
-								"width": [0, 0, 0, 1],
+				"separator": {
+					"states": {
+						"default": {
+							"styles": {
+								"width": [ 0, 0, 0, 1 ],
 								"color": "windowFrame"
 							},
-							"properties":  {
-								"margin": [1, 8, 1, 8]
+							"properties": {
+								"margin": [ 1, 8, 1, 8 ]
 							}
 						}
 					}
 				},
-				"overflow":  {
+				"overflow": {
 					"inherit": "menubar/overflow"
 				}
 			}
 		},
-		"toolcontainer":  {
+		"toolcontainer": {
 			"text": "ToolContainer",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"textColor": "iconDark"
 					}
 				},
-				"caption":  {
-					"properties":  {
+				"caption": {
+					"properties": {
 						"textColor": "inherit"
 					}
 				},
-				"panel":  {
-					"properties":  {
+				"panel": {
+					"properties": {
 						"textColor": "inherit"
 					}
 				}
 			},
-			"components":  {
-				"button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+			"components": {
+				"button": {
+					"states": {
+						"default": {
+							"properties": {
 								"opacity": 0.7,
 								"center": true
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1,
 								"cursor": "pointer"
 							}
 						},
-						"disabled":  {
-							"properties":  {
+						"disabled": {
+							"properties": {
 								"opacity": 0.5,
 								"cursor": "default"
 							}
 						},
-						"horizontal":  {
-							"properties":  {
-								"margin": [2, 4, 2, 4]
+						"horizontal": {
+							"properties": {
+								"margin": [ 2, 4, 2, 4 ]
 							}
 						},
-						"vertical":  {
-							"properties":  {
-								"margin": [4, 2, 4, 2]
+						"vertical": {
+							"properties": {
+								"margin": [ 4, 2, 4, 2 ]
 							}
 						},
-						"pressed":  {
-							"properties":  {
+						"pressed": {
+							"properties": {
 								"opacity": 1
 							}
 						},
-						"caption":  {
-							"properties":  {
-								"margin": [0, 10, 0, 10]
+						"caption": {
+							"properties": {
+								"margin": [ 0, 10, 0, 10 ]
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+					"components": {
+						"icon": {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 16,
 										"height": 16,
 										"scale": true
 									}
 								},
-								"caption":  {
-									"properties":  {
+								"caption": {
+									"properties": {
 										"width": 22,
 										"height": 22
 									}
@@ -6127,61 +6156,61 @@
 				}
 			}
 		},
-		"tooltip":  {
-			"states":  {
-				"default":  {
-					"properties":  {
+		"tooltip": {
+			"states": {
+				"default": {
+					"properties": {
 						"placeMethod": "widget",
 						"position": "top-center",
 						"maxWidth": 280,
 						"offsetBottom": 10
 					}
 				},
-				"placementLeft":  {
-					"properties":  {
+				"placementLeft": {
+					"properties": {
 						"arrowPosition": "right"
 					}
 				},
-				"placementRight":  {
-					"properties":  {
+				"placementRight": {
+					"properties": {
 						"arrowPosition": "left"
 					}
 				},
-				"placementAbove":  {
-					"properties":  {
+				"placementAbove": {
+					"properties": {
 						"arrowPosition": "below"
 					}
 				},
-				"placementBelow":  {
-					"properties":  {
+				"placementBelow": {
+					"properties": {
 						"arrowPosition": "above"
 					}
 				}
 			},
-			"components":  {
-				"atom":  {
+			"components": {
+				"atom": {
 					"text": "Atom",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "window",
 								"width": 1,
 								"color": "#BDBFBF"
 							},
-							"properties":  {
-								"padding": [14, 12, 14, 12],
+							"properties": {
+								"padding": [ 14, 12, 14, 12 ],
 								"textColor": "windowText",
 								"icon": "icon-info",
 								"show": "both"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"textColor": "#1061CB"
 									}
 								}
@@ -6189,51 +6218,51 @@
 						}
 					}
 				},
-				"arrow":  {
+				"arrow": {
 					"text": "Arrow",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"zIndex": 11
 							}
 						},
-						"placementLeft":  {
-							"properties":  {
+						"placementLeft": {
+							"properties": {
 								"marginLeft": -1,
 								"alignY": "middle",
 								"source": "tooltip-arrow-left"
 							},
-							"styles":  {
+							"styles": {
 								"transform": "rotate(180deg)"
 							}
 						},
-						"placementRight":  {
-							"properties":  {
+						"placementRight": {
+							"properties": {
 								"marginRight": -1,
 								"alignY": "middle",
 								"source": "tooltip-arrow-left"
 							},
-							"styles":  {
+							"styles": {
 								"transform": "rotate(0deg)"
 							}
 						},
-						"placementAbove":  {
-							"properties":  {
+						"placementAbove": {
+							"properties": {
 								"marginTop": -3,
 								"alignX": "center",
 								"source": "tooltip-arrow-left"
 							},
-							"styles":  {
+							"styles": {
 								"transform": "rotate(-90deg)"
 							}
 						},
-						"placementBelow":  {
-							"properties":  {
+						"placementBelow": {
+							"properties": {
 								"marginBottom": -3,
 								"alignX": "center",
 								"source": "tooltip-arrow-left"
 							},
-							"styles":  {
+							"styles": {
 								"transform": "rotate(90deg)"
 							}
 						}
@@ -6241,30 +6270,30 @@
 				}
 			}
 		},
-		"tooltip-error":  {
+		"tooltip-error": {
 			"inherit": "tooltip",
-			"components":  {
-				"atom":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+			"components": {
+				"atom": {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "invalid",
 								"width": 1,
 								"backgroundColor": "window"
 							},
-							"properties":  {
-								"padding": [14, 12, 14, 12],
+							"properties": {
+								"padding": [ 14, 12, 14, 12 ],
 								"textColor": "windowText",
 								"icon": "icon-error"
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "icon-dark",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"textColor": "invalid"
 									}
 								}
@@ -6272,16 +6301,16 @@
 						}
 					}
 				},
-				"arrow":  {
-					"states":  {
-						"default":  {
+				"arrow": {
+					"states": {
+						"default": {
 						}
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"placeMethod": "widget",
 						"position": "bottom-left",
 						"offsetTop": 5,
@@ -6290,71 +6319,71 @@
 				}
 			}
 		},
-		"tree":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"tree": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 1,
 						"style": "solid",
 						"color": "controlFrame"
 					},
-					"properties":  {
+					"properties": {
 						"backgroundColor": "window",
 						"textColor": "windowText",
 						"opacity": 1,
 						"itemHeight": 26
 					}
 				},
-				"focused":  {
-					"styles":  {
+				"focused": {
+					"styles": {
 						"color": "focusFrame"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			},
-			"components":  {
-				"scrollbar-y":  {
+			"components": {
+				"scrollbar-y": {
 					"text": "Scrollbar-Y",
 					"inherit": "scrollbar"
 				},
-				"scrollbar-x":  {
+				"scrollbar-x": {
 					"text": "Scrollbar-X",
 					"inherit": "scrollbar"
 				},
-				"editor":  {
+				"editor": {
 					"inherit": "textfield"
 				},
-				"tools":  {
-					"states":  {
-						"default":  {
-							"styles":  {
+				"tools": {
+					"states": {
+						"default": {
+							"styles": {
 								"color": "windowFrame",
 								"widthBottom": 1
 							}
@@ -6363,65 +6392,65 @@
 				}
 			}
 		},
-		"tree-file":  {
+		"tree-file": {
 			"text": "Tree Item",
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"textColor": "",
 						"indent": 18,
 						"icon": "icon-file",
 						"opacity": 1,
-						"padding": [3, 0, 3, 0]
+						"padding": [ 3, 0, 3, 0 ]
 					},
-					"styles":  {
+					"styles": {
 						"backgroundColor": null
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "control"
 					},
-					"properties":  {
+					"properties": {
 						"cursor": "pointer"
 					}
 				},
-				"selected":  {
-					"properties":  {
+				"selected": {
+					"properties": {
 						"textColor": "highlightText"
 					},
-					"styles":  {
+					"styles": {
 						"backgroundColor": "highlight"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				}
 			},
-			"components":  {
-				"checkbox":  {
+			"components": {
+				"checkbox": {
 					"inherit": "checkbox",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 0
 							}
 						}
 					}
 				},
-				"state":  {
+				"state": {
 					"inherit": "icon-dark"
 				},
-				"icon":  {
+				"icon": {
 					"inherit": "icon-dark"
 				},
-				"label":  {
+				"label": {
 					"text": "Label",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 5,
 								"marginRight": 5
 							}
@@ -6430,62 +6459,62 @@
 				}
 			}
 		},
-		"tree-folder":  {
+		"tree-folder": {
 			"text": "Tree Node",
-			"components":  {
-				"open":  {
+			"components": {
+				"open": {
 					"text": "Open",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"source": "node-closed"
 							},
-							"styles":  {
+							"styles": {
 								"transition": "transform 250ms"
 							}
 						},
-						"opened":  {
-							"properties":  {
+						"opened": {
+							"properties": {
 								"source": "node-opened"
 							},
-							"styles":  {
+							"styles": {
 								"transform": "rotateZ(45deg)"
 							}
 						},
-						"rightToLeft":  {
-							"styles":  {
+						"rightToLeft": {
+							"styles": {
 								"transform": "rotateZ(180deg)"
 							}
 						},
-						"opened-rightToLeft":  {
-							"styles":  {
+						"opened-rightToLeft": {
+							"styles": {
 								"transform": "rotateZ(135deg)"
 							}
 						}
 					},
 					"inherit": "icon-dark"
 				},
-				"checkbox":  {
+				"checkbox": {
 					"inherit": "checkbox",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 0
 							}
 						}
 					}
 				},
-				"state":  {
+				"state": {
 					"inherit": "icon-dark"
 				},
-				"icon":  {
+				"icon": {
 					"inherit": "icon-dark"
 				},
-				"label":  {
+				"label": {
 					"text": "Label",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"marginLeft": 5,
 								"marginRight": 5
 							}
@@ -6493,122 +6522,122 @@
 					}
 				}
 			},
-			"states":  {
-				"default":  {
-					"properties":  {
+			"states": {
+				"default": {
+					"properties": {
 						"textColor": "",
 						"indent": 18,
 						"icon": "icon-folder",
 						"opacity": 1,
-						"padding": [3, 0, 3, 0]
+						"padding": [ 3, 0, 3, 0 ]
 					},
-					"styles":  {
+					"styles": {
 						"backgroundColor": null
 					}
 				},
-				"hovered":  {
-					"styles":  {
+				"hovered": {
+					"styles": {
 						"backgroundColor": "control"
 					},
-					"properties":  {
+					"properties": {
 						"cursor": "pointer"
 					}
 				},
-				"selected":  {
-					"properties":  {
+				"selected": {
+					"properties": {
 						"textColor": "highlightText"
 					},
-					"styles":  {
+					"styles": {
 						"backgroundColor": "highlight"
 					}
 				},
-				"opened":  {
-					"properties":  {
+				"opened": {
+					"properties": {
 						"icon": "icon-folder-open"
 					}
 				},
-				"disabled":  {
-					"properties":  {
+				"disabled": {
+					"properties": {
 						"opacity": 0.5
 					}
 				}
 			}
 		},
-		"upload":  {
+		"upload": {
 			"text": "Upload",
-			"components":  {
-				"button":  {
+			"components": {
+				"button": {
 					"text": "Button",
 					"inherit": "button",
-					"states":  {
-						"default":  {
+					"states": {
+						"default": {
 							"styles": {
 								"color": "control",
 								"width": 1,
 								"radius": 0
 							},
-							"properties":  {
+							"properties": {
 								"icon": "icon-upload",
 								"height": 22,
-								"padding": [0, 5, 0, 5],
+								"padding": [ 0, 5, 0, 5 ],
 								"textColor": "controlText",
 								"allowGrowX": true
 							}
 						},
-						"hovered":  {
-							"styles":  {
+						"hovered": {
+							"styles": {
 								"backgroundColor": "controlDark"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "black"
 							}
 						},
-						"middleLeft":  {
-							"styles":  {
-								"width": [0, 1, 0, 0]
+						"middleLeft": {
+							"styles": {
+								"width": [ 0, 1, 0, 0 ]
 							}
 						},
-						"middleRight":  {
-							"styles":  {
-								"width": [0, 0, 0, 1]
+						"middleRight": {
+							"styles": {
+								"width": [ 0, 0, 0, 1 ]
 							}
 						}
 					}
 				},
-				"textfield":  {
+				"textfield": {
 					"text": "TextField",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"width": 1
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "controlText",
-								"margin": [5, 0, 5, 0]
+								"margin": [ 5, 0, 5, 0 ]
 							}
 						},
-						"middleLeft":  {
-							"styles":  {
+						"middleLeft": {
+							"styles": {
 								"width": 0
 							},
-							"properties":  {
-								"margin": [0, 5, 0, 5]
+							"properties": {
+								"margin": [ 0, 5, 0, 5 ]
 							}
 						},
-						"middleRight":  {
-							"styles":  {
+						"middleRight": {
+							"styles": {
 								"width": 0
 							},
-							"properties":  {
-								"margin": [0, 5, 0, 5]
+							"properties": {
+								"margin": [ 0, 5, 0, 5 ]
 							}
 						}
 					},
 					"inherit": "textfield"
 				}
 			},
-			"states":  {
-				"default":  {
+			"states": {
+				"default": {
 					"styles": {
 						"width": 0,
 						"color": "windowFrame",
@@ -6619,131 +6648,131 @@
 						"backgroundColor": "controlLight"
 					}
 				},
-				"middleLeft":  {
-					"styles":  {
+				"middleLeft": {
+					"styles": {
 						"width": 1
 					}
 				},
-				"middleRight":  {
-					"styles":  {
+				"middleRight": {
+					"styles": {
 						"width": 1
 					}
 				}
 			}
 		},
-		"widget":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"widget": {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 0,
 						"color": "windowFrame"
 					}
 				},
-				"borderSolid":  {
-					"styles":  {
+				"borderSolid": {
+					"styles": {
 						"width": 1,
 						"style": "solid"
 					}
 				},
-				"borderDashed":  {
-					"styles":  {
+				"borderDashed": {
+					"styles": {
 						"width": 1,
 						"style": "dashed"
 					}
 				},
-				"borderDotted":  {
-					"styles":  {
+				"borderDotted": {
+					"styles": {
 						"width": 1,
 						"style": "dotted"
 					}
 				},
-				"borderDouble":  {
-					"styles":  {
+				"borderDouble": {
+					"styles": {
 						"width": 3,
 						"style": "double"
 					}
 				}
 			}
 		},
-		"window":  {
-			"states":  {
-				"default":  {
-					"styles":  {
+		"window": {
+			"states": {
+				"default": {
+					"styles": {
 						"color": "inactiveCaption",
 						"width": 1
 					},
-					"properties":  {
+					"properties": {
 						"textColor": "windowText"
 					}
 				},
-				"active":  {
-					"styles":  {
+				"active": {
+					"styles": {
 						"color": "activeCaption",
-						"shadowLength": [2, 2],
+						"shadowLength": [ 2, 2 ],
 						"shadowColor": "buttonShadow",
 						"shadowBlurRadius": 15
 					}
 				},
-				"maximized":  {
-					"styles":  {
+				"maximized": {
+					"styles": {
 						"innerWidth": 0,
 						"width": 0
 					}
 				},
-				"borderNone":  {
-					"styles":  {
+				"borderNone": {
+					"styles": {
 						"width": 0,
 						"shadowBlurRadius": 0,
-						"shadowLength": [0, 0]
+						"shadowLength": [ 0, 0 ]
 					}
 				}
 			},
-			"components":  {
-				"captionbar":  {
+			"components": {
+				"captionbar": {
 					"text": "CaptionBar",
-					"states":  {
-						"default":  {
-							"styles":  {
+					"states": {
+						"default": {
+							"styles": {
 								"backgroundColor": "inactiveCaption"
 							},
-							"properties":  {
+							"properties": {
 								"height": 42,
 								"cursor": "move",
-								"padding": [0, 20, 0, 20],
+								"padding": [ 0, 20, 0, 20 ],
 								"textColor": "inactiveCaptionText"
 							}
 						},
-						"active":  {
-							"styles":  {
+						"active": {
+							"styles": {
 								"backgroundColor": "activeCaption"
 							},
-							"properties":  {
+							"properties": {
 								"textColor": "activeCaptionText"
 							}
 						}
 					}
 				},
-				"title":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"title": {
+					"states": {
+						"default": {
+							"properties": {
 								"font": "windowTitle",
 								"textAlign": "left",
 								"alignY": "middle",
 								"textColor": "inactiveCaptionText"
 							}
 						},
-						"active":  {
-							"properties":  {
+						"active": {
+							"properties": {
 								"textColor": "activeCaptionText"
 							}
 						}
 					}
 				},
-				"icon":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"icon": {
+					"states": {
+						"default": {
+							"properties": {
 								"alignY": "middle",
 								"marginRight": 10,
 								"height": 24,
@@ -6752,34 +6781,34 @@
 								"textColor": "inactiveCaptionText"
 							}
 						},
-						"active":  {
-							"properties":  {
+						"active": {
+							"properties": {
 								"textColor": "activeCaptionText"
 							}
 						}
 					}
 				},
-				"minimize-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"minimize-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "window-minimize",
 								"cursor": "pointer",
 								"opacity": 0.7,
 								"marginLeft": 5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
-							"states":  {
-								"default":  {
-									"properties":  {
+					"components": {
+						"icon": {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 32,
 										"height": 32
 									}
@@ -6789,28 +6818,28 @@
 						}
 					}
 				},
-				"close-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"close-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "window-close",
 								"cursor": "pointer",
 								"opacity": 0.7,
 								"marginLeft": 5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 32,
 										"height": 32
 									}
@@ -6819,28 +6848,28 @@
 						}
 					}
 				},
-				"maximize-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"maximize-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "window-maximize",
 								"cursor": "pointer",
 								"opacity": 0.7,
 								"marginLeft": 5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 32,
 										"height": 32
 									}
@@ -6849,28 +6878,28 @@
 						}
 					}
 				},
-				"restore-button":  {
-					"states":  {
-						"default":  {
-							"properties":  {
+				"restore-button": {
+					"states": {
+						"default": {
+							"properties": {
 								"icon": "window-restore",
 								"cursor": "pointer",
 								"opacity": 0.7,
 								"marginLeft": 5
 							}
 						},
-						"hovered":  {
-							"properties":  {
+						"hovered": {
+							"properties": {
 								"opacity": 1
 							}
 						}
 					},
-					"components":  {
-						"icon":  {
+					"components": {
+						"icon": {
 							"inherit": "",
-							"states":  {
-								"default":  {
-									"properties":  {
+							"states": {
+								"default": {
+									"properties": {
 										"width": 32,
 										"height": 32
 									}
@@ -6879,11 +6908,11 @@
 						}
 					}
 				},
-				"pane":  {
+				"pane": {
 					"text": "Pane",
-					"states":  {
-						"default":  {
-							"properties":  {
+					"states": {
+						"default": {
+							"properties": {
 								"backgroundColor": "window"
 							}
 						}
@@ -6892,11 +6921,11 @@
 				}
 			}
 		},
-		"window-resize-frame":  {
+		"window-resize-frame": {
 			"text": "Window Resize Frame",
-			"states":  {
-				"default":  {
-					"styles":  {
+			"states": {
+				"default": {
+					"styles": {
 						"width": 2,
 						"style": "dashed",
 						"color": "windowFrame"

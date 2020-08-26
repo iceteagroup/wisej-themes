@@ -1009,11 +1009,17 @@
 						"default": {
 							"properties": {
 								"opacity": 1
+							},
+							"styles": {
+								"filter": ""
 							}
 						},
 						"loading": {
 							"properties": {
 								"opacity": 0.5
+							},
+							"styles": {
+								"filter": "blur(5px)"
 							}
 						}
 					}
@@ -1278,7 +1284,7 @@
 						},
 						"bolded": {
 							"styles": {
-								"css": "{\"font-weight\":\"900\"}"
+								"css": "{\"font-weight\":\"900 !important\"}"
 							}
 						}
 					},
@@ -3319,6 +3325,18 @@
 						}
 					},
 					"inherit": "window/captionbar"
+				},
+				"title": {
+					"states": {
+						"default": {
+							"styles": {
+							},
+							"properties": {
+								"textColor": "activeCaptionText"
+							}
+						}
+					},
+					"inherit": "window/title"
 				}
 			},
 			"states": {
