@@ -8,22 +8,22 @@
 	"fonts": {
 		"default": {
 			"size": 13,
-			"family": ["Segoe UI", "Helvetica Neue"],
+			"family": ["Segoe UI", "Roboto", "Helvetica Neue", "Arial"],
 			"bold": false
 		},
 		"windowTitle": {
 			"size": 16,
-			"family": ["Segoe UI", "Helvetica Neue"],
+			"family": ["Segoe UI", "Roboto", "Helvetica Neue", "Arial"],
 			"bold": true
 		},
 		"defaultBold": {
 			"size": 13,
-			"family": ["Segoe UI", "Helvetica Neue"],
+			"family": ["Segoe UI", "Roboto", "Helvetica Neue", "Arial"],
 			"bold": true
 		},
 		"menu": {
 			"size": 13,
-			"family": ["Segoe UI", "Helvetica Neue"],
+			"family": ["Segoe UI", "Roboto", "Helvetica Neue", "Arial"],
 			"bold": false
 		}
 	},
@@ -98,7 +98,7 @@
 		"icon-preview": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0zIDloNFY1SDN2NHptMCA1aDR2LTRIM3Y0em01IDBoNHYtNEg4djR6bTUgMGg0di00aC00djR6TTggOWg0VjVIOHY0em01LTR2NGg0VjVoLTR6bTUgOWg0di00aC00djR6TTMgMTloNHYtNEgzdjR6bTUgMGg0di00SDh2NHptNSAwaDR2LTRoLTR2NHptNSAwaDR2LTRoLTR2NHptMC0xNHY0aDRWNWgtNHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+",
 		"slider-bubble-horizontal": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABACAYAAABFqxrgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC45bDN+TgAAAMJJREFUeF7t0MFpxDAARUG3k1a3z9ShPF+Fwp6kNewY5vKxbPSun9fv+HYiRISIEBEiQkSICBEhIkSEiBARIkJEiAgRISJEhIgQESJCRIgIESEiRISIEBEiQkSICBEhIkSEiBARIkJEiAgRISJEhIgQESJCRIgIESEiRISIEBEiQkSICBEh1xhnrH7+zvyNXZbjLquL/mc+u9Ny3OV+Vheezed2W447vQsxv3/CcjzhKQFuy/GUJwS4LceTPh1gjHH9AX62tAGlGKj1AAAAAElFTkSuQmCC",
 		"slider-bubble-vertical": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABBCAYAAABhNaJ7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC45bDN+TgAAATlJREFUeF7t1MFpA0EUREGn41Sdp+NYM+A+GJUTeCNB3aYP7yP243mef31+fT91DB8Nahg+GtQwfDSoYfhoUMPw0aCG4aNBDcNHgxqGjwY1DB8Nahg+GtQwfDSoYfhoUMPw0aCG4aNBDcNHgxqGjwY1DB8Nahg+GtQwfDSoYfhoUMPw0aCG4aNBDcNHgxqGjwY1DB8Nahh+6HHRS/j56WHV1fHHnwPoQd3V8cfV8cfV8cf7H/D+Bvwe4NYj/DnAjUd4OcBtR+ABDj0uYvxoUMPw0aCG4aNBDcNHgxqGjwY1DB8Nahg+GtQwfDSoYfhoUMPw0aCG4aNBDcNHgxqGjwY1DB8Nahg+GtQwfDSoYfhoUMPw0aCG4aNBDcNHgxqGjwY1DB8Nahg+GtQwfDSoYfhoUMPw0aDl+/kBl1u0AQZZq+UAAAAASUVORK5CYII=",
-		"icon-error": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIyMTZweCIgaGVpZ2h0PSIxNDZweCIgdmlld0JveD0iMCAwIDIxNiAxNDYiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIxNiAxNDYiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZD0iTTE2Mi4xOCw0MS41OTJjLTUuNTk1LTkuNTg2LTEzLjE4NS0xNy4xNzYtMjIuNzcxLTIyLjc3MWMtOS41ODgtNS41OTUtMjAuMDU1LTguMzkyLTMxLjQwOC04LjM5Mg0KCWMtMTEuMzUyLDAtMjEuODIyLDIuNzk3LTMxLjQwOCw4LjM5MmMtOS41ODcsNS41OTQtMTcuMTc3LDEzLjE4NC0yMi43NzIsMjIuNzcxQzQ4LjIyNSw1MS4xNzksNDUuNDI4LDYxLjY0OSw0NS40MjgsNzMNCgljMCwxMS4zNTIsMi43OTgsMjEuODIsOC4zOTIsMzEuNDA4YzUuNTk1LDkuNTg1LDEzLjE4NSwxNy4xNzYsMjIuNzcyLDIyLjc3MWM5LjU4Nyw1LjU5NSwyMC4wNTYsOC4zOTIsMzEuNDA4LDguMzkyDQoJYzExLjM1MiwwLDIxLjgyMi0yLjc5NywzMS40MDgtOC4zOTJjOS41ODYtNS41OTQsMTcuMTc2LTEzLjE4NSwyMi43NzEtMjIuNzcxYzUuNTk0LTkuNTg3LDguMzkxLTIwLjA1Nyw4LjM5MS0zMS40MDgNCglDMTcwLjU3LDYxLjY0OCwxNjcuNzczLDUxLjE3OCwxNjIuMTgsNDEuNTkyeiBNMTQ0LjUsNzguMjE0YzAsMS40MTItMC41MTYsMi42MzYtMS41NDgsMy42NjdzLTIuMjU0LDEuNTQ4LTMuNjY2LDEuNTQ4SDc2LjcxNA0KCWMtMS40MTIsMC0yLjYzNC0wLjUxNy0zLjY2Ni0xLjU0OGMtMS4wMzItMS4wMzEtMS41NDgtMi4yNTUtMS41NDgtMy42NjdWNjcuNzg1YzAtMS40MTIsMC41MTYtMi42MzQsMS41NDgtMy42NjYNCgljMS4wMzItMS4wMzIsMi4yNTQtMS41NDgsMy42NjYtMS41NDhoNjIuNTcyYzEuNDEyLDAsMi42MzQsMC41MTYsMy42NjYsMS41NDhjMS4wMzIsMS4wMzIsMS41NDgsMi4yNTQsMS41NDgsMy42NjZWNzguMjE0eiIvPg0KPC9zdmc+DQo=",
+		"icon-error": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPgogICAgPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTUgMTFIN3YtMmgxMHYyeiIvPgo8L3N2Zz4=",
 		"icon-warning": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xIDIxaDIyTDEyIDIgMSAyMXptMTItM2gtMnYtMmgydjJ6bTAtNGgtMnYtNGgydjR6Ii8+Cjwvc3ZnPg==",
 		"icon-info": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0xIDE1aC0ydi02aDJ2NnptMC04aC0yVjdoMnYyeiIvPgo8L3N2Zz4=",
 		"icon-comment": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktY2FyZC10ZXh0IiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik0xNC41IDNhLjUuNSAwIDAgMSAuNS41djlhLjUuNSAwIDAgMS0uNS41aC0xM2EuNS41IDAgMCAxLS41LS41di05YS41LjUgMCAwIDEgLjUtLjVoMTN6bS0xMy0xQTEuNSAxLjUgMCAwIDAgMCAzLjV2OUExLjUgMS41IDAgMCAwIDEuNSAxNGgxM2ExLjUgMS41IDAgMCAwIDEuNS0xLjV2LTlBMS41IDEuNSAwIDAgMCAxNC41IDJoLTEzeiIvPgogIDxwYXRoIGQ9Ik0zIDUuNWEuNS41IDAgMCAxIC41LS41aDlhLjUuNSAwIDAgMSAwIDFoLTlhLjUuNSAwIDAgMS0uNS0uNXpNMyA4YS41LjUgMCAwIDEgLjUtLjVoOWEuNS41IDAgMCAxIDAgMWgtOUEuNS41IDAgMCAxIDMgOHptMCAyLjVhLjUuNSAwIDAgMSAuNS0uNWg2YS41LjUgMCAwIDEgMCAxaC02YS41LjUgMCAwIDEtLjUtLjV6Ii8+Cjwvc3ZnPg==",
@@ -202,7 +202,8 @@
 		"gray-800": "#343940",
 		"gray-900": "#212429",
 		"light": "#F7F9FA",
-		"focusShadow": "#BFDDFF"
+		"focusShadow": "#BFDDFF",
+		"buttonHighlight": "#DDDDDD"
 	},
 	"appearances": {
 		"accordion": {
@@ -1800,7 +1801,7 @@
 								"backgroundColor": "rgba(0,0,0,0.39)"
 							},
 							"properties": {
-								"width": 58,
+								"width": 48,
 								"height": 48
 							}
 						}
@@ -1833,22 +1834,13 @@
 				"default": {
 					"styles": {
 						"width": 1,
-						"color": "rgba(189,191,191,0.5)"
+						"color": "transparent",
+						"radius": 3
 					},
 					"properties": {
+						"margin": 4,
+						"padding": [2, 5, 2, 5],
 						"textColor": "white"
-					}
-				},
-				"vertical": {
-					"properties": {
-						"margin": [0, 0, 2, 0],
-						"padding": [10, 0, 10, 0]
-					}
-				},
-				"horizontal": {
-					"properties": {
-						"margin": [0, 2, 0, 0],
-						"padding": [0, 10, 0, 10]
 					}
 				},
 				"notification": {
@@ -1858,8 +1850,8 @@
 				},
 				"hovered": {
 					"styles": {
-						"gradientStart": ["rgba(255,255,255,0.29)", "80"],
-						"gradientEnd": ["rgba(255,255,255,0.16)", "100"]
+						"color": "rgba(189,191,191,0.5)",
+						"backgroundColor": "rgba(255,255,255,0.29)"
 					},
 					"properties": {
 						"cursor": "pointer"
@@ -1872,8 +1864,8 @@
 					"states": {
 						"default": {
 							"properties": {
-								"width": 36,
-								"height": 36,
+								"width": 28,
+								"height": 28,
 								"scale": true
 							}
 						}
@@ -1887,7 +1879,7 @@
 					"states": {
 						"default": {
 							"properties": {
-								"margin": [8, 5, 2, 8],
+								"margin": 5,
 								"textColor": "windowText"
 							}
 						}
@@ -1904,13 +1896,13 @@
 							"properties": {
 								"icon": "window-close",
 								"margin": [8, 8, 0, 8],
-								"opacity": 0.7,
-								"cursor": "pointer"
+								"opacity": 0.7
 							}
 						},
 						"hovered": {
 							"properties": {
-								"opacity": 1
+								"opacity": 1,
+								"cursor": "pointer"
 							}
 						}
 					},
@@ -1925,6 +1917,9 @@
 						"default": {
 							"properties": {
 								"margin": 8
+							},
+							"styles": {
+								"radius": 6
 							}
 						}
 					}
@@ -1936,7 +1931,8 @@
 						"width": 12,
 						"color": "rgba(55,146,211,0.8)",
 						"backgroundColor": "rgba(151,204,254,0.8)",
-						"transition": "all 200ms"
+						"transition": "all 200ms",
+						"radius": 6
 					},
 					"properties": {
 						"minWidth": 160,
@@ -2143,8 +2139,8 @@
 			"states": {
 				"default": {
 					"properties": {
-						"width": 18,
-						"height": 18,
+						"width": 20,
+						"height": 20,
 						"textColor": "iconLight"
 					}
 				}
@@ -5822,8 +5818,9 @@
 			"states": {
 				"default": {
 					"properties": {
-						"duplicateDuration": 300,
-						"height": 28
+						"height": 30,
+						"padding": [0, 2, 0, 0],
+						"duplicateDuration": 300
 					}
 				}
 			},
@@ -5832,15 +5829,14 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": 1,
-								"radius": 0,
+								"radius": 3,
 								"color": "transparent",
 								"backgroundColor": "controlLight"
 							},
 							"properties": {
 								"icon": "icon-close",
 								"cursor": "pointer",
-								"padding": [0, 2, 0, 4],
+								"padding": [2, 2, 2, 4],
 								"textColor": "inherit"
 							}
 						},
@@ -5870,20 +5866,31 @@
 					},
 					"components": {
 						"icon": {
-							"inherit": "icon-dark"
-						}
-					}
-				},
-				"tag-container": {
-					"states": {
-						"default": {
-							"properties": {
-								"margin": [2, 4, 2, 0],
-								"spacingX": 2,
-								"spacingY": 2
+							"inherit": "icon-dark",
+							"states": {
+								"default": {
+									"properties": {
+										"width": 14,
+										"height": 14
+									}
+								}
 							}
 						}
 					}
+				},
+				"container": {
+					"states": {
+						"default": {
+							"properties": {
+								"margin": [ 1, 4, 1, 2 ],
+								"spacingX": 4,
+								"spacingY": 4
+							}
+						}
+					}
+				},
+				"slider": {
+					"inherit": "slidebar"
 				}
 			}
 		},
@@ -6327,7 +6334,7 @@
 				"default": {
 					"properties": {
 						"offsetLeft": 0,
-						"placeMethod": "pointer",
+						"placeMethod": "widget",
 						"position": "top-center",
 						"maxWidth": 280,
 						"offsetBottom": 10
@@ -6452,7 +6459,7 @@
 							"states": {
 								"default": {
 									"properties": {
-										"textColor": "invalid"
+										"textColor": "window"
 									}
 								}
 							}

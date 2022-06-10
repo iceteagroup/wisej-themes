@@ -1728,7 +1728,7 @@
 								"backgroundColor": "rgba(0,0,0,0.39)"
 							},
 							"properties": {
-								"width": 58,
+								"width": 48,
 								"height": 48
 							}
 						}
@@ -1761,27 +1761,12 @@
 				"default": {
 					"styles": {
 						"width": 1,
-						"color": "rgba(189,191,191,0.5)"
+						"color": "transparent"
 					},
 					"properties": {
+						"margin": 4,
+						"padding": 3,
 						"textColor": "white"
-					}
-				},
-				"vertical": {
-					"properties": {
-						"margin": [0, 0, 2, 0],
-						"padding": [10, 0, 10, 0]
-					}
-				},
-				"horizontal": {
-					"properties": {
-						"margin": [0, 2, 0, 0],
-						"padding": [0, 10, 0, 10]
-					}
-				},
-				"control": {
-					"properties": {
-						"padding": 0
 					}
 				},
 				"notification": {
@@ -1791,8 +1776,8 @@
 				},
 				"hovered": {
 					"styles": {
-						"gradientStart": ["rgba(255,255,255,0.29)", "80"],
-						"gradientEnd": ["rgba(255,255,255,0.16)", "100"]
+						"color": "rgba(189,191,191,0.5)",
+						"backgroundColor": "rgba(255,255,255,0.29)"
 					},
 					"properties": {
 						"cursor": "pointer"
@@ -1805,8 +1790,8 @@
 					"states": {
 						"default": {
 							"properties": {
-								"width": 36,
-								"height": 36,
+								"width": 32,
+								"height": 32,
 								"scale": true
 							}
 						}
@@ -1820,7 +1805,7 @@
 					"states": {
 						"default": {
 							"properties": {
-								"margin": [8, 5, 2, 8],
+								"margin": 5,
 								"textColor": "windowText"
 							}
 						}
@@ -5651,8 +5636,9 @@
 			"states": {
 				"default": {
 					"properties": {
-						"duplicateDuration": 300,
-						"height": 28
+						"height": 22,
+						"padding": [ 0, 2, 0, 2 ],
+						"duplicateDuration": 300
 					}
 				}
 			},
@@ -5661,7 +5647,6 @@
 					"states": {
 						"default": {
 							"styles": {
-								"width": 1,
 								"radius": 3,
 								"color": "transparent",
 								"backgroundColor": "controlLight"
@@ -5669,7 +5654,7 @@
 							"properties": {
 								"icon": "icon-close",
 								"cursor": "pointer",
-								"padding": [0, 2, 0, 4],
+								"padding": [ 0, 2, 0, 4 ],
 								"textColor": "inherit"
 							}
 						},
@@ -5703,16 +5688,19 @@
 						}
 					}
 				},
-				"tag-container": {
+				"container": {
 					"states": {
 						"default": {
 							"properties": {
-								"margin": [2, 4, 2, 0],
+								"margin": [ 0, 4, 0, 0 ],
 								"spacingX": 2,
 								"spacingY": 2
 							}
 						}
 					}
+				},
+				"slider": {
+					"inherit": "slidebar"
 				}
 			}
 		},
