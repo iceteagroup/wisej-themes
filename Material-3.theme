@@ -2517,7 +2517,21 @@
 			}
 		},
 		"linklabel": {
-			"inherit": "textlabel"
+			"inherit": "textlabel",
+			"states": {
+				"default": {
+					"styles": {
+						"innerWidth": 1,
+						"innerColor": "transparent"
+					}
+				},
+				"focused": {
+					"styles": {
+						"innerColor": "focusFrame",
+						"innerStyle": "dotted"
+					}
+				}
+			}
 		},
 		"list": {
 			"text": "ListBox",
@@ -5743,6 +5757,38 @@
 								}
 							},
 							"components": {
+								"menu": {
+									"inherit": "icon-dark",
+									"states": {
+										"default": {
+										},
+										"hovered": {
+											"properties": {
+												"cursor": "pointer"
+											}
+										},
+										"horizontal": {
+											"properties": {
+												"margin": [ 0, 0, 0, 4 ]
+											}
+										},
+										"vertical": {
+											"properties": {
+												"margin": [ 0, 0, 4, 0 ]
+											}
+										},
+										"vertical-barRight": {
+											"properties": {
+												"margin": [ 4, 0, 0, 0 ]
+											}
+										},
+										"vertical-barBottom": {
+											"properties": {
+												"margin": [ 4, 0, 0, 0 ]
+											}
+										}
+									}
+								},
 								"icon": {
 									"states": {
 										"default": {
@@ -5754,22 +5800,22 @@
 										},
 										"horizontal": {
 											"properties": {
-												"margin": [0, 0, 0, 4]
+												"margin": [ 0, 0, 0, 4 ]
 											}
 										},
 										"vertical": {
 											"properties": {
-												"margin": [0, 0, 4, 0]
+												"margin": [ 0, 0, 4, 0 ]
 											}
 										},
 										"vertical-barRight": {
 											"properties": {
-												"margin": [4, 0, 0, 0]
+												"margin": [ 4, 0, 0, 0 ]
 											}
 										},
 										"vertical-barBottom": {
 											"properties": {
-												"margin": [4, 0, 0, 0]
+												"margin": [ 4, 0, 0, 0 ]
 											}
 										}
 									}
@@ -5781,14 +5827,14 @@
 										},
 										"horizontal": {
 											"properties": {
-												"margin": [0, 10, 0, 10],
+												"margin": [ 0, 10, 0, 10 ],
 												"alignX": "left",
 												"alignY": "middle"
 											}
 										},
 										"vertical": {
 											"properties": {
-												"margin": [10, 0, 10, 0],
+												"margin": [ 10, 0, 10, 0 ],
 												"alignX": "center",
 												"alignY": "bottom"
 											}

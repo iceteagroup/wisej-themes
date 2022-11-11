@@ -2234,7 +2234,21 @@
 			}
 		},
 		"linklabel": {
-			"inherit": "textlabel"
+			"inherit": "textlabel",
+			"states": {
+				"default": {
+					"styles": {
+						"innerWidth": 1,
+						"innerColor": "transparent"
+					}
+				},
+				"focused": {
+					"styles": {
+						"innerColor": "focusFrame",
+						"innerStyle": "dotted"
+					}
+				}
+			}
 		},
 		"list": {
 			"text": "ListBox",
