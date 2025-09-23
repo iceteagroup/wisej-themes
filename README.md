@@ -8,6 +8,7 @@ This repository contains the content of all themes found at the [Wisej site](htt
 | Theme | Preview |
 | :--- | :--- |
 | Bootstrap&#8209;4 | <img src="https://s3.amazonaws.com/wisej/downloads/Images/Bootstrap-4.png"/><br/><br/>This theme is based on the popular Bootstrap theme, using its distinctive colors, focus shadow, and Bootstrap SVG icons.|
+| BootstrapPurple&#8209;4 | _Preview coming soon._<br/><br/>A purple-forward variation of the Bootstrap family that applies the vibrant violet accents and soft lavender surfaces from the provided design reference.|
 | Blue&#8209;1 | <img src="https://s3.amazonaws.com/wisej/downloads/Images/Blue-1.png"/><br/><br/>This theme uses a blue base color, thick window borders and FontAwesome SVG icons.|
 | Blue-2 | <img src="https://s3.amazonaws.com/wisej/downloads/Images/Blue-2.png"/><br/><br/>This theme uses a blue base color, thick window caption, no side window borders borders and Icons8 SVG icons. |
 | Blue-3 | <img src="https://s3.amazonaws.com/wisej/downloads/Images/Blue-3.png"/><br/><br/>This theme uses a blue base color, thick window borders and Google Material SVG icons.|
