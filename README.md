@@ -1,9 +1,9 @@
-Wisej-Themes
+Wisej.NET Themes
 ====
 
-Repository for the themes used in __Wisej__.
+Repository for the themes used in __Wisej.NET__.
 
-This repository contains the content of all themes found at the [Wisej site](https://wisej.com/themes/).
+This repository contains the content of all themes found at the [Wisej.NET website](https://wisej.com/themes/).
 
 | Theme | Preview |
 | :--- | :--- |
@@ -26,7 +26,7 @@ Wisej themes use a simple naming convention. The name before the dash indicates 
 - 3: Google Material icons (free).
 - 4: Bootstrap icons (free)
 
-Wisej icon packages are available [here](https://github.com/iceteagroup/wisej-extensions).
+Wisej.NET icon packages are available [here](https://github.com/iceteagroup/wisej-extensions).
 
 License
 -------
