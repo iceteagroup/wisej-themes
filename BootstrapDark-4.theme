@@ -4064,6 +4064,14 @@
 					}
 				},
 				"horizontal": {
+					"properties": {
+						"padding": [ 0, 3, 0, 3 ]
+					}
+				},
+				"vertical": {
+					"properties": {
+						"padding": [ 3, 0, 3, 0 ]
+					}
 				}
 			},
 			"components": {

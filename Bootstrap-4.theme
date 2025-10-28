@@ -4112,6 +4112,14 @@
 					}
 				},
 				"horizontal": {
+					"properties": {
+						"padding": [ 0, 3, 0, 3 ]
+					}
+				},
+				"vertical": {
+					"properties": {
+						"padding": [ 3, 0, 3, 0 ]
+					}
 				}
 			},
 			"components": {
@@ -5573,7 +5581,7 @@
 								"innerWidthTop": 0
 							},
 							"properties": {
-								"margin": [-1, 0, 0, 0]
+								"margin": [ -1, 0, 0, 0 ]
 							}
 						},
 						"barLeft": {
@@ -5582,7 +5590,7 @@
 								"innerWidthLeft": 0
 							},
 							"properties": {
-								"margin": [0, 0, 0, -1]
+								"margin": [ 0, 0, 0, -1 ]
 							}
 						},
 						"barRight": {
@@ -5591,7 +5599,7 @@
 								"innerWidthRight": 0
 							},
 							"properties": {
-								"margin": [0, -1, 0, 0]
+								"margin": [ 0, -1, 0, 0 ]
 							}
 						},
 						"barBottom": {
@@ -5600,7 +5608,7 @@
 								"innerWidthBottom": 0
 							},
 							"properties": {
-								"margin": [0, 0, -1, 0]
+								"margin": [ 0, 0, -1, 0 ]
 							}
 						},
 						"borderNone": {
@@ -7275,6 +7283,6 @@
 		}
 	},
 	"stylesheet": {
-		"rules": [  ]
+		"rules": []
 	}
 }
